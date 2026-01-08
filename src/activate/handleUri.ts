@@ -33,7 +33,7 @@ export const handleUri = async (uri: vscode.Uri) => {
 		case "/kilocode": {
 			const token = query.get("token")
 			if (token) {
-				await visibleProvider.handleKiloCodeCallback(token)
+				await visibleProvider.handleChadCodeCallback(token)
 			}
 			break
 		}

@@ -1,5 +1,5 @@
 {
-	"greeting": "Què pot fer CoreThink Code per tu?",
+	"greeting": "Què pot fer ChadCode per tu?",
 	"task": {
 		"title": "Tasca",
 		"expand": "Expandir tasca",
@@ -21,7 +21,7 @@
 		"sharePublicly": "Compartir públicament",
 		"sharePubliclyDescription": "Qualsevol amb l'enllaç pot accedir",
 		"connectToCloud": "Connecta al núvol",
-		"connectToCloudDescription": "Inicia sessió a CoreThink Code Cloud per compartir tasques",
+		"connectToCloudDescription": "Inicia sessió a ChadCode Cloud per compartir tasques",
 		"sharingDisabledByOrganization": "Compartició deshabilitada per l'organització",
 		"shareSuccessOrganization": "Enllaç d'organització copiat al porta-retalls",
 		"shareSuccessPublic": "Enllaç públic copiat al porta-retalls",
@@ -95,7 +95,7 @@
 	"scrollToBottom": "Desplaça't al final del xat",
 	"about": "Genera, refactoritza i depura codi amb l'ajuda de la IA. Consulta la nostra <DocsLink>documentació</DocsLink> per a més informació.",
 	"docs": "Consulta els nostres <DocsLink>documents</DocsLink> per a més informació.",
-	"onboarding": "<strong> La vostra llista de tasques en aquest espai de treball està buida. </strong> Comença escrivint una tasca a continuació. \nNo esteu segur per on començar? \nMés informació sobre què pot fer CoreThink Code als documents.",
+	"onboarding": "<strong> La vostra llista de tasques en aquest espai de treball està buida. </strong> Comença escrivint una tasca a continuació. \nNo esteu segur per on començar? \nMés informació sobre què pot fer ChadCode als documents.",
 	"rooTips": {
 		"customizableModes": {
 			"title": "Modes personalitzables",
@@ -124,7 +124,7 @@
 		"title": "Modes",
 		"marketplace": "Marketplace de Modes",
 		"settings": "Configuració de Modes",
-		"description": "Personalitats especialitzades que adapten el comportament de CoreThink Code.",
+		"description": "Personalitats especialitzades que adapten el comportament de ChadCode.",
 		"searchPlaceholder": "Cerca modes...",
 		"noResults": "No s'han trobat resultats",
 		"organizationModes": "Modes d'organització"
@@ -139,7 +139,7 @@
 	"diffError": {
 		"title": "Edició fallida"
 	},
-	"troubleMessage": "CoreThink Code està tenint problemes...",
+	"troubleMessage": "ChadCode està tenint problemes...",
 	"apiRequest": {
 		"title": "Sol·licitud API",
 		"failed": "Sol·licitud API ha fallat",
@@ -179,48 +179,48 @@
 		"current": "Actual"
 	},
 	"instructions": {
-		"wantsToFetch": "CoreThink Code vol obtenir instruccions detallades per ajudar amb la tasca actual."
+		"wantsToFetch": "ChadCode vol obtenir instruccions detallades per ajudar amb la tasca actual."
 	},
 	"fileOperations": {
-		"wantsToRead": "CoreThink Code vol llegir aquest fitxer",
-		"wantsToReadOutsideWorkspace": "CoreThink Code vol llegir aquest fitxer fora de l'espai de treball",
-		"didRead": "CoreThink Code ha llegit aquest fitxer",
-		"wantsToEdit": "CoreThink Code vol editar aquest fitxer",
-		"wantsToEditOutsideWorkspace": "CoreThink Code vol editar aquest fitxer fora de l'espai de treball",
-		"wantsToEditProtected": "CoreThink Code vol editar un fitxer de configuració protegit",
-		"wantsToCreate": "CoreThink Code vol crear un nou fitxer",
-		"wantsToSearchReplace": "CoreThink Code vol realitzar cerca i substitució en aquest fitxer",
-		"didSearchReplace": "CoreThink Code ha realitzat cerca i substitució en aquest fitxer",
-		"wantsToInsert": "CoreThink Code vol inserir contingut en aquest fitxer",
-		"wantsToInsertWithLineNumber": "CoreThink Code vol inserir contingut a la línia {{lineNumber}} d'aquest fitxer",
-		"wantsToInsertAtEnd": "CoreThink Code vol afegir contingut al final d'aquest fitxer",
-		"wantsToReadAndXMore": "En CoreThink Code vol llegir aquest fitxer i {{count}} més",
-		"wantsToReadMultiple": "CoreThink Code vol llegir diversos fitxers",
-		"wantsToApplyBatchChanges": "CoreThink Code vol aplicar canvis a múltiples fitxers",
-		"wantsToGenerateImage": "CoreThink Code vol generar una imatge",
-		"wantsToGenerateImageOutsideWorkspace": "CoreThink Code vol generar una imatge fora de l'espai de treball",
-		"wantsToGenerateImageProtected": "CoreThink Code vol generar una imatge en una ubicació protegida",
-		"didGenerateImage": "CoreThink Code ha generat una imatge",
-		"wantsToDelete": "CoreThink Code vol eliminar aquest fitxer",
-		"wantsToDeleteDirectory": "CoreThink Code vol eliminar aquest directori"
+		"wantsToRead": "ChadCode vol llegir aquest fitxer",
+		"wantsToReadOutsideWorkspace": "ChadCode vol llegir aquest fitxer fora de l'espai de treball",
+		"didRead": "ChadCode ha llegit aquest fitxer",
+		"wantsToEdit": "ChadCode vol editar aquest fitxer",
+		"wantsToEditOutsideWorkspace": "ChadCode vol editar aquest fitxer fora de l'espai de treball",
+		"wantsToEditProtected": "ChadCode vol editar un fitxer de configuració protegit",
+		"wantsToCreate": "ChadCode vol crear un nou fitxer",
+		"wantsToSearchReplace": "ChadCode vol realitzar cerca i substitució en aquest fitxer",
+		"didSearchReplace": "ChadCode ha realitzat cerca i substitució en aquest fitxer",
+		"wantsToInsert": "ChadCode vol inserir contingut en aquest fitxer",
+		"wantsToInsertWithLineNumber": "ChadCode vol inserir contingut a la línia {{lineNumber}} d'aquest fitxer",
+		"wantsToInsertAtEnd": "ChadCode vol afegir contingut al final d'aquest fitxer",
+		"wantsToReadAndXMore": "En ChadCode vol llegir aquest fitxer i {{count}} més",
+		"wantsToReadMultiple": "ChadCode vol llegir diversos fitxers",
+		"wantsToApplyBatchChanges": "ChadCode vol aplicar canvis a múltiples fitxers",
+		"wantsToGenerateImage": "ChadCode vol generar una imatge",
+		"wantsToGenerateImageOutsideWorkspace": "ChadCode vol generar una imatge fora de l'espai de treball",
+		"wantsToGenerateImageProtected": "ChadCode vol generar una imatge en una ubicació protegida",
+		"didGenerateImage": "ChadCode ha generat una imatge",
+		"wantsToDelete": "ChadCode vol eliminar aquest fitxer",
+		"wantsToDeleteDirectory": "ChadCode vol eliminar aquest directori"
 	},
 	"directoryOperations": {
-		"wantsToViewTopLevel": "CoreThink Code vol veure els fitxers de nivell superior en aquest directori",
-		"didViewTopLevel": "CoreThink Code ha vist els fitxers de nivell superior en aquest directori",
-		"wantsToViewRecursive": "CoreThink Code vol veure recursivament tots els fitxers en aquest directori",
-		"didViewRecursive": "CoreThink Code ha vist recursivament tots els fitxers en aquest directori",
-		"wantsToViewDefinitions": "CoreThink Code vol veure noms de definicions de codi font utilitzats en aquest directori",
-		"didViewDefinitions": "CoreThink Code ha vist noms de definicions de codi font utilitzats en aquest directori",
-		"wantsToSearch": "CoreThink Code vol cercar en aquest directori <code>{{regex}}</code>",
-		"didSearch": "CoreThink Code ha cercat en aquest directori <code>{{regex}}</code>",
-		"wantsToSearchOutsideWorkspace": "CoreThink Code vol cercar en aquest directori (fora de l'espai de treball) <code>{{regex}}</code>",
-		"didSearchOutsideWorkspace": "CoreThink Code ha cercat en aquest directori (fora de l'espai de treball) <code>{{regex}}</code>",
-		"wantsToViewTopLevelOutsideWorkspace": "CoreThink Code vol veure els fitxers de nivell superior en aquest directori (fora de l'espai de treball)",
-		"didViewTopLevelOutsideWorkspace": "CoreThink Code ha vist els fitxers de nivell superior en aquest directori (fora de l'espai de treball)",
-		"wantsToViewRecursiveOutsideWorkspace": "CoreThink Code vol veure recursivament tots els fitxers en aquest directori (fora de l'espai de treball)",
-		"didViewRecursiveOutsideWorkspace": "CoreThink Code ha vist recursivament tots els fitxers en aquest directori (fora de l'espai de treball)",
-		"wantsToViewDefinitionsOutsideWorkspace": "CoreThink Code vol veure noms de definicions de codi font utilitzats en aquest directori (fora de l'espai de treball)",
-		"didViewDefinitionsOutsideWorkspace": "CoreThink Code ha vist noms de definicions de codi font utilitzats en aquest directori (fora de l'espai de treball)"
+		"wantsToViewTopLevel": "ChadCode vol veure els fitxers de nivell superior en aquest directori",
+		"didViewTopLevel": "ChadCode ha vist els fitxers de nivell superior en aquest directori",
+		"wantsToViewRecursive": "ChadCode vol veure recursivament tots els fitxers en aquest directori",
+		"didViewRecursive": "ChadCode ha vist recursivament tots els fitxers en aquest directori",
+		"wantsToViewDefinitions": "ChadCode vol veure noms de definicions de codi font utilitzats en aquest directori",
+		"didViewDefinitions": "ChadCode ha vist noms de definicions de codi font utilitzats en aquest directori",
+		"wantsToSearch": "ChadCode vol cercar en aquest directori <code>{{regex}}</code>",
+		"didSearch": "ChadCode ha cercat en aquest directori <code>{{regex}}</code>",
+		"wantsToSearchOutsideWorkspace": "ChadCode vol cercar en aquest directori (fora de l'espai de treball) <code>{{regex}}</code>",
+		"didSearchOutsideWorkspace": "ChadCode ha cercat en aquest directori (fora de l'espai de treball) <code>{{regex}}</code>",
+		"wantsToViewTopLevelOutsideWorkspace": "ChadCode vol veure els fitxers de nivell superior en aquest directori (fora de l'espai de treball)",
+		"didViewTopLevelOutsideWorkspace": "ChadCode ha vist els fitxers de nivell superior en aquest directori (fora de l'espai de treball)",
+		"wantsToViewRecursiveOutsideWorkspace": "ChadCode vol veure recursivament tots els fitxers en aquest directori (fora de l'espai de treball)",
+		"didViewRecursiveOutsideWorkspace": "ChadCode ha vist recursivament tots els fitxers en aquest directori (fora de l'espai de treball)",
+		"wantsToViewDefinitionsOutsideWorkspace": "ChadCode vol veure noms de definicions de codi font utilitzats en aquest directori (fora de l'espai de treball)",
+		"didViewDefinitionsOutsideWorkspace": "ChadCode ha vist noms de definicions de codi font utilitzats en aquest directori (fora de l'espai de treball)"
 	},
 	"commandOutput": "Sortida de la comanda",
 	"commandExecution": {
@@ -242,24 +242,24 @@
 	"response": "Resposta",
 	"arguments": "Arguments",
 	"text": {
-		"rooSaid": "En Kilo ha dit"
+		"rooSaid": "En Chad ha dit"
 	},
 	"feedback": {
 		"youSaid": "Has dit"
 	},
 	"mcp": {
-		"wantsToUseTool": "CoreThink Code vol utilitzar una eina al servidor MCP {{serverName}}",
-		"wantsToAccessResource": "CoreThink Code vol accedir a un recurs al servidor MCP {{serverName}}"
+		"wantsToUseTool": "ChadCode vol utilitzar una eina al servidor MCP {{serverName}}",
+		"wantsToAccessResource": "ChadCode vol accedir a un recurs al servidor MCP {{serverName}}"
 	},
 	"modes": {
-		"wantsToSwitch": "CoreThink Code vol canviar a mode <code>{{mode}}</code>",
-		"wantsToSwitchWithReason": "CoreThink Code vol canviar a mode <code>{{mode}}</code> perquè: {{reason}}",
-		"didSwitch": "CoreThink Code ha canviat a mode <code>{{mode}}</code>",
-		"didSwitchWithReason": "CoreThink Code ha canviat a mode <code>{{mode}}</code> perquè: {{reason}}"
+		"wantsToSwitch": "ChadCode vol canviar a mode <code>{{mode}}</code>",
+		"wantsToSwitchWithReason": "ChadCode vol canviar a mode <code>{{mode}}</code> perquè: {{reason}}",
+		"didSwitch": "ChadCode ha canviat a mode <code>{{mode}}</code>",
+		"didSwitchWithReason": "ChadCode ha canviat a mode <code>{{mode}}</code> perquè: {{reason}}"
 	},
 	"subtasks": {
-		"wantsToCreate": "CoreThink Code vol crear una nova subtasca en mode <code>{{mode}}</code>",
-		"wantsToFinish": "CoreThink Code vol finalitzar aquesta subtasca",
+		"wantsToCreate": "ChadCode vol crear una nova subtasca en mode <code>{{mode}}</code>",
+		"wantsToFinish": "ChadCode vol finalitzar aquesta subtasca",
 		"newTaskContent": "Instruccions de la subtasca",
 		"completionContent": "Subtasca completada",
 		"resultContent": "Resultats de la subtasca",
@@ -267,7 +267,7 @@
 		"completionInstructions": "Subtasca completada! Pots revisar els resultats i suggerir correccions o següents passos. Si tot sembla correcte, confirma per tornar el resultat a la tasca principal."
 	},
 	"questions": {
-		"hasQuestion": "CoreThink Code té una pregunta"
+		"hasQuestion": "ChadCode té una pregunta"
 	},
 	"taskCompleted": "Tasca completada",
 	"errorDetails": {
@@ -341,11 +341,11 @@
 			"tryButton": "Prova els Agents al Núvol"
 		},
 		"careers": "A més, <careersLink>estem contractant!</careersLink>",
-		"socialLinks": "Uneix-te a nosaltres a <xLink>X</xLink>, <discordLink>Discord</discordLink>, o <redditLink>r/KiloCode</redditLink> 🚀"
+		"socialLinks": "Uneix-te a nosaltres a <xLink>X</xLink>, <discordLink>Discord</discordLink>, o <redditLink>r/ChadCode</redditLink> 🚀"
 	},
 	"browser": {
 		"session": "Sessió del navegador",
-		"rooWantsToUse": "CoreThink Code vol utilitzar el navegador",
+		"rooWantsToUse": "ChadCode vol utilitzar el navegador",
 		"consoleLogs": "Registres de consola",
 		"noNewLogs": "(Cap registre nou)",
 		"screenshot": "Captura de pantalla del navegador",
@@ -393,24 +393,24 @@
 	"profileViolationWarning": "El perfil actual no és compatible amb la configuració de la teva organització",
 	"shellIntegration": {
 		"title": "Advertència d'execució d'ordres",
-		"description": "La teva ordre s'està executant sense la integració de shell del terminal VSCode. Per suprimir aquest advertiment, pots desactivar la integració de shell a la secció <strong>Terminal</strong> de la <settingsLink>configuració de CoreThink Code</settingsLink> o solucionar problemes d'integració del terminal VSCode utilitzant l'enllaç a continuació.",
+		"description": "La teva ordre s'està executant sense la integració de shell del terminal VSCode. Per suprimir aquest advertiment, pots desactivar la integració de shell a la secció <strong>Terminal</strong> de la <settingsLink>configuració de ChadCode</settingsLink> o solucionar problemes d'integració del terminal VSCode utilitzant l'enllaç a continuació.",
 		"troubleshooting": "Fes clic aquí per a la documentació d'integració de shell."
 	},
 	"ask": {
 		"autoApprovedRequestLimitReached": {
 			"title": "S'ha arribat al límit de sol·licituds aprovades automàticament",
-			"description": "CoreThink Code ha arribat al límit aprovat automàticament de {{count}} sol·licitud(s) d'API. Vols reiniciar el comptador i continuar amb la tasca?",
+			"description": "ChadCode ha arribat al límit aprovat automàticament de {{count}} sol·licitud(s) d'API. Vols reiniciar el comptador i continuar amb la tasca?",
 			"button": "Reiniciar i continuar"
 		},
 		"autoApprovedCostLimitReached": {
 			"title": "S'ha arribat al límit de cost d'aprovació automàtica",
 			"button": "Restableix i continua",
-			"description": "CoreThink Code ha arribat al límit de cost aprovat automàticament de ${{count}}. Vols restablir el cost i continuar amb la tasca?"
+			"description": "ChadCode ha arribat al límit de cost aprovat automàticament de ${{count}}. Vols restablir el cost i continuar amb la tasca?"
 		}
 	},
 	"codebaseSearch": {
-		"wantsToSearch": "CoreThink Code vol cercar a la base de codi <code>{{query}}</code>",
-		"wantsToSearchWithPath": "CoreThink Code vol cercar a la base de codi <code>{{query}}</code> a <code>{{path}}</code>",
+		"wantsToSearch": "ChadCode vol cercar a la base de codi <code>{{query}}</code>",
+		"wantsToSearchWithPath": "ChadCode vol cercar a la base de codi <code>{{query}}</code> a <code>{{path}}</code>",
 		"didSearch_one": "S'ha trobat 1 resultat",
 		"didSearch_other": "S'han trobat {{count}} resultats",
 		"resultTooltip": "Puntuació de similitud: {{score}} (fes clic per obrir el fitxer)"
@@ -469,8 +469,8 @@
 		"clickToEdit": "Feu clic per editar el missatge"
 	},
 	"slashCommand": {
-		"wantsToRun": "CoreThink Code vol executar una comanda slash",
-		"didRun": "CoreThink Code ha executat una comanda slash"
+		"wantsToRun": "ChadCode vol executar una comanda slash",
+		"didRun": "ChadCode ha executat una comanda slash"
 	},
 	"contextMenu": {
 		"noResults": "Sense resultats",

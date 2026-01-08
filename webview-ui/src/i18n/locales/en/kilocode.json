@@ -1,16 +1,16 @@
 {
 	"welcome": {
-		"greeting": "Welcome to CoreThink!",
-		"introText1": "CoreThink is your AI coding assistant.",
-		"introText2": "Powered by CoreThink AI for intelligent code generation, debugging, and more.",
+		"greeting": "Welcome to ChadCode!",
+		"introText1": "ChadCode is your AI coding assistant.",
+		"introText2": "Powered by ChadCode AI for intelligent code generation, debugging, and more.",
 		"introText3": "Enter your API key to get started.",
 		"ctaButton": "Get Started",
 		"enterApiKey": "Enter API Key to Start"
 	},
 	"lowCreditWarning": {
 		"addCredit": "Add Credit",
-		"lowBalance": "Your CoreThink Code balance is low",
-		"newOrganization": "Using CoreThink Code for work?"
+		"lowBalance": "Your ChadCode balance is low",
+		"newOrganization": "Using ChadCode for work?"
 	},
 	"memoryWarning": {
 		"message": "Memory usage is at {{percentage}}%. Please restart your IDE to prevent crashes."
@@ -47,8 +47,8 @@
 			"mcp": "MCP Servers"
 		},
 		"provider": {
-			"apiKey": "CoreThink API Key",
-			"apiKeyDescription": "Enter your CoreThink API key. Keys start with sk_.",
+			"apiKey": "ChadCode API Key",
+			"apiKeyDescription": "Enter your ChadCode API key. Keys start with sk_.",
 			"login": "Go to Settings",
 			"logout": "Clear API Key",
 			"providerRouting": {
@@ -69,12 +69,12 @@
 					"zdr": "Zero data retention"
 				}
 			},
-			"automaticFetch": "The latest models are automatically available in CoreThink Code. If you're unsure which model to choose, CoreThink Code works best with the recommended models listed at the top in <strong>bold face</strong>."
+			"automaticFetch": "The latest models are automatically available in ChadCode. If you're unsure which model to choose, ChadCode works best with the recommended models listed at the top in <strong>bold face</strong>."
 		},
 		"modelInfo": {
 			"contextWindow": "Context window",
 			"providerBreakdown": "Provider Price and Capability Breakdown",
-			"averageKiloCodeCost": "This is the average actual spent for CoreThink Code using this model over the last week. It may be lower than the listed price due to prompt cache utilization.",
+			"averageChadCodeCost": "This is the average actual spent for ChadCode using this model over the last week. It may be lower than the listed price due to prompt cache utilization.",
 			"table": {
 				"provider": "Provider",
 				"context": "The endpoint can process this number of tokens (input + output).",
@@ -87,15 +87,15 @@
 		"contextManagement": {
 			"allowVeryLargeReads": {
 				"label": "Allow very large file reads",
-				"description": "When enabled, CoreThink Code will perform very large file or MCP output reads even if there is a high chance of overflowing the context window (content size >80% of context window)."
+				"description": "When enabled, ChadCode will perform very large file or MCP output reads even if there is a high chance of overflowing the context window (content size >80% of context window)."
 			}
 		},
 		"systemNotifications": {
 			"label": "Enable System Notifications",
-			"description": "When enabled, CoreThink Code will send system notifications for important events like task completion or errors.",
+			"description": "When enabled, ChadCode will send system notifications for important events like task completion or errors.",
 			"testButton": "Test Notification",
-			"testTitle": "CoreThink Code",
-			"testMessage": "This is a test notification from CoreThink Code."
+			"testTitle": "ChadCode",
+			"testMessage": "This is a test notification from ChadCode."
 		},
 		"terminal": {
 			"commandGenerator": {
@@ -116,7 +116,7 @@
 	},
 	"chat": {
 		"condense": {
-			"wantsToCondense": "CoreThink Code wants to condense your conversation",
+			"wantsToCondense": "ChadCode wants to condense your conversation",
 			"condenseConversation": "Condense Conversation"
 		},
 		"seeNewChanges": "See New Changes",
@@ -147,15 +147,15 @@
 	},
 	"docs": "Docs",
 	"rules": {
-		"tooltip": "Manage CoreThink Code Rules & Workflows",
-		"ariaLabel": "CoreThink Code Rules",
+		"tooltip": "Manage ChadCode Rules & Workflows",
+		"ariaLabel": "ChadCode Rules",
 		"tabs": {
 			"rules": "Rules",
 			"workflows": "Workflows"
 		},
 		"description": {
-			"rules": "Rules allow you to provide CoreThink Code with instructions it should follow in all modes and for all prompts. They are a persistent way to include context and preferences for all conversations in your workspace or globally.",
-			"workflows": "Workflows are a prepared template for a conversation. Workflows can allow you to define prompts you use frequently, and can include a series of steps to guide CoreThink Code through repetitive tasks, such as deploying a service or submitting a PR. To invoke a workflow, type",
+			"rules": "Rules allow you to provide ChadCode with instructions it should follow in all modes and for all prompts. They are a persistent way to include context and preferences for all conversations in your workspace or globally.",
+			"workflows": "Workflows are a prepared template for a conversation. Workflows can allow you to define prompts you use frequently, and can include a series of steps to guide ChadCode through repetitive tasks, such as deploying a service or submitting a PR. To invoke a workflow, type",
 			"workflowsInChat": "in the chat."
 		},
 		"sections": {
@@ -221,7 +221,7 @@
 	"toolCallStyle": {
 		"title": "Tool Call Style",
 		"description": "Choose how tool calls are formatted in the system prompt. JSON is currently experimental and mostly intended for users interested in contributing to its development.",
-		"automatic": "Let CoreThink Code decide",
+		"automatic": "Let ChadCode decide",
 		"xml": "XML",
 		"json": "JSON"
 	},
@@ -233,11 +233,11 @@
 			"provider": "Provider",
 			"enableAutoTrigger": {
 				"label": "Pause to Complete",
-				"description": "When enabled, CoreThink Code will automatically trigger Autocomplete when you pause typing. This can be useful for quick fixes and suggestions."
+				"description": "When enabled, ChadCode will automatically trigger Autocomplete when you pause typing. This can be useful for quick fixes and suggestions."
 			},
 			"autoTriggerDelay": {
 				"label": "Auto Trigger Delay",
-				"description": "The delay in seconds before CoreThink Code triggers Autocomplete after you pause typing. A shorter delay means quicker suggestions, but may be more resource-intensive."
+				"description": "The delay in seconds before ChadCode triggers Autocomplete after you pause typing. A shorter delay means quicker suggestions, but may be more resource-intensive."
 			},
 			"enableQuickInlineTaskKeybinding": {
 				"label": "Quick Task ({{keybinding}})",
@@ -245,11 +245,11 @@
 			},
 			"enableSmartInlineTaskKeybinding": {
 				"label": "Manual Autocomplete ({{keybinding}})",
-				"description": "Need a quick fix, completion, or refactor? CoreThink Code will use the surrounding context to offer immediate improvements, keeping you in the flow. <DocsLink>Edit shortcut</DocsLink>"
+				"description": "Need a quick fix, completion, or refactor? ChadCode will use the surrounding context to offer immediate improvements, keeping you in the flow. <DocsLink>Edit shortcut</DocsLink>"
 			},
 			"enableChatAutocomplete": {
 				"label": "Chat Input Autocomplete",
-				"description": "When enabled, CoreThink Code will suggest completions as you type in the chat input. Press Tab to accept suggestions."
+				"description": "When enabled, ChadCode will suggest completions as you type in the chat input. Press Tab to accept suggestions."
 			},
 			"snooze": {
 				"label": "Snooze Autocomplete",
@@ -304,7 +304,7 @@
 		"shareModesNewBanner": "New: Share modes by creating an organization"
 	},
 	"deviceAuth": {
-		"notUsed": "CoreThink uses API key authentication only"
+		"notUsed": "ChadCode uses API key authentication only"
 	},
 	"speechToText": {
 		"startRecording": "Start voice input",

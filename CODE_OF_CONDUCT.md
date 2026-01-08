@@ -1,4 +1,4 @@
-# CoreThink Code Community Code of Conduct
+# ChadCode Community Code of Conduct
 
 ## Our Pledge
 

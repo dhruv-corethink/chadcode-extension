@@ -6,11 +6,11 @@ import { CompactLogger } from "../../utils/logging/CompactLogger"
 import { fetchWithRetries } from "../../shared/http"
 
 /**
- * Service for fetching and managing CoreThink Code organization settings
+ * Service for fetching and managing ChadCode organization settings
  */
 export class OrganizationService {
 	/**
-	 * Fetches organization details from the CoreThink Code API
+	 * Fetches organization details from the ChadCode API
 	 * @param kilocodeToken - The authentication token
 	 * @param organizationId - The organization ID
 	 * @param kilocodeTesterWarningsDisabledUntil - Timestamp for suppressing tester warnings

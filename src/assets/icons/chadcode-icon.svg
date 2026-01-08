@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Code brackets with C inside -->
+  <polyline points="4 7 4 4 20 4 20 7"/>
+  <polyline points="4 17 4 20 20 20 20 17"/>
+  <path d="M15 8C15 8 13.5 8 12 8C9 8 9 12 12 12C9 12 9 16 12 16C13.5 16 15 16 15 16"/>
+</svg>

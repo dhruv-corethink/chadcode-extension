@@ -18,7 +18,7 @@ import { resolveToolProtocol } from "../../utils/resolveToolProtocol"
 import { DecorationController } from "./DecorationController"
 
 export const DIFF_VIEW_URI_SCHEME = "cline-diff"
-export const DIFF_VIEW_LABEL_CHANGES = "Original ↔ CoreThink Code's Changes"
+export const DIFF_VIEW_LABEL_CHANGES = "Original ↔ ChadCode's Changes"
 
 // TODO: https://github.com/cline/cline/pull/3354
 export class DiffViewProvider {

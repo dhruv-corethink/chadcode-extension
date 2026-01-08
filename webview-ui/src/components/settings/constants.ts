@@ -4,42 +4,42 @@ import {
 } from "@roo-code/types"
 
 /**
- * CoreThink Extension - Provider Constants
+ * ChadCode Extension - Provider Constants
  *
- * This extension uses CoreThink as the ONLY provider.
+ * This extension uses ChadCode as the ONLY provider.
  * All other providers have been removed.
  */
 
-// CoreThink models - must match backend
+// ChadCode models - must match backend
 export const CORETHINK_MODELS: Record<string, ModelInfo> = {
-	corethink: {
+	chadcode: {
 		maxTokens: 16384,
 		contextWindow: 128000,
 		supportsImages: true,
 		supportsPromptCache: false,
-		description: "CoreThink Default - Balanced performance and capability",
+		description: "ChadCode Default - Balanced performance and capability",
 	},
-	"corethink-fast": {
+	"chadcode-fast": {
 		maxTokens: 8192,
 		contextWindow: 64000,
 		supportsImages: true,
 		supportsPromptCache: false,
-		description: "CoreThink Fast - Optimized for speed",
+		description: "ChadCode Fast - Optimized for speed",
 	},
-	"corethink-pro": {
+	"chadcode-pro": {
 		maxTokens: 32768,
 		contextWindow: 200000,
 		supportsImages: true,
 		supportsPromptCache: false,
-		description: "CoreThink Pro - Maximum capability",
+		description: "ChadCode Pro - Maximum capability",
 	},
 }
 
 export const MODELS_BY_PROVIDER: Partial<Record<ProviderName, Record<string, ModelInfo>>> = {
-	corethink: CORETHINK_MODELS,
+	chadcode: CORETHINK_MODELS,
 }
 
-// CoreThink is the only provider
+// ChadCode is the only provider
 export const PROVIDERS = [
-	{ value: "corethink", label: "CoreThink" },
+	{ value: "chadcode", label: "ChadCode" },
 ]

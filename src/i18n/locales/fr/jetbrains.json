@@ -13,7 +13,7 @@
 		"cancel": "Annuler"
 	},
 	"ui": {
-		"initializing": "CoreThink Code s'initialise...",
+		"initializing": "ChadCode s'initialise...",
 		"systemInformation": "Informations système"
 	}
 }

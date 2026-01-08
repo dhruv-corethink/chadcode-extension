@@ -71,17 +71,17 @@ function renderChatRow(message: any, apiConfiguration: any = {}) {
 	)
 }
 
-describe("ChatRow - KiloCode auth error login button", () => {
+describe("ChatRow - ChadCode auth error login button", () => {
 	beforeEach(() => {
 		vi.clearAllMocks()
 	})
 
-	it("shows login button for KiloCode auth error", () => {
+	it("shows login button for ChadCode auth error", () => {
 		const message: any = {
 			type: "say",
 			say: "error",
 			ts: Date.now(),
-			text: "Cannot complete request, make sure you are connected and logged in with the selected provider.\n\nKiloCode token + baseUrl is required to fetch models",
+			text: "Cannot complete request, make sure you are connected and logged in with the selected provider.\n\nChadCode token + baseUrl is required to fetch models",
 		}
 
 		renderChatRow(message, { apiProvider: "kilocode" })
@@ -89,12 +89,12 @@ describe("ChatRow - KiloCode auth error login button", () => {
 		expect(screen.getByText("Login")).toBeInTheDocument()
 	})
 
-	it("does not show login button for non-KiloCode provider", () => {
+	it("does not show login button for non-ChadCode provider", () => {
 		const message: any = {
 			type: "say",
 			say: "error",
 			ts: Date.now(),
-			text: "Cannot complete request, make sure you are connected and logged in with the selected provider.\n\nKiloCode token + baseUrl is required to fetch models",
+			text: "Cannot complete request, make sure you are connected and logged in with the selected provider.\n\nChadCode token + baseUrl is required to fetch models",
 		}
 
 		renderChatRow(message, { apiProvider: "openai" })
@@ -120,7 +120,7 @@ describe("ChatRow - KiloCode auth error login button", () => {
 			type: "say",
 			say: "error",
 			ts: Date.now(),
-			text: "Cannot complete request, make sure you are connected and logged in with the selected provider.\n\nKiloCode token + baseUrl is required to fetch models",
+			text: "Cannot complete request, make sure you are connected and logged in with the selected provider.\n\nChadCode token + baseUrl is required to fetch models",
 		}
 
 		renderChatRow(message, { apiProvider: "kilocode" })

@@ -23,7 +23,7 @@ import { getEditorNameHeader } from "../../core/kilocode/wrapper"
 
 /**
  * A custom OpenRouter handler that overrides the getModel function
- * to provide custom model information and fetches models from the KiloCode OpenRouter endpoint.
+ * to provide custom model information and fetches models from the ChadCode OpenRouter endpoint.
  */
 export class KilocodeOpenrouterHandler extends OpenRouterHandler {
 	protected override models: ModelRecord = {}
@@ -31,7 +31,7 @@ export class KilocodeOpenrouterHandler extends OpenRouterHandler {
 	private apiFIMBase: string
 
 	protected override get providerName() {
-		return "KiloCode" as const
+		return "ChadCode" as const
 	}
 
 	constructor(options: ApiHandlerOptions) {

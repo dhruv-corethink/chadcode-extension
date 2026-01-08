@@ -281,7 +281,7 @@ export const deviceAuthMessageHandler = async (provider: ClineProvider, message:
 								apiProvider: "kilocode",
 								kilocodeToken: token,
 							},
-							true, // Activate immediately to match old handleKiloCodeCallback behavior
+							true, // Activate immediately to match old handleChadCodeCallback behavior
 						)
 					} else {
 						// Save to current profile (from welcome screen) and activate

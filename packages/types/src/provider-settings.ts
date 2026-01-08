@@ -137,7 +137,7 @@ export const providerNames = [
 	"baseten",
 	"cerebras",
 	"claude-code",
-	"corethink", // CoreThink Extension
+	"chadcode", // ChadCode Extension
 	"doubao",
 	"deepseek",
 	"featherless",
@@ -461,10 +461,10 @@ const kilocodeSchema = baseProviderSettingsSchema.extend({
 	kilocodeTesterWarningsDisabledUntil: z.number().optional(), // Timestamp for disabling KILOCODE-TESTER warnings
 })
 
-// CoreThink Extension - simple API key based authentication
-const corethinkSchema = apiModelIdProviderModelSchema.extend({
-	apiKey: z.string().optional(), // CoreThink API key (sk_...)
-	corethinkBaseUrl: z.string().optional(), // Optional custom base URL
+// ChadCode Extension - simple API key based authentication
+const chadcodeSchema = apiModelIdProviderModelSchema.extend({
+	apiKey: z.string().optional(), // ChadCode API key (sk_...)
+	chadcodeBaseUrl: z.string().optional(), // Optional custom base URL
 })
 
 export const virtualQuotaFallbackProfileDataSchema = z.object({
@@ -550,7 +550,7 @@ const defaultSchema = z.object({
 export const providerSettingsSchemaDiscriminated = z.discriminatedUnion("apiProvider", [
 	anthropicSchema.merge(z.object({ apiProvider: z.literal("anthropic") })),
 	claudeCodeSchema.merge(z.object({ apiProvider: z.literal("claude-code") })),
-	corethinkSchema.merge(z.object({ apiProvider: z.literal("corethink") })), // CoreThink Extension
+	chadcodeSchema.merge(z.object({ apiProvider: z.literal("chadcode") })), // ChadCode Extension
 	glamaSchema.merge(z.object({ apiProvider: z.literal("glama") })), // kilocode_change
 	nanoGptSchema.merge(z.object({ apiProvider: z.literal("nano-gpt") })), // kilocode_change
 	openRouterSchema.merge(z.object({ apiProvider: z.literal("openrouter") })),
@@ -603,7 +603,7 @@ export const providerSettingsSchema = z.object({
 	apiProvider: providerNamesSchema.optional(),
 	...anthropicSchema.shape,
 	...claudeCodeSchema.shape,
-	...corethinkSchema.shape, // CoreThink Extension
+	...chadcodeSchema.shape, // ChadCode Extension
 	...glamaSchema.shape, // kilocode_change
 	...nanoGptSchema.shape, // kilocode_change
 	...openRouterSchema.shape,
@@ -709,7 +709,7 @@ export const isTypicalProvider = (key: unknown): key is TypicalProvider =>
 export const modelIdKeysByProvider: Record<TypicalProvider, ModelIdKey> = {
 	anthropic: "apiModelId",
 	"claude-code": "apiModelId",
-	corethink: "apiModelId", // CoreThink Extension
+	chadcode: "apiModelId", // ChadCode Extension
 	glama: "glamaModelId", // kilocode_change
 	"nano-gpt": "nanoGptModelId", // kilocode_change
 	openrouter: "openRouterModelId",
@@ -897,8 +897,8 @@ export const MODELS_BY_PROVIDER: Record<
 	kilocode: { id: "kilocode", label: "Kilocode", models: [] },
 	"virtual-quota-fallback": { id: "virtual-quota-fallback", label: "Virtual Quota Fallback", models: [] },
 	// kilocode_change end
-	// CoreThink Extension
-	corethink: { id: "corethink", label: "CoreThink", models: ["corethink", "corethink-fast", "corethink-pro"] },
+	// ChadCode Extension
+	chadcode: { id: "chadcode", label: "ChadCode", models: ["chadcode", "chadcode-fast", "chadcode-pro"] },
 	deepinfra: { id: "deepinfra", label: "DeepInfra", models: [] },
 	"vercel-ai-gateway": { id: "vercel-ai-gateway", label: "Vercel AI Gateway", models: [] },
 	chutes: { id: "chutes", label: "Chutes AI", models: [] },

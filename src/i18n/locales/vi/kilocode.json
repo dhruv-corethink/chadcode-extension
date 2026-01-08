@@ -51,7 +51,7 @@
 		}
 	},
 	"commitMessage": {
-		"activated": "Trình tạo thông báo commit CoreThink Code đã được kích hoạt",
+		"activated": "Trình tạo thông báo commit ChadCode đã được kích hoạt",
 		"gitNotFound": "⚠️ Không tìm thấy kho lưu trữ Git hoặc git không khả dụng",
 		"gitInitError": "⚠️ Lỗi khởi tạo Git: {{error}}",
 		"generating": "Kilo: Đang tạo thông báo commit...",
@@ -63,7 +63,7 @@
 		"providerRegistered": "Kilo: Nhà cung cấp thông báo commit đã được đăng ký",
 		"errors": {
 			"noProject": "Không có dự án nào",
-			"connectionFailed": "Không thể kết nối với tiện ích mở rộng CoreThink Code",
+			"connectionFailed": "Không thể kết nối với tiện ích mở rộng ChadCode",
 			"timeout": "Yêu cầu đã hết thời gian sau 30 giây",
 			"invalidResponse": "Nhận được định dạng phản hồi không hợp lệ từ tiện ích mở rộng",
 			"noChanges": "Không tìm thấy thay đổi nào để commit",
@@ -88,7 +88,7 @@
 		"progress": {
 			"title": "Tạo Message Cam Kết",
 			"generating": "Đang tạo thông điệp commit...",
-			"connecting": "Đang kết nối tới CoreThink Code...",
+			"connecting": "Đang kết nối tới ChadCode...",
 			"analyzing": "Đang phân tích các thay đổi..."
 		},
 		"ui": {
@@ -102,8 +102,8 @@
 			"snoozed": "tạm dừng",
 			"warning": "$(warning) Autocomplete",
 			"tooltip": {
-				"basic": "CoreThink Code Autocomplete",
-				"disabled": "CoreThink Code Autocomplete (đã tắt)",
+				"basic": "ChadCode Autocomplete",
+				"disabled": "ChadCode Autocomplete (đã tắt)",
 				"tokenError": "Phải đặt token hợp lệ để sử dụng Autocomplete",
 				"sessionTotal": "Tổng chi phí phiên:",
 				"provider": "Nhà cung cấp:",
@@ -118,36 +118,36 @@
 				"lessThanCent": "<$0.01"
 			}
 		},
-		"toggleMessage": "CoreThink Code Autocomplete {{status}}",
+		"toggleMessage": "ChadCode Autocomplete {{status}}",
 		"progress": {
-			"title": "CoreThink Code",
+			"title": "ChadCode",
 			"analyzing": "Đang phân tích mã của bạn...",
 			"generating": "Đang tạo các chỉnh sửa được đề xuất...",
 			"processing": "Đang xử lý các chỉnh sửa được đề xuất...",
 			"showing": "Đang hiển thị các chỉnh sửa được đề xuất..."
 		},
 		"input": {
-			"title": "CoreThink Code: Tác Vụ Nhanh",
+			"title": "ChadCode: Tác Vụ Nhanh",
 			"placeholder": "ví dụ, 'tái cấu trúc hàm này để hiệu quả hơn'"
 		},
 		"commands": {
-			"generateSuggestions": "CoreThink Code: Tạo Các Chỉnh Sửa Được Đề Xuất",
+			"generateSuggestions": "ChadCode: Tạo Các Chỉnh Sửa Được Đề Xuất",
 			"displaySuggestions": "Hiển Thị Các Chỉnh Sửa Được Đề Xuất",
 			"cancelSuggestions": "Hủy Các Chỉnh Sửa Được Đề Xuất",
 			"applyCurrentSuggestion": "Áp Dụng Chỉnh Sửa Được Đề Xuất Hiện Tại",
 			"applyAllSuggestions": "Áp Dụng Tất Cả Các Chỉnh Sửa Được Đề Xuất",
-			"category": "CoreThink Code"
+			"category": "ChadCode"
 		},
 		"codeAction": {
-			"title": "CoreThink Code: Các Chỉnh Sửa Được Đề Xuất"
+			"title": "ChadCode: Các Chỉnh Sửa Được Đề Xuất"
 		},
 		"chatParticipant": {
-			"fullName": "CoreThink Code Agent",
+			"fullName": "ChadCode Agent",
 			"name": "Agent",
 			"description": "Tôi có thể giúp bạn với các tác vụ nhanh và chỉnh sửa được đề xuất."
 		},
 		"incompatibilityExtensionPopup": {
-			"message": "CoreThink Code Autocomplete đang bị chặn do xung đột với GitHub Copilot. Để khắc phục điều này, bạn phải tắt các gợi ý inline của Copilot.",
+			"message": "ChadCode Autocomplete đang bị chặn do xung đột với GitHub Copilot. Để khắc phục điều này, bạn phải tắt các gợi ý inline của Copilot.",
 			"disableCopilot": "Tắt Copilot",
 			"disableInlineAssist": "Tắt Autocomplete"
 		}

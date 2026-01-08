@@ -1,7 +1,7 @@
 {
 	"welcome": {
-		"greeting": "Vítej v CoreThink Code!",
-		"introText1": "CoreThink Code je bezplatný open source AI coding agent.",
+		"greeting": "Vítej v ChadCode!",
+		"introText1": "ChadCode je bezplatný open source AI coding agent.",
 		"introText2": "Funguje s nejnovějšími AI modely jako Claude Sonnet 4.5, Gemini 2.5 Pro, GPT-5 a více než 450 dalšími.",
 		"introText3": "Vytvoř si bezplatný účet a získej $20 bonusových kreditů při prvním dobití.",
 		"ctaButton": "Začít",
@@ -11,7 +11,7 @@
 	},
 	"lowCreditWarning": {
 		"addCredit": "Přidat kredit",
-		"lowBalance": "Tvůj CoreThink Code zůstatek je nízký",
+		"lowBalance": "Tvůj ChadCode zůstatek je nízký",
 		"newOrganization": "Používáš Kilo pro práci?"
 	},
 	"pagination": {
@@ -41,16 +41,16 @@
 			"mcp": "MCP servery"
 		},
 		"provider": {
-			"account": "Účet CoreThink Code",
-			"apiKey": "CoreThink Code API Key",
-			"login": "Přihlásit se do CoreThink Code",
-			"logout": "Odhlásit se z CoreThink Code",
-			"automaticFetch": "Nejnovější modely jsou v CoreThink Code automaticky dostupné. Pokud si nejste jisti, který model zvolit, CoreThink Code funguje nejlépe s doporučenými modely uvedenými nahoře <strong>tučně</strong>.",
+			"account": "Účet ChadCode",
+			"apiKey": "ChadCode API Key",
+			"login": "Přihlásit se do ChadCode",
+			"logout": "Odhlásit se z ChadCode",
+			"automaticFetch": "Nejnovější modely jsou v ChadCode automaticky dostupné. Pokud si nejste jisti, který model zvolit, ChadCode funguje nejlépe s doporučenými modely uvedenými nahoře <strong>tučně</strong>.",
 			"providerRouting": {
 				"title": "Směrování poskytovatelů",
 				"managedByOrganization": "Spravovat směrování poskytovatelů na úrovni organizace",
 				"createOrganization": "Vytvořit organizaci pro správu směrování poskytovatelů",
-				"description": "CoreThink Code směruje požadavky na nejlepší dostupné poskytovatele pro váš model. Ve výchozím nastavení jsou požadavky rozloženy mezi nejlepší poskytovatele, aby se maximalizovala doba provozu. Můžete si však vybrat konkrétního poskytovatele, kterého chcete pro tento model použít.",
+				"description": "ChadCode směruje požadavky na nejlepší dostupné poskytovatele pro váš model. Ve výchozím nastavení jsou požadavky rozloženy mezi nejlepší poskytovatele, aby se maximalizovala doba provozu. Můžete si však vybrat konkrétního poskytovatele, kterého chcete pro tento model použít.",
 				"sorting": {
 					"default": "Výchozí řazení poskytovatelů",
 					"price": "Upřednostnit poskytovatele s nižší cenou",
@@ -69,7 +69,7 @@
 		"modelInfo": {
 			"contextWindow": "Kontextové okno",
 			"providerBreakdown": "Rozpis cen a schopností poskytovatelů",
-			"averageKiloCodeCost": "Toto jsou průměrné skutečné náklady za použití tohoto modelu v CoreThink Code za poslední týden. Může být nižší než uvedená cena díky využití cache pro prompty.",
+			"averageChadCodeCost": "Toto jsou průměrné skutečné náklady za použití tohoto modelu v ChadCode za poslední týden. Může být nižší než uvedená cena díky využití cache pro prompty.",
 			"table": {
 				"provider": "Poskytovatel",
 				"context": "Endpoint může zpracovat tento počet tokenů (vstup + výstup).",
@@ -82,15 +82,15 @@
 		"contextManagement": {
 			"allowVeryLargeReads": {
 				"label": "Povolit čtení velmi velkých souborů",
-				"description": "Když je povoleno, CoreThink Code provede čtení velmi velkých souborů nebo výstupů MCP i když existuje vysoká pravděpodobnost přetečení kontextového okna (velikost obsahu >80% kontextového okna)."
+				"description": "Když je povoleno, ChadCode provede čtení velmi velkých souborů nebo výstupů MCP i když existuje vysoká pravděpodobnost přetečení kontextového okna (velikost obsahu >80% kontextového okna)."
 			}
 		},
 		"systemNotifications": {
 			"label": "Povolit systémová oznámení",
-			"description": "Když je povoleno, CoreThink Code bude odesílat systémová oznámení pro důležité události jako dokončení úkolu nebo chyby.",
+			"description": "Když je povoleno, ChadCode bude odesílat systémová oznámení pro důležité události jako dokončení úkolu nebo chyby.",
 			"testButton": "Otestovat oznámení",
-			"testTitle": "CoreThink Code",
-			"testMessage": "Toto je testovací oznámení z CoreThink Code."
+			"testTitle": "ChadCode",
+			"testMessage": "Toto je testovací oznámení z ChadCode."
 		},
 		"terminal": {
 			"commandGenerator": {
@@ -111,7 +111,7 @@
 	},
 	"chat": {
 		"condense": {
-			"wantsToCondense": "CoreThink Code chce zkrátit tvou konverzaci",
+			"wantsToCondense": "ChadCode chce zkrátit tvou konverzaci",
 			"condenseConversation": "Zkrátit konverzaci"
 		},
 		"seeNewChanges": "Zobrazit nové změny",
@@ -142,15 +142,15 @@
 	},
 	"docs": "Dokumentace",
 	"rules": {
-		"tooltip": "Spravovat CoreThink Code Rules a Workflows",
-		"ariaLabel": "CoreThink Code Rules",
+		"tooltip": "Spravovat ChadCode Rules a Workflows",
+		"ariaLabel": "ChadCode Rules",
 		"tabs": {
 			"rules": "Pravidla",
 			"workflows": "Pracovní postupy"
 		},
 		"description": {
-			"rules": "Pravidla ti umožňují poskytnout CoreThink Code pokyny, které by měl dodržovat ve všech režimech a pro všechny prompty. Je to trvalý způsob, jak zahrnout kontext a preference pro všechny konverzace ve tvém pracovním prostoru nebo globálně.",
-			"workflows": "Pracovní postupy jsou připravená šablona pro konverzaci. Pracovní postupy ti mohou umožnit definovat prompty, které často používáš, a mohou zahrnovat řadu kroků k vedení CoreThink Code přes opakující se úkoly, jako je nasazení služby nebo odeslání PR. Pro vyvolání pracovního postupu napiš",
+			"rules": "Pravidla ti umožňují poskytnout ChadCode pokyny, které by měl dodržovat ve všech režimech a pro všechny prompty. Je to trvalý způsob, jak zahrnout kontext a preference pro všechny konverzace ve tvém pracovním prostoru nebo globálně.",
+			"workflows": "Pracovní postupy jsou připravená šablona pro konverzaci. Pracovní postupy ti mohou umožnit definovat prompty, které často používáš, a mohou zahrnovat řadu kroků k vedení ChadCode přes opakující se úkoly, jako je nasazení služby nebo odeslání PR. Pro vyvolání pracovního postupu napiš",
 			"workflowsInChat": "v chatu."
 		},
 		"sections": {
@@ -227,11 +227,11 @@
 			"keybindingDescription": "Funkce Autocomplete lze spustit pomocí příkazů. Můžeš nakonfigurovat <DocsLink>Klávesové Zkratky zde</DocsLink>.",
 			"enableAutoTrigger": {
 				"label": "Povolit Autocomplete",
-				"description": "Když je povoleno, CoreThink Code automaticky spustí Autocomplete, když přestaneš psát. To může být užitečné pro rychlé opravy a návrhy."
+				"description": "Když je povoleno, ChadCode automaticky spustí Autocomplete, když přestaneš psát. To může být užitečné pro rychlé opravy a návrhy."
 			},
 			"autoTriggerDelay": {
 				"label": "Zpoždění Automatického Spuštění",
-				"description": "Zpoždění v sekundách před tím, než CoreThink Code spustí Autocomplete poté, co přestaneš psát. Kratší zpoždění znamená rychlejší návrhy, ale může být náročnější na zdroje."
+				"description": "Zpoždění v sekundách před tím, než ChadCode spustí Autocomplete poté, co přestaneš psát. Kratší zpoždění znamená rychlejší návrhy, ale může být náročnější na zdroje."
 			},
 			"enableQuickInlineTaskKeybinding": {
 				"label": "Rychlý úkol ({{keybinding}})",
@@ -248,7 +248,7 @@
 			"provider": "Poskytovatel",
 			"enableChatAutocomplete": {
 				"label": "Automatické doplňování při psaní zpráv",
-				"description": "Když je tato funkce povolena, CoreThink Code bude navrhovat dokončování textu během psaní ve vstupním poli chatu. Stisknutím klávesy Tab přijmete návrhy."
+				"description": "Když je tato funkce povolena, ChadCode bude navrhovat dokončování textu během psaní ve vstupním poli chatu. Stisknutím klávesy Tab přijmete návrhy."
 			},
 			"snooze": {
 				"label": "Pozastavit Autocomplete",
@@ -308,7 +308,7 @@
 		"shareModesNewBanner": "Novinka: Sdílejte režimy vytvořením organizace"
 	},
 	"deviceAuth": {
-		"title": "Přihlásit se do CoreThink Code",
+		"title": "Přihlásit se do ChadCode",
 		"step1": "Otevři následující URL ve svém prohlížeči",
 		"step2": "Ověř kód a autorizuj toto zařízení ve svém prohlížeči",
 		"scanQr": "Nebo naskenuj tento QR kód svým telefonem",

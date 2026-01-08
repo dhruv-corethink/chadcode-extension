@@ -1,5 +1,5 @@
 {
-	"greeting": "CoreThink Code 能为您做什么？",
+	"greeting": "ChadCode 能为您做什么？",
 	"task": {
 		"title": "任务",
 		"expand": "展开任务",
@@ -21,7 +21,7 @@
 		"sharePublicly": "公开分享",
 		"sharePubliclyDescription": "任何拥有链接的人都可访问",
 		"connectToCloud": "连接到云端",
-		"connectToCloudDescription": "登录 CoreThink Code Cloud 以分享任务",
+		"connectToCloudDescription": "登录 ChadCode Cloud 以分享任务",
 		"sharingDisabledByOrganization": "组织已禁用分享功能",
 		"shareSuccessOrganization": "组织链接已复制到剪贴板",
 		"shareSuccessPublic": "公开链接已复制到剪贴板",
@@ -95,7 +95,7 @@
 	"scrollToBottom": "滚动到聊天底部",
 	"about": "通过 AI 辅助生成、重构和调试代码。查看我们的 <DocsLink>文档</DocsLink> 了解更多。",
 	"docs": "查看我们的 <DocsLink>文档</DocsLink> 了解更多信息。",
-	"onboarding": "<strong>此工作区中的任务列表为空。</strong> 请在下方输入任务开始。 不确定如何开始？ 在 <DocsLink>文档</DocsLink> 中阅读更多关于 CoreThink Code 可以为您做什么的信息。",
+	"onboarding": "<strong>此工作区中的任务列表为空。</strong> 请在下方输入任务开始。 不确定如何开始？ 在 <DocsLink>文档</DocsLink> 中阅读更多关于 ChadCode 可以为您做什么的信息。",
 	"rooTips": {
 		"customizableModes": {
 			"title": "可自定义模式",
@@ -124,7 +124,7 @@
 		"title": "模式",
 		"marketplace": "模式市场",
 		"settings": "模式设置",
-		"description": "专门定制CoreThink Code行为的角色。",
+		"description": "专门定制ChadCode行为的角色。",
 		"searchPlaceholder": "搜索模式...",
 		"noResults": "未找到结果",
 		"organizationModes": "组织模式"
@@ -139,7 +139,7 @@
 	"diffError": {
 		"title": "编辑失败"
 	},
-	"troubleMessage": "CoreThink Code遇到问题...",
+	"troubleMessage": "ChadCode遇到问题...",
 	"apiRequest": {
 		"title": "API请求",
 		"failed": "API请求失败",
@@ -179,7 +179,7 @@
 		"current": "当前"
 	},
 	"instructions": {
-		"wantsToFetch": "CoreThink Code 想要获取详细指示以协助当前任务"
+		"wantsToFetch": "ChadCode 想要获取详细指示以协助当前任务"
 	},
 	"fileOperations": {
 		"wantsToRead": "需要读取文件",
@@ -195,10 +195,10 @@
 		"wantsToInsertWithLineNumber": "需要在第 {{lineNumber}} 行插入内容",
 		"wantsToInsertAtEnd": "需要在文件末尾添加内容",
 		"wantsToDelete": "需要删除文件",
-		"wantsToDeleteDirectory": "CoreThink Code 想要删除此目录",
-		"wantsToReadAndXMore": "CoreThink Code 想读取此文件以及另外 {{count}} 个文件",
-		"wantsToReadMultiple": "CoreThink Code 想要读取多个文件",
-		"wantsToApplyBatchChanges": "CoreThink Code 想要对多个文件应用更改",
+		"wantsToDeleteDirectory": "ChadCode 想要删除此目录",
+		"wantsToReadAndXMore": "ChadCode 想读取此文件以及另外 {{count}} 个文件",
+		"wantsToReadMultiple": "ChadCode 想要读取多个文件",
+		"wantsToApplyBatchChanges": "ChadCode 想要对多个文件应用更改",
 		"wantsToGenerateImage": "需要生成图片",
 		"wantsToGenerateImageOutsideWorkspace": "需要在工作区外生成图片",
 		"wantsToGenerateImageProtected": "需要在受保护位置生成图片",
@@ -209,8 +209,8 @@
 		"didViewTopLevel": "已查看目录文件列表",
 		"wantsToViewRecursive": "需要查看目录所有文件",
 		"didViewRecursive": "已查看目录所有文件",
-		"wantsToViewDefinitions": "CoreThink Code想查看此目录中使用的源代码定义名称",
-		"didViewDefinitions": "CoreThink Code已查看此目录中使用的源代码定义名称",
+		"wantsToViewDefinitions": "ChadCode想查看此目录中使用的源代码定义名称",
+		"didViewDefinitions": "ChadCode已查看此目录中使用的源代码定义名称",
 		"wantsToSearch": "需要搜索内容: {{regex}}",
 		"didSearch": "已完成内容搜索: {{regex}}",
 		"wantsToSearchOutsideWorkspace": "需要搜索内容（工作区外）: {{regex}}",
@@ -219,8 +219,8 @@
 		"didViewTopLevelOutsideWorkspace": "已查看目录文件列表（工作区外）",
 		"wantsToViewRecursiveOutsideWorkspace": "需要查看目录所有文件（工作区外）",
 		"didViewRecursiveOutsideWorkspace": "已查看目录所有文件（工作区外）",
-		"wantsToViewDefinitionsOutsideWorkspace": "CoreThink Code想查看此目录中使用的源代码定义名称（工作区外）",
-		"didViewDefinitionsOutsideWorkspace": "CoreThink Code已查看此目录中使用的源代码定义名称（工作区外）"
+		"wantsToViewDefinitionsOutsideWorkspace": "ChadCode想查看此目录中使用的源代码定义名称（工作区外）",
+		"didViewDefinitionsOutsideWorkspace": "ChadCode已查看此目录中使用的源代码定义名称（工作区外）"
 	},
 	"commandOutput": "命令输出",
 	"commandExecution": {
@@ -243,14 +243,14 @@
 	"response": "响应",
 	"arguments": "参数",
 	"text": {
-		"rooSaid": "Kilo 说"
+		"rooSaid": "Chad 说"
 	},
 	"feedback": {
 		"youSaid": "你说"
 	},
 	"mcp": {
-		"wantsToUseTool": "CoreThink Code想在{{serverName}} MCP上使用工具",
-		"wantsToAccessResource": "CoreThink Code想访问{{serverName}} MCP服务上的资源"
+		"wantsToUseTool": "ChadCode想在{{serverName}} MCP上使用工具",
+		"wantsToAccessResource": "ChadCode想访问{{serverName}} MCP服务上的资源"
 	},
 	"modes": {
 		"wantsToSwitch": "即将切换至{{mode}}模式",
@@ -259,8 +259,8 @@
 		"didSwitchWithReason": "已切换至{{mode}}模式（原因：{{reason}}）"
 	},
 	"subtasks": {
-		"wantsToCreate": "CoreThink Code想在<code>{{mode}}</code>模式下创建新子任务",
-		"wantsToFinish": "CoreThink Code想完成此子任务",
+		"wantsToCreate": "ChadCode想在<code>{{mode}}</code>模式下创建新子任务",
+		"wantsToFinish": "ChadCode想完成此子任务",
 		"newTaskContent": "子任务说明",
 		"completionContent": "子任务已完成",
 		"resultContent": "子任务结果",
@@ -268,7 +268,7 @@
 		"completionInstructions": "子任务已完成！您可以查看结果并提出修改或下一步建议。如果一切正常，请确认以将结果返回给主任务。"
 	},
 	"questions": {
-		"hasQuestion": "CoreThink Code有一个问题"
+		"hasQuestion": "ChadCode有一个问题"
 	},
 	"taskCompleted": "任务完成",
 	"errorDetails": {
@@ -342,11 +342,11 @@
 			"tryButton": "试用云代理"
 		},
 		"careers": "此外，<careersLink>我们正在招聘！</careersLink>",
-		"socialLinks": "在 <xLink>X</xLink>、<discordLink>Discord</discordLink> 或 <redditLink>r/KiloCode</redditLink> 上关注我们 🚀"
+		"socialLinks": "在 <xLink>X</xLink>、<discordLink>Discord</discordLink> 或 <redditLink>r/ChadCode</redditLink> 上关注我们 🚀"
 	},
 	"browser": {
 		"session": "浏览器会话",
-		"rooWantsToUse": "CoreThink Code想使用浏览器",
+		"rooWantsToUse": "ChadCode想使用浏览器",
 		"consoleLogs": "控制台日志",
 		"noNewLogs": "(没有新日志)",
 		"screenshot": "浏览器截图",
@@ -394,24 +394,24 @@
 	"profileViolationWarning": "当前配置文件与您的组织设置不兼容",
 	"shellIntegration": {
 		"title": "命令执行警告",
-		"description": "您的命令正在没有 VSCode 终端 shell 集成的情况下执行。要隐藏此警告，您可以在 <settingsLink>CoreThink Code 设置</settingsLink>的 <strong>Terminal</strong> 部分禁用 shell 集成，或使用下方链接排查 VSCode 终端集成问题。",
+		"description": "您的命令正在没有 VSCode 终端 shell 集成的情况下执行。要隐藏此警告，您可以在 <settingsLink>ChadCode 设置</settingsLink>的 <strong>Terminal</strong> 部分禁用 shell 集成，或使用下方链接排查 VSCode 终端集成问题。",
 		"troubleshooting": "点击此处查看 shell 集成文档。"
 	},
 	"ask": {
 		"autoApprovedRequestLimitReached": {
 			"title": "已达自动批准请求限制",
-			"description": "CoreThink Code 已达到 {{count}} 次 API 请求的自动批准限制。您想重置计数并继续任务吗？",
+			"description": "ChadCode 已达到 {{count}} 次 API 请求的自动批准限制。您想重置计数并继续任务吗？",
 			"button": "重置并继续"
 		},
 		"autoApprovedCostLimitReached": {
 			"title": "已达到自动批准的费用限额",
-			"description": "CoreThink Code已经达到了${{count}}的自动批准成本限制。您想重置成本并继续任务吗？",
+			"description": "ChadCode已经达到了${{count}}的自动批准成本限制。您想重置成本并继续任务吗？",
 			"button": "重置并继续"
 		}
 	},
 	"codebaseSearch": {
-		"wantsToSearch": "CoreThink Code 需要搜索代码库: <code>{{query}}</code>",
-		"wantsToSearchWithPath": "CoreThink Code 需要在 <code>{{path}}</code> 中搜索: <code>{{query}}</code>",
+		"wantsToSearch": "ChadCode 需要搜索代码库: <code>{{query}}</code>",
+		"wantsToSearchWithPath": "ChadCode 需要在 <code>{{path}}</code> 中搜索: <code>{{query}}</code>",
 		"didSearch_one": "找到 1 个结果",
 		"didSearch_other": "找到 {{count}} 个结果",
 		"resultTooltip": "相似度评分: {{score}} (点击打开文件)"
@@ -476,8 +476,8 @@
 		"clickToEdit": "点击编辑消息"
 	},
 	"slashCommand": {
-		"wantsToRun": "CoreThink Code 想要运行斜杠命令",
-		"didRun": "CoreThink Code 运行了斜杠命令"
+		"wantsToRun": "ChadCode 想要运行斜杠命令",
+		"didRun": "ChadCode 运行了斜杠命令"
 	},
 	"todo": {
 		"partial": "已完成 {{completed}} / {{total}} 个待办事项",

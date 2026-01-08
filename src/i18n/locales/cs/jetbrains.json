@@ -13,7 +13,7 @@
 		"cancel": "Zrušit"
 	},
 	"ui": {
-		"initializing": "CoreThink Code se inicializuje...",
+		"initializing": "ChadCode se inicializuje...",
 		"systemInformation": "Informace o systému"
 	}
 }

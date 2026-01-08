@@ -7,7 +7,7 @@ interface AuthViewProps {
 }
 
 /**
- * CoreThink Extension - Auth View
+ * ChadCode Extension - Auth View
  *
  * This view is no longer needed for API key authentication.
  * It automatically redirects to settings.

@@ -1,7 +1,7 @@
 import * as vscode from "vscode"
-import { JETBRAIN_PRODUCTS, KiloCodeWrapperProperties } from "../../shared/kilocode/wrapper"
+import { JETBRAIN_PRODUCTS, ChadCodeWrapperProperties } from "../../shared/kilocode/wrapper"
 
-export const getKiloCodeWrapperProperties = (): KiloCodeWrapperProperties => {
+export const getChadCodeWrapperProperties = (): ChadCodeWrapperProperties => {
 	const appName = vscode.env.appName
 	const kiloCodeWrapped = appName.includes("wrapper")
 	let kiloCodeWrapper = null
@@ -18,7 +18,7 @@ export const getKiloCodeWrapperProperties = (): KiloCodeWrapperProperties => {
 		kiloCodeWrapperJetbrains = kiloCodeWrapperCode !== "cli"
 		kiloCodeWrapperTitle =
 			kiloCodeWrapperCode === "cli"
-				? "CoreThink Code CLI"
+				? "ChadCode CLI"
 				: JETBRAIN_PRODUCTS[kiloCodeWrapperCode as keyof typeof JETBRAIN_PRODUCTS]?.name || "JetBrains IDE"
 	}
 
@@ -33,7 +33,7 @@ export const getKiloCodeWrapperProperties = (): KiloCodeWrapperProperties => {
 }
 
 export const getEditorNameHeader = () => {
-	const props = getKiloCodeWrapperProperties()
+	const props = getChadCodeWrapperProperties()
 	return (
 		props.kiloCodeWrapped
 			? [props.kiloCodeWrapperTitle, props.kiloCodeWrapperVersion]

@@ -51,7 +51,7 @@
 		}
 	},
 	"commitMessage": {
-		"activated": "Generator pesan komit CoreThink Code diaktifkan",
+		"activated": "Generator pesan komit ChadCode diaktifkan",
 		"gitNotFound": "⚠️ Repositori Git tidak ditemukan atau git tidak tersedia",
 		"gitInitError": "⚠️ Kesalahan inisialisasi Git: {{error}}",
 		"generating": "Kilo: Menghasilkan pesan komit...",
@@ -63,7 +63,7 @@
 		"providerRegistered": "Kilo: Penyedia pesan komit terdaftar",
 		"errors": {
 			"noProject": "Tidak ada proyek yang tersedia",
-			"connectionFailed": "Gagal terhubung ke ekstensi CoreThink Code",
+			"connectionFailed": "Gagal terhubung ke ekstensi ChadCode",
 			"timeout": "Permintaan waktu habis setelah 30 detik",
 			"invalidResponse": "Format respons tidak valid diterima dari ekstensi",
 			"noChanges": "Tidak ada perubahan ditemukan untuk di-commit",
@@ -88,7 +88,7 @@
 		"progress": {
 			"title": "Membuat Pesan Commit",
 			"analyzing": "Menganalisis perubahan...",
-			"connecting": "Menghubungkan ke CoreThink Code...",
+			"connecting": "Menghubungkan ke ChadCode...",
 			"generating": "Menghasilkan pesan commit..."
 		},
 		"ui": {
@@ -102,8 +102,8 @@
 			"snoozed": "dijeda",
 			"warning": "$(warning) Autocomplete",
 			"tooltip": {
-				"basic": "CoreThink Code Autocomplete",
-				"disabled": "CoreThink Code Autocomplete (dinonaktifkan)",
+				"basic": "ChadCode Autocomplete",
+				"disabled": "ChadCode Autocomplete (dinonaktifkan)",
 				"tokenError": "Token yang valid harus diatur untuk menggunakan Autocomplete",
 				"sessionTotal": "Total biaya sesi:",
 				"provider": "Penyedia:",
@@ -118,36 +118,36 @@
 				"lessThanCent": "<$0.01"
 			}
 		},
-		"toggleMessage": "CoreThink Code Autocomplete {{status}}",
+		"toggleMessage": "ChadCode Autocomplete {{status}}",
 		"progress": {
-			"title": "CoreThink Code",
+			"title": "ChadCode",
 			"analyzing": "Menganalisis kode Anda...",
 			"generating": "Menghasilkan suntingan yang disarankan...",
 			"processing": "Memproses suntingan yang disarankan...",
 			"showing": "Menampilkan suntingan yang disarankan..."
 		},
 		"input": {
-			"title": "CoreThink Code: Tugas Cepat",
+			"title": "ChadCode: Tugas Cepat",
 			"placeholder": "mis., 'refaktor fungsi ini agar lebih efisien'"
 		},
 		"commands": {
-			"generateSuggestions": "CoreThink Code: Hasilkan Suntingan yang Disarankan",
+			"generateSuggestions": "ChadCode: Hasilkan Suntingan yang Disarankan",
 			"displaySuggestions": "Tampilkan Suntingan yang Disarankan",
 			"cancelSuggestions": "Batalkan Suntingan yang Disarankan",
 			"applyCurrentSuggestion": "Terapkan Suntingan yang Disarankan Saat Ini",
 			"applyAllSuggestions": "Terapkan Semua Suntingan yang Disarankan",
-			"category": "CoreThink Code"
+			"category": "ChadCode"
 		},
 		"codeAction": {
-			"title": "CoreThink Code: Suntingan yang Disarankan"
+			"title": "ChadCode: Suntingan yang Disarankan"
 		},
 		"chatParticipant": {
-			"fullName": "CoreThink Code Agent",
+			"fullName": "ChadCode Agent",
 			"name": "Agent",
 			"description": "Saya dapat membantu Anda dengan tugas cepat dan suntingan yang disarankan."
 		},
 		"incompatibilityExtensionPopup": {
-			"message": "CoreThink Code Autocomplete diblokir oleh konflik dengan GitHub Copilot. Untuk memperbaiki ini, Anda harus menonaktifkan saran inline Copilot.",
+			"message": "ChadCode Autocomplete diblokir oleh konflik dengan GitHub Copilot. Untuk memperbaiki ini, Anda harus menonaktifkan saran inline Copilot.",
 			"disableCopilot": "Nonaktifkan Copilot",
 			"disableInlineAssist": "Nonaktifkan Autocomplete"
 		}

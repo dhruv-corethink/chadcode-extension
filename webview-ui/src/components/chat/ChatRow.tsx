@@ -1384,8 +1384,8 @@ export const ChatRowContent = ({
 						</div>
 					)
 				case "error":
-					// kilocode_change start: Show login button for KiloCode auth errors
-					const isKiloCodeAuthError =
+					// kilocode_change start: Show login button for ChadCode auth errors
+					const isChadCodeAuthError =
 						apiConfiguration?.apiProvider === "kilocode" &&
 						message.text?.includes(KILOCODE_TOKEN_REQUIRED_ERROR)
 					return (
@@ -1393,9 +1393,9 @@ export const ChatRowContent = ({
 							type="error"
 							message={t("chat:error")}
 							errorDetails={message.text || undefined}
-							showLoginButton={isKiloCodeAuthError}
+							showLoginButton={isChadCodeAuthError}
 							onLoginClick={
-								isKiloCodeAuthError
+								isChadCodeAuthError
 									? () => {
 											vscode.postMessage({
 												type: "switchTab",
@@ -1804,7 +1804,7 @@ export const ChatRowContent = ({
 										marginBottom: "-1.5px",
 									}}></span>
 								<span style={{ color: normalColor, fontWeight: "bold" }}>
-									KiloCode wants to create a Github issue:
+									ChadCode wants to create a Github issue:
 								</span>
 							</div>
 							<ReportBugPreview data={message.text || ""} />

@@ -1,7 +1,7 @@
 {
 	"welcome": {
-		"greeting": "CoreThink Code'a hoş geldiniz!",
-		"introText1": "CoreThink Code ücretsiz, açık kaynaklı bir AI kodlama ajanıdır.",
+		"greeting": "ChadCode'a hoş geldiniz!",
+		"introText1": "ChadCode ücretsiz, açık kaynaklı bir AI kodlama ajanıdır.",
 		"introText2": "Claude Sonnet 4.5, Gemini 2.5 Pro, GPT-5 ve 450+ diğer en yeni AI modelleri ile çalışır.",
 		"introText3": "Ücretsiz hesap oluşturun ve ilk yüklemenizde $20 bonus kredi alın.",
 		"ctaButton": "Başla",
@@ -11,7 +11,7 @@
 	},
 	"lowCreditWarning": {
 		"addCredit": "Kredi Ekle",
-		"lowBalance": "CoreThink Code bakiyeniz düşük",
+		"lowBalance": "ChadCode bakiyeniz düşük",
 		"newOrganization": "İş için mi kullanıyorsun?"
 	},
 	"pagination": {
@@ -36,7 +36,7 @@
 		"contextManagement": {
 			"allowVeryLargeReads": {
 				"label": "Çok büyük dosya okumalarına izin ver",
-				"description": "Etkinleştirildiğinde, CoreThink Code bağlam penceresini taşma olasılığı yüksek olsa bile çok büyük dosya veya MCP çıktı okumalarını gerçekleştirir (içerik boyutu bağlam penceresinin %80'inden fazla)."
+				"description": "Etkinleştirildiğinde, ChadCode bağlam penceresini taşma olasılığı yüksek olsa bile çok büyük dosya veya MCP çıktı okumalarını gerçekleştirir (içerik boyutu bağlam penceresinin %80'inden fazla)."
 			}
 		},
 		"codeIndex": {
@@ -46,16 +46,16 @@
 			"scannerMaxBatchRetriesDescription": "Dizin taraması sırasında başarısız bir toplu işlemi yeniden deneme sayısının üst sınırı. Daha yüksek değerler geçici hatalara karşı dayanıklılığı artırır ancak hatalar devam ederse indekslemeyi yavaşlatabilir. Daha düşük değerler daha hızlı başarısız olur ancak geçici sorunlarda içeriği atlayabilir."
 		},
 		"provider": {
-			"account": "CoreThink Code Hesabı",
-			"apiKey": "CoreThink Code API Anahtarı",
-			"login": "CoreThink Code'a giriş yap",
-			"logout": "CoreThink Code'dan çıkış yap",
-			"automaticFetch": "En son modeller CoreThink Code'da otomatik olarak kullanılabilir. Hangi modeli seçeceğinizden emin değilseniz, CoreThink Code en üstte <strong>kalın yazı</strong> ile listelenen önerilen modellerle en iyi şekilde çalışır.",
+			"account": "ChadCode Hesabı",
+			"apiKey": "ChadCode API Anahtarı",
+			"login": "ChadCode'a giriş yap",
+			"logout": "ChadCode'dan çıkış yap",
+			"automaticFetch": "En son modeller ChadCode'da otomatik olarak kullanılabilir. Hangi modeli seçeceğinizden emin değilseniz, ChadCode en üstte <strong>kalın yazı</strong> ile listelenen önerilen modellerle en iyi şekilde çalışır.",
 			"providerRouting": {
 				"title": "Sağlayıcı Yönlendirme",
 				"managedByOrganization": "Organizasyon düzeyinde Sağlayıcı Yönlendirmeyi yönet",
 				"createOrganization": "Sağlayıcı Yönlendirmeyi yönetmek için Organizasyon oluştur",
-				"description": "CoreThink Code, modeliniz için en iyi kullanılabilir sağlayıcılara istekleri yönlendirir. Varsayılan olarak, çalışma süresini en üst düzeye çıkarmak için istekler en iyi sağlayıcılar arasında yük dengelenir. Ancak, bu model için kullanılacak belirli bir sağlayıcı seçebilirsiniz.",
+				"description": "ChadCode, modeliniz için en iyi kullanılabilir sağlayıcılara istekleri yönlendirir. Varsayılan olarak, çalışma süresini en üst düzeye çıkarmak için istekler en iyi sağlayıcılar arasında yük dengelenir. Ancak, bu model için kullanılacak belirli bir sağlayıcı seçebilirsiniz.",
 				"sorting": {
 					"default": "Varsayılan sağlayıcı sıralaması",
 					"price": "Düşük fiyatlı sağlayıcıları tercih et",
@@ -74,7 +74,7 @@
 		"modelInfo": {
 			"contextWindow": "Bağlam penceresi",
 			"providerBreakdown": "Sağlayıcı Fiyat ve Yetenek Dökümü",
-			"averageKiloCodeCost": "Bu, CoreThink Code'un bu modeli kullanarak geçtiğimiz hafta boyunca yaptığı ortalama gerçek harcamadır. Prompt önbellek kullanımı nedeniyle listelenen fiyattan daha düşük olabilir.",
+			"averageChadCodeCost": "Bu, ChadCode'un bu modeli kullanarak geçtiğimiz hafta boyunca yaptığı ortalama gerçek harcamadır. Prompt önbellek kullanımı nedeniyle listelenen fiyattan daha düşük olabilir.",
 			"table": {
 				"provider": "Sağlayıcı",
 				"context": "Uç nokta bu sayıda token işleyebilir (giriş + çıkış).",
@@ -86,10 +86,10 @@
 		},
 		"systemNotifications": {
 			"label": "Sistem bildirimlerini etkinleştir",
-			"description": "Etkinleştirildiğinde, CoreThink Code görev tamamlama veya hatalar gibi önemli olaylar için sistem bildirimleri gönderecektir.",
+			"description": "Etkinleştirildiğinde, ChadCode görev tamamlama veya hatalar gibi önemli olaylar için sistem bildirimleri gönderecektir.",
 			"testButton": "Bildirimi test et",
-			"testTitle": "CoreThink Code",
-			"testMessage": "Bu CoreThink Code'dan bir test bildirimidir."
+			"testTitle": "ChadCode",
+			"testMessage": "Bu ChadCode'dan bir test bildirimidir."
 		},
 		"terminal": {
 			"commandGenerator": {
@@ -111,7 +111,7 @@
 	},
 	"chat": {
 		"condense": {
-			"wantsToCondense": "CoreThink Code konuşmanı özetlemek istiyor",
+			"wantsToCondense": "ChadCode konuşmanı özetlemek istiyor",
 			"condenseConversation": "Konuşmayı Özetle"
 		},
 		"seeNewChanges": "Yeni Değişiklikleri Göster",
@@ -142,15 +142,15 @@
 	},
 	"docs": "Belgeler",
 	"rules": {
-		"tooltip": "CoreThink Code Kuralları ve İş Akışlarını Yönet",
-		"ariaLabel": "CoreThink Code Kuralları",
+		"tooltip": "ChadCode Kuralları ve İş Akışlarını Yönet",
+		"ariaLabel": "ChadCode Kuralları",
 		"tabs": {
 			"rules": "Kurallar",
 			"workflows": "İş Akışları"
 		},
 		"description": {
-			"rules": "Kurallar, CoreThink Code'a tüm modlarda ve tüm promptlarda uyması gereken talimatlar sağlamanıza olanak tanır. Bunlar, çalışma alanınızda veya global olarak tüm konuşmalar için bağlam ve tercihleri dahil etmenin kalıcı bir yoludur.",
-			"workflows": "İş akışları, bir konuşma için hazırlanmış bir şablondur. İş akışları, sık kullandığınız promptları tanımlamanıza olanak tanır ve bir hizmeti dağıtmak veya PR göndermek gibi tekrarlayan görevler boyunca CoreThink Code'u yönlendirmek için bir dizi adım içerebilir. Bir iş akışını çağırmak için şunu yazın",
+			"rules": "Kurallar, ChadCode'a tüm modlarda ve tüm promptlarda uyması gereken talimatlar sağlamanıza olanak tanır. Bunlar, çalışma alanınızda veya global olarak tüm konuşmalar için bağlam ve tercihleri dahil etmenin kalıcı bir yoludur.",
+			"workflows": "İş akışları, bir konuşma için hazırlanmış bir şablondur. İş akışları, sık kullandığınız promptları tanımlamanıza olanak tanır ve bir hizmeti dağıtmak veya PR göndermek gibi tekrarlayan görevler boyunca ChadCode'u yönlendirmek için bir dizi adım içerebilir. Bir iş akışını çağırmak için şunu yazın",
 			"workflowsInChat": "sohbette."
 		},
 		"sections": {
@@ -220,11 +220,11 @@
 			"keybindingDescription": "Autocomplete özellikleri komutlarla tetiklenebilir. <DocsLink>Klavye Kısayollarını burada</DocsLink> yapılandırabilirsin.",
 			"enableAutoTrigger": {
 				"label": "Autocomplete'i Etkinleştir",
-				"description": "Etkinleştirildiğinde, CoreThink Code yazmayı bıraktığında otomatik olarak Autocomplete'i tetikleyecek. Bu hızlı düzeltmeler ve öneriler için yararlı olabilir."
+				"description": "Etkinleştirildiğinde, ChadCode yazmayı bıraktığında otomatik olarak Autocomplete'i tetikleyecek. Bu hızlı düzeltmeler ve öneriler için yararlı olabilir."
 			},
 			"autoTriggerDelay": {
 				"label": "Otomatik Tetikleme Gecikmesi",
-				"description": "Yazmayı bıraktıktan sonra CoreThink Code'un Autocomplete'i tetiklemeden önceki saniye cinsinden gecikme. Daha kısa gecikme daha hızlı öneriler anlamına gelir, ancak daha fazla kaynak yoğun olabilir."
+				"description": "Yazmayı bıraktıktan sonra ChadCode'un Autocomplete'i tetiklemeden önceki saniye cinsinden gecikme. Daha kısa gecikme daha hızlı öneriler anlamına gelir, ancak daha fazla kaynak yoğun olabilir."
 			},
 			"enableQuickInlineTaskKeybinding": {
 				"label": "Hızlı Görev ({{keybinding}})",
@@ -241,7 +241,7 @@
 			"provider": "Sağlayıcı",
 			"enableChatAutocomplete": {
 				"label": "Sohbet Girişi Otomatik Tamamlama",
-				"description": "Etkinleştirildiğinde, CoreThink Code sohbet girişinde yazarken tamamlama önerileri sunacaktır. Önerileri kabul etmek için Tab tuşuna basın."
+				"description": "Etkinleştirildiğinde, ChadCode sohbet girişinde yazarken tamamlama önerileri sunacaktır. Önerileri kabul etmek için Tab tuşuna basın."
 			},
 			"snooze": {
 				"label": "Otomatik Tamamlamayı Ertele",
@@ -308,7 +308,7 @@
 		"shareModesNewBanner": "Yeni: Bir organizasyon oluşturarak modları paylaşın"
 	},
 	"deviceAuth": {
-		"title": "CoreThink Code'a giriş yap",
+		"title": "ChadCode'a giriş yap",
 		"step1": "Tarayıcında aşağıdaki URL'yi aç",
 		"step2": "Kodu doğrula ve bu cihazı tarayıcında yetkilendir",
 		"scanQr": "Veya bu QR kodunu telefonunla tara",

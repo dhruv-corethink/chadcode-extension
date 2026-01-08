@@ -3,7 +3,7 @@ import * as vscode from "vscode"
 import { z } from "zod"
 import { GhostServiceManager } from "./GhostServiceManager"
 import { ClineProvider } from "../../core/webview/ClineProvider"
-import { getKiloCodeWrapperProperties } from "../../core/kilocode/wrapper"
+import { getChadCodeWrapperProperties } from "../../core/kilocode/wrapper"
 import { languageForFilepath } from "../continuedev/core/autocomplete/constants/AutocompleteLanguageInfo"
 import { GhostContextProvider } from "./types"
 import { FimPromptBuilder } from "./classic-auto-complete/FillInTheMiddle"
@@ -276,7 +276,7 @@ export const registerGhostJetbrainsBridge = (
 	ghost: GhostServiceManager,
 ) => {
 	// Check if we are running inside JetBrains IDE
-	const { kiloCodeWrapped, kiloCodeWrapperJetbrains } = getKiloCodeWrapperProperties()
+	const { kiloCodeWrapped, kiloCodeWrapperJetbrains } = getChadCodeWrapperProperties()
 	if (!kiloCodeWrapped || !kiloCodeWrapperJetbrains) {
 		return
 	}

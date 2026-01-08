@@ -6,23 +6,23 @@ import { IFimProvider } from "../../../../../api/providers/kilocode/IFimProvider
 import { getKiloUrlFromToken } from "@roo-code/types"
 
 /**
- * Extended CompletionOptions to include KiloCode-specific per-request metadata
+ * Extended CompletionOptions to include ChadCode-specific per-request metadata
  */
-export interface KiloCodeCompletionOptions extends CompletionOptions {
+export interface ChadCodeCompletionOptions extends CompletionOptions {
 	kilocodeTaskId?: string
 	kilocodeProjectId?: string
 }
 
 /**
- * KiloCode LLM provider that extends OpenRouter with KiloCode-specific features:
+ * ChadCode LLM provider that extends OpenRouter with ChadCode-specific features:
  * - Custom base URL using getKiloUrlFromToken()
- * - KiloCode-specific headers (organizationId, taskId, projectId, version, tester)
+ * - ChadCode-specific headers (organizationId, taskId, projectId, version, tester)
  * - Support for both static (organizationId) and per-request (taskId, projectId) metadata
  *
  * This provider maintains API parity with the kilocode-openrouter API provider
  * while working within the continuedev LLM architecture.
  */
-class KiloCode extends OpenRouter {
+class ChadCode extends OpenRouter {
 	static override providerName = "kilocode"
 
 	// Instance variables to store per-request metadata
@@ -31,13 +31,13 @@ class KiloCode extends OpenRouter {
 	public fimProvider?: IFimProvider
 
 	constructor(options: LLMOptions) {
-		// Extract KiloCode-specific config from env
+		// Extract ChadCode-specific config from env
 		const kilocodeToken = options.apiKey ?? ""
 
 		// Extract fimProvider before passing to parent
 		const { fimProvider, ...parentOptions } = options
 
-		// Transform apiBase to use KiloCode backend
+		// Transform apiBase to use ChadCode backend
 		const transformedOptions = {
 			...parentOptions,
 			apiBase: getKiloUrlFromToken("https://api.kilo.ai/api/openrouter/v1/", kilocodeToken),
@@ -58,8 +58,8 @@ class KiloCode extends OpenRouter {
 		signal: AbortSignal,
 		options: CompletionOptions,
 	): AsyncGenerator<ChatMessage> {
-		// Extract KiloCode metadata from options if available
-		const kilocodeOptions = options as KiloCodeCompletionOptions
+		// Extract ChadCode metadata from options if available
+		const kilocodeOptions = options as ChadCodeCompletionOptions
 		this.currentTaskId = kilocodeOptions.kilocodeTaskId
 		this.currentProjectId = kilocodeOptions.kilocodeProjectId
 
@@ -82,7 +82,7 @@ class KiloCode extends OpenRouter {
 		options: CompletionOptions,
 	): AsyncGenerator<string> {
 		// Extract metadata (same pattern as _streamChat)
-		const kilocodeOptions = options as KiloCodeCompletionOptions
+		const kilocodeOptions = options as ChadCodeCompletionOptions
 		this.currentTaskId = kilocodeOptions.kilocodeTaskId
 		this.currentProjectId = kilocodeOptions.kilocodeProjectId
 
@@ -110,7 +110,7 @@ class KiloCode extends OpenRouter {
 		}
 
 		// Extract metadata (same pattern as _streamChat)
-		const kilocodeOptions = options as KiloCodeCompletionOptions
+		const kilocodeOptions = options as ChadCodeCompletionOptions
 		this.currentTaskId = kilocodeOptions.kilocodeTaskId
 		this.currentProjectId = kilocodeOptions.kilocodeProjectId
 
@@ -125,7 +125,7 @@ class KiloCode extends OpenRouter {
 	}
 
 	/**
-	 * Override _getHeaders to inject KiloCode-specific headers
+	 * Override _getHeaders to inject ChadCode-specific headers
 	 * Delegates to FIM provider's customRequestOptions() for consistency
 	 */
 	protected override _getHeaders() {
@@ -136,7 +136,7 @@ class KiloCode extends OpenRouter {
 			[X_KILOCODE_VERSION]: Package.version,
 		}
 
-		// Delegate to FIM provider's customRequestOptions for other KiloCode headers
+		// Delegate to FIM provider's customRequestOptions for other ChadCode headers
 		// Only call if we have a taskId (required by the metadata interface)
 		if (this.fimProvider && this.currentTaskId) {
 			const customOptions = this.fimProvider.customRequestOptions({
@@ -161,4 +161,4 @@ class KiloCode extends OpenRouter {
 	}
 }
 
-export default KiloCode
+export default ChadCode

@@ -1,6 +1,6 @@
 {
-	"greeting": "Hoi, ik ben CoreThink Code!",
-	"introduction": "<strong>CoreThink Code is de toonaangevende autonome programmeeragent.</strong> Maak je klaar om te ontwerpen, coderen, debuggen en je productiviteit te verhogen als nooit tevoren. Om door te gaan, heeft CoreThink Code een API-sleutel nodig.",
+	"greeting": "Hoi, ik ben ChadCode!",
+	"introduction": "<strong>ChadCode is de toonaangevende autonome programmeeragent.</strong> Maak je klaar om te ontwerpen, coderen, debuggen en je productiviteit te verhogen als nooit tevoren. Om door te gaan, heeft ChadCode een API-sleutel nodig.",
 	"notice": "Om te beginnen heeft deze extensie een API-provider nodig.",
 	"start": "Aan de slag!",
 	"routers": {
@@ -16,7 +16,7 @@
 			"incentive": "Probeer Roo gratis uit"
 		}
 	},
-	"chooseProvider": "Om zijn magie te doen, heeft CoreThink Code een API-sleutel nodig.",
+	"chooseProvider": "Om zijn magie te doen, heeft ChadCode een API-sleutel nodig.",
 	"providerSignup": {
 		"rooCloudProvider": "Roo Code Cloud Provider",
 		"rooCloudDescription": "De eenvoudigste manier om Roo te gebruiken. Een samengestelde mix van gratis en betaalde modellen tegen lage kosten",
@@ -38,8 +38,8 @@
 	"startRouter": "We raden aan om een LLM-router te gebruiken:",
 	"startCustom": "Of je kunt je eigen API-sleutel gebruiken:",
 	"telemetry": {
-		"helpImprove": "Help CoreThink Code verbeteren",
-		"helpImproveMessage": "CoreThink Code verzamelt fout- en gebruiksgegevens om ons te helpen bugs op te lossen en de extensie te verbeteren. Deze telemetrie verzamelt geen code, prompts of persoonlijke gegevens. Je kunt dit uitschakelen in de <settingsLink>instellingen</settingsLink>."
+		"helpImprove": "Help ChadCode verbeteren",
+		"helpImproveMessage": "ChadCode verzamelt fout- en gebruiksgegevens om ons te helpen bugs op te lossen en de extensie te verbeteren. Deze telemetrie verzamelt geen code, prompts of persoonlijke gegevens. Je kunt dit uitschakelen in de <settingsLink>instellingen</settingsLink>."
 	},
 	"importSettings": "Instellingen importeren"
 }

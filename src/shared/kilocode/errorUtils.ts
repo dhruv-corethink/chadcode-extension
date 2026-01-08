@@ -3,9 +3,9 @@ export function stringifyError(error: unknown) {
 }
 
 /**
- * Error message thrown when the KiloCode token is missing or invalid.
+ * Error message thrown when the ChadCode token is missing or invalid.
  */
-export const KILOCODE_TOKEN_REQUIRED_ERROR = "KiloCode token + baseUrl is required to fetch models"
+export const KILOCODE_TOKEN_REQUIRED_ERROR = "ChadCode token + baseUrl is required to fetch models"
 
 export function isPaymentRequiredError(error: any) {
 	return !!(error && error.status === 402)
@@ -29,7 +29,7 @@ export function isModelNotAllowedForTeamError(error: any) {
 	return !!(error && error.status === 404 && (error.message?.indexOf("not allowed for your team") ?? -1) >= 0)
 }
 
-export function isAnyRecognizedKiloCodeError(error: any) {
+export function isAnyRecognizedChadCodeError(error: any) {
 	return (
 		isPaymentRequiredError(error) ||
 		isOpenRouterInvalidModelError(error) ||

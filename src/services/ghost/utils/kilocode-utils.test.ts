@@ -63,7 +63,7 @@ describe("checkKilocodeBalance", () => {
 			expect.objectContaining({
 				headers: expect.objectContaining({
 					Authorization: `Bearer ${mockToken}`,
-					"X-KiloCode-OrganizationId": mockOrgId,
+					"X-ChadCode-OrganizationId": mockOrgId,
 				}),
 			}),
 		)
@@ -82,7 +82,7 @@ describe("checkKilocodeBalance", () => {
 		const headers = (fetchCall![1] as RequestInit)?.headers as Record<string, string>
 
 		expect(headers).toHaveProperty("Authorization")
-		expect(headers).not.toHaveProperty("X-KiloCode-OrganizationId")
+		expect(headers).not.toHaveProperty("X-ChadCode-OrganizationId")
 	})
 
 	it("should return false when API request fails", async () => {

@@ -174,7 +174,7 @@ describe("CustomModesManager - Organization Modes", () => {
 					headers: expect.objectContaining({
 						Authorization: "Bearer test-token",
 						"Content-Type": "application/json",
-						"X-KiloCode-OrganizationId": "org-123",
+						"X-ChadCode-OrganizationId": "org-123",
 					}),
 				}),
 			)

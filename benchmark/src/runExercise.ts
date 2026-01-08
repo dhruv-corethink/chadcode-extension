@@ -37,13 +37,13 @@ export async function run() {
 	const api = extension.isActive ? extension.exports : await extension.activate()
 
 	/**
-	 * Wait for the CoreThink Code to be ready to accept tasks.
+	 * Wait for the ChadCode to be ready to accept tasks.
 	 */
 
 	await waitUntilReady({ api })
 
 	/**
-	 * Configure CoreThink Code as needed.
+	 * Configure ChadCode as needed.
 	 *
 	 * Use Claude 3.7 Sonnet via OpenRouter.
 	 * Don't require approval for anything.

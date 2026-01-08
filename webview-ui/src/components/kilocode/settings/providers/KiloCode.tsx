@@ -11,25 +11,25 @@ import { OrganizationSelector } from "../../common/OrganizationSelector"
 import { getAppUrl } from "@roo-code/types"
 import { useKiloIdentity } from "@src/utils/kilocode/useKiloIdentity"
 
-type KiloCodeProps = {
+type ChadCodeProps = {
 	apiConfiguration: ProviderSettings
 	setApiConfigurationField: (field: keyof ProviderSettings, value: ProviderSettings[keyof ProviderSettings]) => void
 	currentApiConfigName?: string
-	hideKiloCodeButton?: boolean
+	hideChadCodeButton?: boolean
 	routerModels?: RouterModels
 	organizationAllowList: OrganizationAllowList
 	kilocodeDefaultModel: string
 }
 
-export const KiloCode = ({
+export const ChadCode = ({
 	apiConfiguration,
 	setApiConfigurationField,
 	currentApiConfigName,
-	hideKiloCodeButton,
+	hideChadCodeButton,
 	routerModels,
 	organizationAllowList,
 	kilocodeDefaultModel,
-}: KiloCodeProps) => {
+}: ChadCodeProps) => {
 	const { t } = useAppTranslation()
 
 	const handleInputChange = useCallback(
@@ -45,7 +45,7 @@ export const KiloCode = ({
 
 	// Use the existing hook to get user identity
 	const userIdentity = useKiloIdentity(apiConfiguration.kilocodeToken || "", "")
-	const isKiloCodeAiUser = userIdentity.endsWith("@kilo.ai")
+	const isChadCodeAiUser = userIdentity.endsWith("@kilo.ai")
 
 	const areKilocodeWarningsDisabled = apiConfiguration.kilocodeTesterWarningsDisabledUntil
 		? apiConfiguration.kilocodeTesterWarningsDisabledUntil > Date.now()
@@ -61,7 +61,7 @@ export const KiloCode = ({
 			<div>
 				<label className="block font-medium -mb-2">{t("kilocode:settings.provider.account")}</label>
 			</div>
-			{!hideKiloCodeButton &&
+			{!hideChadCodeButton &&
 				(apiConfiguration.kilocodeToken ? (
 					<div>
 						<Button
@@ -115,13 +115,13 @@ export const KiloCode = ({
 				defaultModelId={kilocodeDefaultModel}
 				models={routerModels?.kilocode ?? {}}
 				modelIdKey="kilocodeModel"
-				serviceName="CoreThink Code"
+				serviceName="ChadCode"
 				serviceUrl={getAppUrl()}
 				organizationAllowList={organizationAllowList}
 			/>
 
 			{/* KILOCODE-TESTER warnings setting - only visible for @kilo.ai users */}
-			{isKiloCodeAiUser && (
+			{isChadCodeAiUser && (
 				<div className="mb-4">
 					<label className="block font-medium mb-2">Disable KILOCODE-TESTER warnings</label>
 					<div className="text-sm text-vscode-descriptionForeground mb-2">

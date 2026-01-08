@@ -137,7 +137,7 @@ import { processUserContentMentions } from "../mentions/processUserContentMentio
 import { getMessagesSinceLastSummary, summarizeConversation, getEffectiveApiHistory } from "../condense"
 import { MessageQueueService } from "../message-queue/MessageQueueService"
 
-import { isAnyRecognizedKiloCodeError, isPaymentRequiredError } from "../../shared/kilocode/errorUtils"
+import { isAnyRecognizedChadCodeError, isPaymentRequiredError } from "../../shared/kilocode/errorUtils"
 import { getAppUrl } from "@roo-code/types"
 import { mergeApiMessages, addOrMergeUserContent } from "./kilocode"
 import { AutoApprovalHandler, checkAutoApproval } from "../auto-approval"
@@ -592,7 +592,7 @@ export class Task extends EventEmitter<TaskEvents> implements TaskLike {
 
 	/**
 	 * Get global storage path for CLI mode when vscode context is not available.
-	 * Uses KiloCodePaths utility if available, otherwise falls back to home directory.
+	 * Uses ChadCodePaths utility if available, otherwise falls back to home directory.
 	 */
 	private getCliGlobalStoragePath(): string {
 		// Try to use home directory based path for CLI mode
@@ -1127,7 +1127,7 @@ export class Task extends EventEmitter<TaskEvents> implements TaskLike {
 		// simply removes the reference to this instance, but the instance is
 		// still alive until this promise resolves or rejects.)
 		if (this.abort) {
-			throw new Error(`[KiloCode#ask] task ${this.taskId}.${this.instanceId} aborted`)
+			throw new Error(`[ChadCode#ask] task ${this.taskId}.${this.instanceId} aborted`)
 		}
 
 		let askTs: number
@@ -1617,7 +1617,7 @@ export class Task extends EventEmitter<TaskEvents> implements TaskLike {
 		contextTruncation?: ContextTruncation,
 	): Promise<undefined> {
 		if (this.abort) {
-			throw new Error(`[CoreThink Code#say] task ${this.taskId}.${this.instanceId} aborted`)
+			throw new Error(`[ChadCode#say] task ${this.taskId}.${this.instanceId} aborted`)
 		}
 
 		if (partial !== undefined) {
@@ -1742,7 +1742,7 @@ export class Task extends EventEmitter<TaskEvents> implements TaskLike {
 		})()
 		await this.say(
 			"error",
-			`CoreThink Code tried to use ${toolName}${
+			`ChadCode tried to use ${toolName}${
 				relPath ? ` for '${relPath.toPosix()}'` : ""
 			} without value for required parameter '${paramName}'. ${kilocodeExtraText}Retrying...`,
 		)
@@ -2392,7 +2392,7 @@ export class Task extends EventEmitter<TaskEvents> implements TaskLike {
 
 			if (this.abort) {
 				throw new Error(
-					`[KiloCode#recursivelyMakeClineRequests] task ${this.taskId}.${this.instanceId} aborted`,
+					`[ChadCode#recursivelyMakeClineRequests] task ${this.taskId}.${this.instanceId} aborted`,
 				)
 			}
 
@@ -3285,7 +3285,7 @@ export class Task extends EventEmitter<TaskEvents> implements TaskLike {
 				// Need to call here in case the stream was aborted.
 				if (this.abort || this.abandoned) {
 					throw new Error(
-						`[KiloCode#recursivelyMakeClineRequests] task ${this.taskId}.${this.instanceId} aborted`,
+						`[ChadCode#recursivelyMakeClineRequests] task ${this.taskId}.${this.instanceId} aborted`,
 					)
 				}
 
@@ -4083,7 +4083,7 @@ export class Task extends EventEmitter<TaskEvents> implements TaskLike {
 		const cleanConversationHistory = this.buildCleanConversationHistory(messagesWithoutImages as ApiMessage[])
 
 		// kilocode_change start
-		// Fetch project properties for KiloCode provider tracking
+		// Fetch project properties for ChadCode provider tracking
 		const kiloConfig = this.providerRef.deref()?.getKiloConfig()
 		// kilocode_change end
 
@@ -4193,7 +4193,7 @@ export class Task extends EventEmitter<TaskEvents> implements TaskLike {
 		} catch (error) {
 			this.isWaitingForFirstChunk = false
 			// kilocode_change start
-			if (apiConfiguration?.apiProvider === "kilocode" && isAnyRecognizedKiloCodeError(error)) {
+			if (apiConfiguration?.apiProvider === "kilocode" && isAnyRecognizedChadCodeError(error)) {
 				const { response } = await (isPaymentRequiredError(error)
 					? this.ask(
 							"payment_required_prompt",

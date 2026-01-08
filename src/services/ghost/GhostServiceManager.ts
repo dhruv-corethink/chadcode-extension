@@ -9,7 +9,7 @@ import { GhostServiceSettings, TelemetryEventName } from "@roo-code/types"
 import { ContextProxy } from "../../core/config/ContextProxy"
 import { TelemetryService } from "@roo-code/telemetry"
 import { ClineProvider } from "../../core/webview/ClineProvider"
-import { getKiloCodeWrapperProperties } from "../../core/kilocode/wrapper"
+import { getChadCodeWrapperProperties } from "../../core/kilocode/wrapper"
 import { AutocompleteTelemetry } from "./classic-auto-complete/AutocompleteTelemetry"
 
 export class GhostServiceManager {
@@ -79,7 +79,7 @@ export class GhostServiceManager {
 		// Auto-enable autocomplete by default, but disable for JetBrains IDEs
 		// JetBrains users can manually enable it if they want to test the feature
 		if (this.settings.enableAutoTrigger == undefined) {
-			const { kiloCodeWrapperJetbrains } = getKiloCodeWrapperProperties()
+			const { kiloCodeWrapperJetbrains } = getChadCodeWrapperProperties()
 			this.settings.enableAutoTrigger = !kiloCodeWrapperJetbrains
 		}
 
@@ -284,12 +284,12 @@ export class GhostServiceManager {
 	private async updateGlobalContext() {
 		await vscode.commands.executeCommand(
 			"setContext",
-			"kilocode.ghost.enableQuickInlineTaskKeybinding",
+			"chadcode.ghost.enableQuickInlineTaskKeybinding",
 			this.settings?.enableQuickInlineTaskKeybinding || false,
 		)
 		await vscode.commands.executeCommand(
 			"setContext",
-			"kilocode.ghost.enableSmartInlineTaskKeybinding",
+			"chadcode.ghost.enableSmartInlineTaskKeybinding",
 			this.settings?.enableSmartInlineTaskKeybinding || false,
 		)
 	}

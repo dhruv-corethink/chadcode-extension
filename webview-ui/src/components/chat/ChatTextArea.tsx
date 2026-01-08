@@ -149,7 +149,7 @@ export const ChatTextArea = forwardRef<HTMLTextAreaElement, ChatTextAreaProps>(
 			filePaths,
 			openedTabs,
 			currentApiConfigName,
-			listApiConfigMeta: listApiConfigMeta_unfilteredByKiloCodeProfileType,
+			listApiConfigMeta: listApiConfigMeta_unfilteredByChadCodeProfileType,
 			customModes,
 			customModePrompts,
 			cwd,
@@ -168,14 +168,14 @@ export const ChatTextArea = forwardRef<HTMLTextAreaElement, ChatTextAreaProps>(
 		// kilocode_change start - autocomplete profile type system
 		// Filter out autocomplete profiles - only show chat profiles in the chat interface
 		const listApiConfigMeta = useMemo(() => {
-			if (!listApiConfigMeta_unfilteredByKiloCodeProfileType) {
+			if (!listApiConfigMeta_unfilteredByChadCodeProfileType) {
 				return []
 			}
-			return listApiConfigMeta_unfilteredByKiloCodeProfileType.filter((config) => {
+			return listApiConfigMeta_unfilteredByChadCodeProfileType.filter((config) => {
 				const profileType = (config as { profileType?: ProfileType }).profileType
 				return profileType !== "autocomplete"
 			})
-		}, [listApiConfigMeta_unfilteredByKiloCodeProfileType])
+		}, [listApiConfigMeta_unfilteredByChadCodeProfileType])
 		// kilocode_change end
 		// Find the ID and display text for the currently selected API configuration
 		const { currentConfigId, displayName } = useMemo(() => {

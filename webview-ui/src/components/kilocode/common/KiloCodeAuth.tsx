@@ -2,19 +2,19 @@ import React from "react"
 import { ButtonPrimary } from "./ButtonPrimary"
 import Logo from "./Logo"
 
-interface KiloCodeAuthProps {
+interface ChadCodeAuthProps {
 	onManualConfigClick?: () => void
 	onLoginClick?: () => void
 	className?: string
 }
 
 /**
- * CoreThink Extension - API Key Authentication Only
+ * ChadCode Extension - API Key Authentication Only
  *
  * This component shows a message directing users to enter their API key.
  * No OAuth or device auth flow - just API key authentication.
  */
-const KiloCodeAuth: React.FC<KiloCodeAuthProps> = ({ className = "" }) => {
+const ChadCodeAuth: React.FC<ChadCodeAuthProps> = ({ className = "" }) => {
 	const handleGoToSettings = () => {
 		window.postMessage({
 			type: "action",
@@ -26,8 +26,8 @@ const KiloCodeAuth: React.FC<KiloCodeAuthProps> = ({ className = "" }) => {
 		<div className={`flex flex-col items-center ${className}`}>
 			<Logo />
 
-			<h2 className="m-0 p-0 mb-4">Welcome to CoreThink!</h2>
-			<p className="text-center mb-2">CoreThink uses API key authentication.</p>
+			<h2 className="m-0 p-0 mb-4">Welcome to ChadCode!</h2>
+			<p className="text-center mb-2">ChadCode uses API key authentication.</p>
 			<p className="text-center mb-5">
 				Enter your API key in the settings to get started.
 				<br />
@@ -41,4 +41,4 @@ const KiloCodeAuth: React.FC<KiloCodeAuthProps> = ({ className = "" }) => {
 	)
 }
 
-export default KiloCodeAuth
+export default ChadCodeAuth

@@ -19,7 +19,7 @@ export async function checkKilocodeBalance(kilocodeToken: string, kilocodeOrgani
 		}
 
 		if (kilocodeOrganizationId) {
-			headers["X-KiloCode-OrganizationId"] = kilocodeOrganizationId
+			headers["X-ChadCode-OrganizationId"] = kilocodeOrganizationId
 		}
 
 		const response = await fetch(`${baseUrl}/api/profile/balance`, {

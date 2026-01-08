@@ -31,7 +31,7 @@ import {
 	TasksByIdResponsePayload,
 } from "./WebviewMessage"
 import { ClineRulesToggles } from "./cline-rules"
-import { KiloCodeWrapperProperties } from "./kilocode/wrapper"
+import { ChadCodeWrapperProperties } from "./kilocode/wrapper"
 import { DeploymentRecord } from "../api/providers/fetchers/sap-ai-core"
 import { STTSegment } from "./sttContract" // kilocode_change: STT segment type
 // kilocode_change end
@@ -467,7 +467,7 @@ export type ExtensionState = Pick<
 	uriScheme?: string
 	uiKind?: string // kilocode_change
 
-	kiloCodeWrapperProperties?: KiloCodeWrapperProperties // kilocode_change: Wrapper information
+	kiloCodeWrapperProperties?: ChadCodeWrapperProperties // kilocode_change: Wrapper information
 
 	kilocodeDefaultModel: string
 	shouldShowAnnouncement: boolean

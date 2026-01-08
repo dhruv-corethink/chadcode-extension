@@ -51,7 +51,7 @@
 		}
 	},
 	"commitMessage": {
-		"activated": "تم تفعيل منشئ رسائل التزام CoreThink Code",
+		"activated": "تم تفعيل منشئ رسائل التزام ChadCode",
 		"gitNotFound": "⚠️ مستودع Git غير موجود أو Git غير متاح",
 		"gitInitError": "⚠️ خطأ في تهيئة Git: {{error}}",
 		"generating": "Kilo: جارٍ إنشاء رسالة الالتزام...",
@@ -62,12 +62,12 @@
 		"analyzingChanges": "Kilo: جاري تحليل التعديلات الجاهزة...",
 		"noStagedChangesRepo": "Kilo: ما فيه تعديلات مضافة في مستودع git",
 		"noStagedChanges": "Kilo: ما فيه تعديلات مضافة لتحليلها",
-		"tokenRequired": "يتطلب توليد الرسالة رمز CoreThink Code",
+		"tokenRequired": "يتطلب توليد الرسالة رمز ChadCode",
 		"activationFailed": "Kilo: فشل تفعيل مولّد الرسائل: {{error}}",
 		"providerRegistered": "Kilo: تم تسجيل موفر رسائل الاعتماد",
 		"errors": {
 			"noProject": "لا يوجد مشروع متاح",
-			"connectionFailed": "فشل الاتصال بملحق CoreThink Code",
+			"connectionFailed": "فشل الاتصال بملحق ChadCode",
 			"invalidResponse": "تم استلام صيغة استجابة غير صالحة من الملحق",
 			"noChanges": "لا توجد تغييرات للإرسال",
 			"timeout": "انتهت مهلة الطلب بعد 30 ثانية",
@@ -106,8 +106,8 @@
 			"snoozed": "متوقف مؤقتاً",
 			"warning": "$(warning) Autocomplete",
 			"tooltip": {
-				"basic": "CoreThink Code Autocomplete",
-				"disabled": "CoreThink Code Autocomplete (معطل)",
+				"basic": "ChadCode Autocomplete",
+				"disabled": "ChadCode Autocomplete (معطل)",
 				"tokenError": "يجب تعيين رمز صالح لاستخدام الإكمال التلقائي",
 				"sessionTotal": "إجمالي تكلفة الجلسة:",
 				"provider": "المزود:",
@@ -122,36 +122,36 @@
 				"lessThanCent": "<$0.01"
 			}
 		},
-		"toggleMessage": "CoreThink Code Autocomplete {{status}}",
+		"toggleMessage": "ChadCode Autocomplete {{status}}",
 		"progress": {
-			"title": "CoreThink Code",
+			"title": "ChadCode",
 			"analyzing": "تحليل الكود الخاص بك...",
 			"generating": "إنشاء التعديلات المقترحة...",
 			"processing": "معالجة التعديلات المقترحة...",
 			"showing": "عرض التعديلات المقترحة..."
 		},
 		"input": {
-			"title": "CoreThink Code: مهمة سريعة",
+			"title": "ChadCode: مهمة سريعة",
 			"placeholder": "مثال، 'أعد هيكلة هذه الدالة لتكون أكثر كفاءة'"
 		},
 		"commands": {
-			"generateSuggestions": "CoreThink Code: إنشاء التعديلات المقترحة",
+			"generateSuggestions": "ChadCode: إنشاء التعديلات المقترحة",
 			"displaySuggestions": "عرض التعديلات المقترحة",
 			"cancelSuggestions": "إلغاء التعديلات المقترحة",
 			"applyCurrentSuggestion": "تطبيق التعديل المقترح الحالي",
 			"applyAllSuggestions": "تطبيق جميع التعديلات المقترحة",
-			"category": "CoreThink Code"
+			"category": "ChadCode"
 		},
 		"codeAction": {
-			"title": "CoreThink Code: التعديلات المقترحة"
+			"title": "ChadCode: التعديلات المقترحة"
 		},
 		"chatParticipant": {
-			"fullName": "CoreThink Code Agent",
+			"fullName": "ChadCode Agent",
 			"name": "Agent",
 			"description": "يمكنني مساعدتك في المهام السريعة والتعديلات المقترحة."
 		},
 		"incompatibilityExtensionPopup": {
-			"message": "يتم حظر CoreThink Code Autocomplete بسبب تعارض مع GitHub Copilot. لإصلاح هذا، يجب عليك تعطيل اقتراحات Copilot المضمنة.",
+			"message": "يتم حظر ChadCode Autocomplete بسبب تعارض مع GitHub Copilot. لإصلاح هذا، يجب عليك تعطيل اقتراحات Copilot المضمنة.",
 			"disableCopilot": "تعطيل Copilot",
 			"disableInlineAssist": "تعطيل الإكمال التلقائي"
 		}

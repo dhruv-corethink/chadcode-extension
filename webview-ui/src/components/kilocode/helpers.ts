@@ -1,11 +1,11 @@
-import { JETBRAIN_PRODUCTS, KiloCodeWrapperProperties } from "../../../../src/shared/kilocode/wrapper"
+import { JETBRAIN_PRODUCTS, ChadCodeWrapperProperties } from "../../../../src/shared/kilocode/wrapper"
 import { getAppUrl } from "@roo-code/types"
 
 const getJetbrainsUrlScheme = (code: string) => {
 	return JETBRAIN_PRODUCTS[code as keyof typeof JETBRAIN_PRODUCTS]?.urlScheme || "jetbrains"
 }
 
-const getKiloCodeSource = (uriScheme: string = "vscode", kiloCodeWrapperProperties?: KiloCodeWrapperProperties) => {
+const getChadCodeSource = (uriScheme: string = "vscode", kiloCodeWrapperProperties?: ChadCodeWrapperProperties) => {
 	if (
 		!kiloCodeWrapperProperties?.kiloCodeWrapped ||
 		!kiloCodeWrapperProperties.kiloCodeWrapper ||
@@ -17,20 +17,20 @@ const getKiloCodeSource = (uriScheme: string = "vscode", kiloCodeWrapperProperti
 	return `${getJetbrainsUrlScheme(kiloCodeWrapperProperties.kiloCodeWrapperCode)}`
 }
 
-export function getKiloCodeBackendSignInUrl(
+export function getChadCodeBackendSignInUrl(
 	uriScheme: string = "vscode",
 	uiKind: string = "Desktop",
-	kiloCodeWrapperProperties?: KiloCodeWrapperProperties,
+	kiloCodeWrapperProperties?: ChadCodeWrapperProperties,
 ) {
-	const source = uiKind === "Web" ? "web" : getKiloCodeSource(uriScheme, kiloCodeWrapperProperties)
+	const source = uiKind === "Web" ? "web" : getChadCodeSource(uriScheme, kiloCodeWrapperProperties)
 	return getAppUrl(`/sign-in-to-editor?source=${source}`)
 }
 
-export function getKiloCodeBackendSignUpUrl(
+export function getChadCodeBackendSignUpUrl(
 	uriScheme: string = "vscode",
 	uiKind: string = "Desktop",
-	kiloCodeWrapperProperties?: KiloCodeWrapperProperties,
+	kiloCodeWrapperProperties?: ChadCodeWrapperProperties,
 ) {
-	const source = uiKind === "Web" ? "web" : getKiloCodeSource(uriScheme, kiloCodeWrapperProperties)
+	const source = uiKind === "Web" ? "web" : getChadCodeSource(uriScheme, kiloCodeWrapperProperties)
 	return getAppUrl(`/users/sign_up?source=${source}`)
 }

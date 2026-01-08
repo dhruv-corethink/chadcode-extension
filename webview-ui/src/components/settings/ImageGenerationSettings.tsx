@@ -15,7 +15,7 @@ interface ImageGenerationSettingsProps {
 	setImageGenerationSelectedModel: (model: string) => void
 	// kilocode_change start
 	kiloCodeImageApiKey?: string
-	setKiloCodeImageApiKey: (apiKey: string) => void
+	setChadCodeImageApiKey: (apiKey: string) => void
 	currentProfileKilocodeToken?: string
 	// kilocode_change end
 }
@@ -31,7 +31,7 @@ export const ImageGenerationSettings = ({
 	setImageGenerationSelectedModel,
 	// kilocode_change start
 	kiloCodeImageApiKey,
-	setKiloCodeImageApiKey,
+	setChadCodeImageApiKey,
 	currentProfileKilocodeToken,
 	// kilocode_change end
 }: ImageGenerationSettingsProps) => {
@@ -106,7 +106,7 @@ export const ImageGenerationSettings = ({
 	}
 
 	const handleKiloApiKeyChange = (value: string) => {
-		setKiloCodeImageApiKey(value)
+		setChadCodeImageApiKey(value)
 	}
 
 	// Handle model selection changes
@@ -166,7 +166,7 @@ export const ImageGenerationSettings = ({
 								}}
 								className="w-full">
 								<VSCodeOption className="py-2 px-3" value="kilocode">
-									CoreThink Code
+									ChadCode
 								</VSCodeOption>
 								<VSCodeOption className="py-2 px-3" value="openrouter">
 									OpenRouter

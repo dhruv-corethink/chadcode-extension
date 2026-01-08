@@ -38,13 +38,13 @@ export function validateApiConfiguration(
 
 function validateModelsAndKeysProvided(apiConfiguration: ProviderSettings): string | undefined {
 	switch (apiConfiguration.apiProvider) {
-		// CoreThink Extension - validate API key
-		case "corethink":
+		// ChadCode Extension - validate API key
+		case "chadcode":
 			if (!apiConfiguration.apiKey) {
 				return i18next.t("settings:validation.apiKey")
 			}
 			if (!apiConfiguration.apiKey.startsWith("sk_")) {
-				return "CoreThink API key must start with 'sk_'"
+				return "ChadCode API key must start with 'sk_'"
 			}
 			break
 		case "openrouter":

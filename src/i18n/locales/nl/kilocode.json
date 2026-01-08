@@ -51,7 +51,7 @@
 		}
 	},
 	"commitMessage": {
-		"activated": "CoreThink Code commit bericht generator geactiveerd",
+		"activated": "ChadCode commit bericht generator geactiveerd",
 		"gitNotFound": "⚠️ Git-repository niet gevonden of git niet beschikbaar",
 		"gitInitError": "⚠️ Git-initialisatiefout: {{error}}",
 		"generating": "Kilo: Commit bericht genereren...",
@@ -64,7 +64,7 @@
 		"errors": {
 			"noProject": "Geen project beschikbaar",
 			"timeout": "Verzoek is verlopen na 30 seconden",
-			"connectionFailed": "Verbinding maken met CoreThink Code-extensie mislukt",
+			"connectionFailed": "Verbinding maken met ChadCode-extensie mislukt",
 			"invalidResponse": "Ongeldig responsformaat ontvangen van extensie",
 			"missingMessage": "Geen commit-bericht ontvangen van extensie",
 			"noChanges": "Geen wijzigingen gevonden om te committen",
@@ -89,7 +89,7 @@
 			"title": "Commit-bericht genereren",
 			"analyzing": "Wijzigingen analyseren...",
 			"generating": "Commit-bericht genereren...",
-			"connecting": "Verbinding maken met CoreThink Code..."
+			"connecting": "Verbinding maken met ChadCode..."
 		},
 		"ui": {
 			"generateButton": "Commit Bericht Genereren",
@@ -102,8 +102,8 @@
 			"snoozed": "gepauzeerd",
 			"warning": "$(warning) Autocomplete",
 			"tooltip": {
-				"basic": "CoreThink Code Autocomplete",
-				"disabled": "CoreThink Code Autocomplete (uitgeschakeld)",
+				"basic": "ChadCode Autocomplete",
+				"disabled": "ChadCode Autocomplete (uitgeschakeld)",
 				"tokenError": "Een geldig token moet worden ingesteld om Autocomplete te gebruiken",
 				"sessionTotal": "Totale sessiekosten:",
 				"provider": "Provider:",
@@ -118,36 +118,36 @@
 				"lessThanCent": "<$0.01"
 			}
 		},
-		"toggleMessage": "CoreThink Code Autocomplete {{status}}",
+		"toggleMessage": "ChadCode Autocomplete {{status}}",
 		"progress": {
-			"title": "CoreThink Code",
+			"title": "ChadCode",
 			"analyzing": "Je code analyseren...",
 			"generating": "Voorgestelde bewerkingen genereren...",
 			"processing": "Voorgestelde bewerkingen verwerken...",
 			"showing": "Voorgestelde bewerkingen tonen..."
 		},
 		"input": {
-			"title": "CoreThink Code: Snelle Taak",
+			"title": "ChadCode: Snelle Taak",
 			"placeholder": "bijv., 'refactor deze functie om efficiënter te zijn'"
 		},
 		"commands": {
-			"generateSuggestions": "CoreThink Code: Voorgestelde Bewerkingen Genereren",
+			"generateSuggestions": "ChadCode: Voorgestelde Bewerkingen Genereren",
 			"displaySuggestions": "Voorgestelde Bewerkingen Tonen",
 			"cancelSuggestions": "Voorgestelde Bewerkingen Annuleren",
 			"applyCurrentSuggestion": "Huidige Voorgestelde Bewerking Toepassen",
 			"applyAllSuggestions": "Alle Voorgestelde Bewerkingen Toepassen",
-			"category": "CoreThink Code"
+			"category": "ChadCode"
 		},
 		"codeAction": {
-			"title": "CoreThink Code: Voorgestelde Bewerkingen"
+			"title": "ChadCode: Voorgestelde Bewerkingen"
 		},
 		"chatParticipant": {
-			"fullName": "CoreThink Code Agent",
+			"fullName": "ChadCode Agent",
 			"name": "Agent",
 			"description": "Ik kan je helpen met snelle taken en voorgestelde bewerkingen."
 		},
 		"incompatibilityExtensionPopup": {
-			"message": "De CoreThink Code Autocomplete wordt geblokkeerd door een conflict met GitHub Copilot. Om dit op te lossen, moet je Copilot's inline suggesties uitschakelen.",
+			"message": "De ChadCode Autocomplete wordt geblokkeerd door een conflict met GitHub Copilot. Om dit op te lossen, moet je Copilot's inline suggesties uitschakelen.",
 			"disableCopilot": "Copilot Uitschakelen",
 			"disableInlineAssist": "Autocomplete Uitschakelen"
 		}

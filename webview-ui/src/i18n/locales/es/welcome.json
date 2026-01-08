@@ -1,6 +1,6 @@
 {
-	"greeting": "¡Hola, soy CoreThink Code!",
-	"introduction": "<strong>CoreThink Code es el principal agente de codificación autónomo.</strong> Prepárate para arquitectar, codificar, depurar y aumentar tu productividad como nunca antes. Para continuar, CoreThink Code requiere una clave API.",
+	"greeting": "¡Hola, soy ChadCode!",
+	"introduction": "<strong>ChadCode es el principal agente de codificación autónomo.</strong> Prepárate para arquitectar, codificar, depurar y aumentar tu productividad como nunca antes. Para continuar, ChadCode requiere una clave API.",
 	"notice": "Para comenzar, esta extensión necesita un proveedor de API.",
 	"start": "¡Vamos!",
 	"routers": {
@@ -16,7 +16,7 @@
 			"incentive": "Prueba Roo gratis"
 		}
 	},
-	"chooseProvider": "Para hacer su magia, CoreThink Code necesita una clave API.",
+	"chooseProvider": "Para hacer su magia, ChadCode necesita una clave API.",
 	"providerSignup": {
 		"rooCloudProvider": "Proveedor Roo Code Cloud",
 		"rooCloudDescription": "La forma más sencilla de usar Roo. Una mezcla seleccionada de modelos gratuitos y de pago a bajo costo",
@@ -38,8 +38,8 @@
 	"startRouter": "Recomendamos usar un router LLM:",
 	"startCustom": "O puedes traer tu propia clave API:",
 	"telemetry": {
-		"helpImprove": "Ayuda a mejorar CoreThink Code",
-		"helpImproveMessage": "CoreThink Code recopila datos de errores y uso para ayudarnos a corregir errores y mejorar la extensión. Esta telemetría no recopila código, prompts o información personal. Puedes desactivar esto en la <settingsLink>configuración</settingsLink>."
+		"helpImprove": "Ayuda a mejorar ChadCode",
+		"helpImproveMessage": "ChadCode recopila datos de errores y uso para ayudarnos a corregir errores y mejorar la extensión. Esta telemetría no recopila código, prompts o información personal. Puedes desactivar esto en la <settingsLink>configuración</settingsLink>."
 	},
 	"importSettings": "Importar configuración"
 }

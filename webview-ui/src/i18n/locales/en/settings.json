@@ -36,7 +36,7 @@
 		"ui": "UI",
 		"experimental": "Experimental",
 		"language": "Language",
-		"about": "About CoreThink Code",
+		"about": "About ChadCode",
 		"autoPurge": "Auto-Cleanup"
 	},
 	"about": {
@@ -55,7 +55,7 @@
 		"contact": {
 			"label": "Need to talk to us? Write"
 		},
-		"community": "Want tips or to just hang out with other CoreThink Code users? Join <redditLink>reddit.com/r/kilocode</redditLink> or <discordLink>kilo.ai/discord</discordLink>",
+		"community": "Want tips or to just hang out with other ChadCode users? Join <redditLink>reddit.com/r/chadcode</redditLink> or <discordLink>chadcode.ai/discord</discordLink>",
 		"contactAndCommunity": "Contact & Community",
 		"manageSettings": "Manage Settings"
 	},
@@ -73,7 +73,7 @@
 		}
 	},
 	"prompts": {
-		"description": "Configure support prompts that are used for quick actions like enhancing prompts, explaining code, and fixing issues. These prompts help CoreThink Code provide better assistance for common development tasks."
+		"description": "Configure support prompts that are used for quick actions like enhancing prompts, explaining code, and fixing issues. These prompts help ChadCode provide better assistance for common development tasks."
 	},
 	"codeIndex": {
 		"title": "Codebase Indexing",
@@ -195,10 +195,10 @@
 		"enabled": "Auto-Approve Enabled",
 		"readOnly": {
 			"label": "Read",
-			"description": "When enabled, CoreThink Code will automatically view directory contents and read files without requiring you to click the Approve button.",
+			"description": "When enabled, ChadCode will automatically view directory contents and read files without requiring you to click the Approve button.",
 			"outsideWorkspace": {
 				"label": "Include files outside workspace",
-				"description": "Allow CoreThink Code to read files outside the current workspace without requiring approval."
+				"description": "Allow ChadCode to read files outside the current workspace without requiring approval."
 			}
 		},
 		"write": {
@@ -207,11 +207,11 @@
 			"delayLabel": "Delay after writes to allow diagnostics to detect potential problems",
 			"outsideWorkspace": {
 				"label": "Include files outside workspace",
-				"description": "Allow CoreThink Code to create and edit files outside the current workspace without requiring approval."
+				"description": "Allow ChadCode to create and edit files outside the current workspace without requiring approval."
 			},
 			"protected": {
 				"label": "Include protected files",
-				"description": "Allow CoreThink Code to create and edit protected files (like .kilocodeignore and .kilocode/ configuration files) without requiring approval."
+				"description": "Allow ChadCode to create and edit protected files (like .kilocodeignore and .kilocode/ configuration files) without requiring approval."
 			}
 		},
 		"delete": {
@@ -501,7 +501,7 @@
 			"draftModelDesc": "Draft model must be from the same model family for speculative decoding to work correctly.",
 			"selectDraftModel": "Select Draft Model",
 			"noModelsFound": "No draft models found. Please ensure LM Studio is running with Server Mode enabled.",
-			"description": "LM Studio allows you to run models locally on your computer. For instructions on how to get started, see their <a>quickstart guide</a>. You will also need to start LM Studio's <b>local server</b> feature to use it with this extension. <span>Note:</span> CoreThink Code uses complex prompts and works best with Claude models. Less capable models may not work as expected."
+			"description": "LM Studio allows you to run models locally on your computer. For instructions on how to get started, see their <a>quickstart guide</a>. You will also need to start LM Studio's <b>local server</b> feature to use it with this extension. <span>Note:</span> ChadCode uses complex prompts and works best with Claude models. Less capable models may not work as expected."
 		},
 		"ollama": {
 			"baseUrl": "Base URL (optional)",
@@ -512,7 +512,7 @@
 			"numCtx": "Context Window Size (num_ctx)",
 			"numCtxHelp": "Override the model's default context window size. Leave empty to use the model's Modelfile configuration. Minimum value is 128.",
 			"description": "Ollama allows you to run models locally on your computer. For instructions on how to get started, see their quickstart guide.",
-			"warning": "Note: CoreThink Code uses complex prompts and works best with Claude models. Less capable models may not work as expected."
+			"warning": "Note: ChadCode uses complex prompts and works best with Claude models. Less capable models may not work as expected."
 		},
 		"unboundApiKey": "Unbound API Key",
 		"getUnboundApiKey": "Get Unbound API Key",
@@ -534,7 +534,7 @@
 			}
 		},
 		"customModel": {
-			"capabilities": "Configure the capabilities and pricing for your custom OpenAI-compatible model. Be careful when specifying the model capabilities, as they can affect how CoreThink Code performs.",
+			"capabilities": "Configure the capabilities and pricing for your custom OpenAI-compatible model. Be careful when specifying the model capabilities, as they can affect how ChadCode performs.",
 			"maxTokens": {
 				"label": "Max Output Tokens",
 				"description": "Maximum number of tokens the model can generate in a response. (Specify -1 to allow the server to set the max tokens.)"
@@ -585,7 +585,7 @@
 		},
 		"consecutiveMistakeLimit": {
 			"label": "Error & Repetition Limit",
-			"description": "Number of consecutive errors or repeated actions before showing 'Kilo is having trouble' dialog. Set to 0 to disable this safety mechanism (it will never trigger).",
+			"description": "Number of consecutive errors or repeated actions before showing 'Chad is having trouble' dialog. Set to 0 to disable this safety mechanism (it will never trigger).",
 			"unlimitedDescription": "Unlimited retries enabled (auto-proceed). The dialog will never appear.",
 			"warning": "⚠️ Setting to 0 allows unlimited retries which may consume significant API usage"
 		},
@@ -639,7 +639,7 @@
 	"browser": {
 		"enable": {
 			"label": "Enable browser tool",
-			"description": "When enabled, CoreThink Code can use a browser to interact with websites when using models that support computer use. <0>Learn more</0>"
+			"description": "When enabled, ChadCode can use a browser to interact with websites when using models that support computer use. <0>Learn more</0>"
 		},
 		"viewport": {
 			"label": "Viewport size",
@@ -671,7 +671,7 @@
 		},
 		"enable": {
 			"label": "Enable automatic checkpoints",
-			"description": "When enabled, CoreThink Code will automatically create checkpoints during task execution, making it easy to review changes or revert to earlier states. <0>Learn more</0>"
+			"description": "When enabled, ChadCode will automatically create checkpoints during task execution, making it easy to review changes or revert to earlier states. <0>Learn more</0>"
 		}
 	},
 	"autoPurge": {
@@ -735,12 +735,12 @@
 	"notifications": {
 		"sound": {
 			"label": "Enable sound effects",
-			"description": "When enabled, CoreThink Code will play sound effects for notifications and events.",
+			"description": "When enabled, ChadCode will play sound effects for notifications and events.",
 			"volumeLabel": "Volume"
 		},
 		"tts": {
 			"label": "Enable text-to-speech",
-			"description": "When enabled, CoreThink Code will read aloud its responses using text-to-speech.",
+			"description": "When enabled, ChadCode will read aloud its responses using text-to-speech.",
 			"speedLabel": "Speed"
 		}
 	},
@@ -748,7 +748,7 @@
 		"description": "Control what information is included in the AI's context window, affecting token usage and response quality",
 		"autoCondenseContextPercent": {
 			"label": "Threshold to trigger intelligent context condensing",
-			"description": "When the context window reaches this threshold, CoreThink Code will automatically condense it."
+			"description": "When the context window reaches this threshold, ChadCode will automatically condense it."
 		},
 		"condensingApiConfiguration": {
 			"label": "API Configuration for Context Condensing",
@@ -764,7 +764,7 @@
 		},
 		"autoCondenseContext": {
 			"name": "Automatically trigger intelligent context condensing",
-			"description": "When enabled, CoreThink Code will automatically condense the context when the threshold is reached. When disabled, you can still manually trigger context condensing."
+			"description": "When enabled, ChadCode will automatically condense the context when the threshold is reached. When disabled, you can still manually trigger context condensing."
 		},
 		"openTabs": {
 			"label": "Open tabs context limit",
@@ -784,7 +784,7 @@
 		},
 		"maxReadFile": {
 			"label": "File read auto-truncate threshold",
-			"description": "CoreThink Code reads this number of lines when the model omits start/end values. If this number is less than the file's total, CoreThink Code generates a line number index of code definitions. Special cases: -1 instructs CoreThink Code to read the entire file (without indexing), and 0 instructs it to read no lines and provides line indexes only for minimal context. Lower values minimize initial context usage, enabling precise subsequent line-range reads. Explicit start/end requests are not limited by this setting.",
+			"description": "ChadCode reads this number of lines when the model omits start/end values. If this number is less than the file's total, ChadCode generates a line number index of code definitions. Special cases: -1 instructs ChadCode to read the entire file (without indexing), and 0 instructs it to read no lines and provides line indexes only for minimal context. Lower values minimize initial context usage, enabling precise subsequent line-range reads. Explicit start/end requests are not limited by this setting.",
 			"lines": "lines",
 			"always_full_read": "Always read entire file"
 		},
@@ -847,11 +847,11 @@
 		},
 		"outputLineLimit": {
 			"label": "Terminal output limit",
-			"description": "Keeps the first and last lines and drops the middle to stay under the limit. Lower to save tokens; raise to give Kilo more middle detail. Kilo sees a placeholder where the content is skipped.<0>Learn more</0>"
+			"description": "Keeps the first and last lines and drops the middle to stay under the limit. Lower to save tokens; raise to give Chad more middle detail. Kilo sees a placeholder where the content is skipped.<0>Learn more</0>"
 		},
 		"outputCharacterLimit": {
 			"label": "Terminal character limit",
-			"description": "Overrides the line limit to prevent memory issues by enforcing a hard cap on output size. If exceeded, keeps the beginning and end and shows a placeholder to Kilo where content is skipped. <0>Learn more</0>"
+			"description": "Overrides the line limit to prevent memory issues by enforcing a hard cap on output size. If exceeded, keeps the beginning and end and shows a placeholder to Chad where content is skipped. <0>Learn more</0>"
 		},
 		"shellIntegrationTimeout": {
 			"label": "Terminal shell integration timeout",
@@ -859,7 +859,7 @@
 		},
 		"shellIntegrationDisabled": {
 			"label": "Use Inline Terminal (recommended)",
-			"description": "Run commands in the Inline Terminal (chat) to bypass shell profiles/integration for faster, more reliable runs. When disabled Kilo uses the VS Code terminal with your shell profile, prompts, and plugins. <0>Learn more</0>"
+			"description": "Run commands in the Inline Terminal (chat) to bypass shell profiles/integration for faster, more reliable runs. When disabled Chad uses the VS Code terminal with your shell profile, prompts, and plugins. <0>Learn more</0>"
 		},
 		"commandDelay": {
 			"label": "Terminal command delay",
@@ -899,7 +899,7 @@
 	},
 	"toolProtocol": {
 		"label": "Tool Call Protocol",
-		"description": "Choose how CoreThink Code communicates with the API. Native uses the provider's function calling API, while XML uses XML-formatted tool definitions.",
+		"description": "Choose how ChadCode communicates with the API. Native uses the provider's function calling API, while XML uses XML-formatted tool definitions.",
 		"default": "Default",
 		"xml": "XML",
 		"native": "Native",
@@ -908,7 +908,7 @@
 	"advanced": {
 		"diff": {
 			"label": "Enable editing through diffs",
-			"description": "When enabled, CoreThink Code will be able to edit files more quickly and will automatically reject truncated full-file writes",
+			"description": "When enabled, ChadCode will be able to edit files more quickly and will automatically reject truncated full-file writes",
 			"strategy": {
 				"label": "Diff strategy",
 				"options": {
@@ -929,7 +929,7 @@
 		},
 		"todoList": {
 			"label": "Enable todo list tool",
-			"description": "When enabled, CoreThink Code can create and manage todo lists to track task progress. This helps organize complex tasks into manageable steps."
+			"description": "When enabled, ChadCode can create and manage todo lists to track task progress. This helps organize complex tasks into manageable steps."
 		}
 	},
 	"experimental": {
@@ -939,19 +939,19 @@
 		},
 		"INSERT_BLOCK": {
 			"name": "Use experimental insert content tool",
-			"description": "Enable the experimental insert content tool, allowing CoreThink Code to insert content at specific line numbers without needing to create a diff."
+			"description": "Enable the experimental insert content tool, allowing ChadCode to insert content at specific line numbers without needing to create a diff."
 		},
 		"POWER_STEERING": {
 			"name": "Use experimental \"power steering\" mode",
-			"description": "When enabled, CoreThink Code will remind the model about the details of its current mode definition more frequently. This will lead to stronger adherence to role definitions and custom instructions, but will use more tokens per message."
+			"description": "When enabled, ChadCode will remind the model about the details of its current mode definition more frequently. This will lead to stronger adherence to role definitions and custom instructions, but will use more tokens per message."
 		},
 		"CONCURRENT_FILE_READS": {
 			"name": "Enable concurrent file reads",
-			"description": "When enabled, CoreThink Code can read multiple files in a single request. When disabled, CoreThink Code must read files one at a time. Disabling this can help when working with less capable models or when you want more control over file access."
+			"description": "When enabled, ChadCode can read multiple files in a single request. When disabled, ChadCode must read files one at a time. Disabling this can help when working with less capable models or when you want more control over file access."
 		},
 		"MULTI_SEARCH_AND_REPLACE": {
 			"name": "Use experimental multi block diff tool",
-			"description": "When enabled, CoreThink Code will use multi block diff tool. This will try to update multiple code blocks in the file in one request."
+			"description": "When enabled, ChadCode will use multi block diff tool. This will try to update multiple code blocks in the file in one request."
 		},
 		"MARKETPLACE": {
 			"name": "Enable Marketplace",
@@ -959,15 +959,15 @@
 		},
 		"MULTI_FILE_APPLY_DIFF": {
 			"name": "Enable concurrent file edits",
-			"description": "When enabled, CoreThink Code can edit multiple files in a single request. When disabled, CoreThink Code must edit files one at a time. Disabling this can help when working with less capable models or when you want more control over file modifications."
+			"description": "When enabled, ChadCode can edit multiple files in a single request. When disabled, ChadCode must edit files one at a time. Disabling this can help when working with less capable models or when you want more control over file modifications."
 		},
 		"SPEECH_TO_TEXT": {
 			"name": "Speech-to-Text (STT)",
-			"description": "When enabled, CoreThink Code can transcribe your voice into text using OpenAI's Whisper model. Click the microphone button in the chat to start recording. Requires FFmpeg to be installed and a configured OpenAI API provider."
+			"description": "When enabled, ChadCode can transcribe your voice into text using OpenAI's Whisper model. Click the microphone button in the chat to start recording. Requires FFmpeg to be installed and a configured OpenAI API provider."
 		},
 		"MORPH_FAST_APPLY": {
 			"name": "Enable Fast Apply",
-			"description": "When enabled, CoreThink Code can edit files using Fast Apply with specialized models optimized for code modifications. Requires the Kilo Gateway Provider, OpenRouter, or a Morph API key.",
+			"description": "When enabled, ChadCode can edit files using Fast Apply with specialized models optimized for code modifications. Requires the Chad Gateway Provider, OpenRouter, or a Morph API key.",
 			"apiProvider": "API Provider",
 			"apiProviderList": {
 				"current": "Current"
@@ -985,7 +985,7 @@
 		},
 		"PREVENT_FOCUS_DISRUPTION": {
 			"name": "Background editing",
-			"description": "Prevent editor focus disruption when enabled. File edits happen in the background without opening diff views or stealing focus. You can continue working uninterrupted while CoreThink Code makes changes. Files can be opened without focus to capture diagnostics or kept closed entirely."
+			"description": "Prevent editor focus disruption when enabled. File edits happen in the background without opening diff views or stealing focus. You can continue working uninterrupted while ChadCode makes changes. Files can be opened without focus to capture diagnostics or kept closed entirely."
 		},
 		"ASSISTANT_MESSAGE_PARSER": {
 			"name": "Use new message parser",
@@ -997,15 +997,15 @@
 		},
 		"IMAGE_GENERATION": {
 			"name": "Enable AI image generation",
-			"description": "When enabled, CoreThink Code can generate images from text prompts. Requires a CoreThink Code or OpenRouter API key to be configured.",
+			"description": "When enabled, ChadCode can generate images from text prompts. Requires a ChadCode or OpenRouter API key to be configured.",
 			"apiProvider": "API Provider",
 			"providerLabel": "Provider",
 			"providerDescription": "Select which provider to use for image generation.",
 			"openRouterApiKeyLabel": "OpenRouter API Key",
 			"openRouterApiKeyPlaceholder": "Enter your OpenRouter API key",
-			"kiloCodeApiKeyLabel": "CoreThink Code API Key",
-			"kiloCodeApiKeyPlaceholder": "Enter your CoreThink Code API key",
-			"kiloCodeApiKeyPaste": "Paste current CoreThink Code API Key",
+			"kiloCodeApiKeyLabel": "ChadCode API Key",
+			"kiloCodeApiKeyPlaceholder": "Enter your ChadCode API key",
+			"kiloCodeApiKeyPaste": "Paste current ChadCode API Key",
 			"getApiKeyText": "Get your API key from",
 			"modelSelectionLabel": "Image Generation Model",
 			"modelSelectionDescription": "Select the model to use for image generation",
@@ -1014,7 +1014,7 @@
 		},
 		"RUN_SLASH_COMMAND": {
 			"name": "Enable model-initiated slash commands",
-			"description": "When enabled, CoreThink Code can run your slash commands to execute workflows."
+			"description": "When enabled, ChadCode can run your slash commands to execute workflows."
 		},
 		"MULTIPLE_NATIVE_TOOL_CALLS": {
 			"name": "Parallel tool calls",
@@ -1023,7 +1023,7 @@
 	},
 	"promptCaching": {
 		"label": "Disable prompt caching",
-		"description": "When checked, CoreThink Code will not use prompt caching for this model."
+		"description": "When checked, ChadCode will not use prompt caching for this model."
 	},
 	"temperature": {
 		"useCustom": "Use custom temperature",
@@ -1053,7 +1053,7 @@
 		}
 	},
 	"modelPicker": {
-		"automaticFetch": "The extension automatically fetches the latest list of models available on <serviceLink>{{serviceName}}</serviceLink>. If you're unsure which model to choose, CoreThink Code works best with <defaultModelLink>{{defaultModelId}}</defaultModelLink>.",
+		"automaticFetch": "The extension automatically fetches the latest list of models available on <serviceLink>{{serviceName}}</serviceLink>. If you're unsure which model to choose, ChadCode works best with <defaultModelLink>{{defaultModelId}}</defaultModelLink>.",
 		"label": "Model",
 		"searchPlaceholder": "Search",
 		"noMatchFound": "No match found",
@@ -1061,11 +1061,11 @@
 		"simplifiedExplanation": "You can adjust detailed model settings later."
 	},
 	"footer": {
-		"feedback": "If you have any questions or feedback, feel free to open an issue at <githubLink>github.com/Kilo-Org/kilocode</githubLink> or join <redditLink>reddit.com/r/kilocode</redditLink> or <discordLink>kilo.ai/discord</discordLink>.",
+		"feedback": "If you have any questions or feedback, feel free to open an issue at <githubLink>github.com/ChadCode/chadcode</githubLink> or join <redditLink>reddit.com/r/chadcode</redditLink> or <discordLink>chadcode.ai/discord</discordLink>.",
 		"support": "For financial questions, please contact Customer Support at <supportLink>https://kilo.ai/support</supportLink>",
 		"telemetry": {
 			"label": "Allow error and usage reporting",
-			"description": "Help improve CoreThink Code by sending usage data and error reports. No code, prompts, or personal information is ever sent. See our privacy policy for more details."
+			"description": "Help improve ChadCode by sending usage data and error reports. No code, prompts, or personal information is ever sent. See our privacy policy for more details."
 		},
 		"settings": {
 			"import": "Import",

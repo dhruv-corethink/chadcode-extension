@@ -32,7 +32,7 @@ export const kiloCodeMetaDataSchema = z.object({
 	commitRange: commitRangeSchema.optional(),
 })
 
-export type KiloCodeMetaData = z.infer<typeof kiloCodeMetaDataSchema>
+export type ChadCodeMetaData = z.infer<typeof kiloCodeMetaDataSchema>
 
 export const fastApplyModelSchema = z.enum([
 	"auto",
@@ -47,13 +47,13 @@ export const fastApplyApiProviderSchema = z.enum(["current", "morph", "kilocode"
 
 export type FastApplyApiProvider = z.infer<typeof fastApplyApiProviderSchema>
 
-export const DEFAULT_KILOCODE_BACKEND_URL = "https://corethink.ai"
+export const DEFAULT_KILOCODE_BACKEND_URL = "https://chadcode.ai"
 
 export function getKiloBaseUriFromToken(kilocodeToken?: string) {
 	if (kilocodeToken) {
 		try {
 			const payload_string = kilocodeToken.split(".")[1]
-			if (!payload_string) return "https://api.corethink.ai"
+			if (!payload_string) return "https://api.chadcode.ai"
 
 			const payload_json =
 				typeof atob !== "undefined" ? atob(payload_string) : Buffer.from(payload_string, "base64").toString()
@@ -70,10 +70,10 @@ export function getKiloBaseUriFromToken(kilocodeToken?: string) {
 				return "http://localhost:3000"
 			}
 		} catch (_error) {
-			console.warn("Failed to get base URL from CoreThink token")
+			console.warn("Failed to get base URL from ChadCode token")
 		}
 	}
-	return "https://api.corethink.ai"
+	return "https://api.chadcode.ai"
 }
 
 /**
@@ -82,8 +82,8 @@ export function getKiloBaseUriFromToken(kilocodeToken?: string) {
  * then constructs the final URL by replacing the domain in the target URL.
  *
  * @param targetUrl The target URL to transform
- * @param kilocodeToken The KiloCode authentication token
- * @returns Fully constructed KiloCode URL with proper backend mapping based on token
+ * @param kilocodeToken The ChadCode authentication token
+ * @returns Fully constructed ChadCode URL with proper backend mapping based on token
  */
 export function getKiloUrlFromToken(targetUrl: string, kilocodeToken?: string): string {
 	const baseUrl = getKiloBaseUriFromToken(kilocodeToken)
@@ -127,7 +127,7 @@ export function getApiUrl(path: string = ""): string {
 	}
 
 	// In production, use the api subdomain
-	return new URL(path, "https://api.corethink.ai").toString()
+	return new URL(path, "https://api.chadcode.ai").toString()
 }
 
 /**
@@ -141,10 +141,10 @@ export function getExtensionConfigUrl(): string {
 		if (backend !== DEFAULT_KILOCODE_BACKEND_URL) {
 			return getAppUrl("/extension-config.json")
 		} else {
-			return "https://api.corethink.ai/extension-config.json"
+			return "https://api.chadcode.ai/extension-config.json"
 		}
 	} catch (error) {
 		console.warn("Failed to build extension config URL:", error)
-		return "https://api.corethink.ai/extension-config.json"
+		return "https://api.chadcode.ai/extension-config.json"
 	}
 }

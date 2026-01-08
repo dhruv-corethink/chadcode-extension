@@ -54,7 +54,7 @@ describe("showSystemNotification", () => {
 				message: "Test Message",
 			})
 
-			const expectedIconPath = path.join(__dirname, "..", "..", "..", "assets", "icons", "corethink.png")
+			const expectedIconPath = path.join(__dirname, "..", "..", "..", "assets", "icons", "chadcode.png")
 			expect(mockedExeca).toHaveBeenCalledWith("terminal-notifier", [
 				"-message",
 				"Test Message",
@@ -82,7 +82,7 @@ describe("showSystemNotification", () => {
 				message: "Test Message",
 			})
 
-			const expectedIconPath = path.join(__dirname, "..", "..", "..", "assets", "icons", "corethink.png")
+			const expectedIconPath = path.join(__dirname, "..", "..", "..", "assets", "icons", "chadcode.png")
 			expect(mockedExeca).toHaveBeenCalledTimes(2)
 			expect(mockedExeca).toHaveBeenNthCalledWith(1, "terminal-notifier", [
 				"-message",
@@ -109,12 +109,12 @@ describe("showSystemNotification", () => {
 				message: "Test Message",
 			})
 
-			const expectedIconPath = path.join(__dirname, "..", "..", "..", "assets", "icons", "corethink.png")
+			const expectedIconPath = path.join(__dirname, "..", "..", "..", "assets", "icons", "chadcode.png")
 			expect(mockedExeca).toHaveBeenCalledWith("terminal-notifier", [
 				"-message",
 				"Test Message",
 				"-title",
-				"CoreThink Code",
+				"ChadCode",
 				"-sound",
 				"Tink",
 				"-appIcon",
@@ -130,7 +130,7 @@ describe("showSystemNotification", () => {
 				message: "Test Message",
 			})
 
-			const expectedIconPath = path.join(__dirname, "..", "..", "..", "assets", "icons", "corethink.png")
+			const expectedIconPath = path.join(__dirname, "..", "..", "..", "assets", "icons", "chadcode.png")
 			expect(mockedExeca).toHaveBeenCalledWith("terminal-notifier", [
 				"-message",
 				"Test Message",
@@ -152,7 +152,7 @@ describe("showSystemNotification", () => {
 				message: 'Message with "quotes"',
 			})
 
-			const expectedIconPath = path.join(__dirname, "..", "..", "..", "assets", "icons", "corethink.png")
+			const expectedIconPath = path.join(__dirname, "..", "..", "..", "assets", "icons", "chadcode.png")
 			expect(mockedExeca).toHaveBeenCalledWith("terminal-notifier", [
 				"-message",
 				'Message with \\"quotes\\"',
@@ -269,12 +269,12 @@ describe("showSystemNotification", () => {
 				message: "Test Message",
 			})
 
-			const expectedIconPath = path.join(__dirname, "..", "..", "..", "assets", "icons", "corethink.png")
+			const expectedIconPath = path.join(__dirname, "..", "..", "..", "assets", "icons", "chadcode.png")
 			expect(mockedExeca).toHaveBeenCalledWith("terminal-notifier", [
 				"-message",
 				"Test Message",
 				"-title",
-				"CoreThink Code",
+				"ChadCode",
 				"-sound",
 				"Tink",
 				"-appIcon",

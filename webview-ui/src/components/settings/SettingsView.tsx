@@ -475,7 +475,7 @@ const SettingsView = forwardRef<SettingsViewRef, SettingsViewProps>((props, ref)
 		})
 	}, [])
 
-	const setKiloCodeImageApiKey = useCallback((apiKey: string) => {
+	const setChadCodeImageApiKey = useCallback((apiKey: string) => {
 		setCachedState((prevState) => {
 			setChangeDetected(true)
 			return { ...prevState, kiloCodeImageApiKey: apiKey }
@@ -1204,7 +1204,7 @@ const SettingsView = forwardRef<SettingsViewRef, SettingsViewProps>((props, ref)
 							}
 							setImageGenerationProvider={setImageGenerationProvider}
 							setOpenRouterImageApiKey={setOpenRouterImageApiKey}
-							setKiloCodeImageApiKey={setKiloCodeImageApiKey}
+							setChadCodeImageApiKey={setChadCodeImageApiKey}
 							setImageGenerationSelectedModel={setImageGenerationSelectedModel}
 							currentProfileKilocodeToken={apiConfiguration.kilocodeToken}
 						/>

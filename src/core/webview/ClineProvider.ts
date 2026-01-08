@@ -112,7 +112,7 @@ import { OpenRouterHandler } from "../../api/providers"
 import { stringifyError } from "../../shared/kilocode/errorUtils"
 import isWsl from "is-wsl"
 import { getKilocodeDefaultModel } from "../../api/providers/kilocode/getKilocodeDefaultModel"
-import { getKiloCodeWrapperProperties } from "../../core/kilocode/wrapper"
+import { getChadCodeWrapperProperties } from "../../core/kilocode/wrapper"
 import { getKilocodeConfig, KilocodeConfig } from "../../utils/kilo-config-file"
 import { resolveToolProtocol } from "../../utils/resolveToolProtocol"
 import { kilo_execIfExtension } from "../../shared/kilocode/cli-sessions/extension/session-manager-utils"
@@ -1275,7 +1275,7 @@ ${prompt}
 						window.MATERIAL_ICONS_BASE_URI = "${materialIconsUri}"
 						window.KILOCODE_BACKEND_BASE_URL = "${process.env.KILOCODE_BACKEND_BASE_URL ?? ""}"
 					</script>
-					<title>CoreThink Code</title>
+					<title>ChadCode</title>
 				</head>
 				<body>
 					<div id="root"></div>
@@ -1357,7 +1357,7 @@ ${prompt}
 				window.MATERIAL_ICONS_BASE_URI = "${materialIconsUri}"
 				window.KILOCODE_BACKEND_BASE_URL = "${process.env.KILOCODE_BACKEND_BASE_URL ?? ""}"
 			</script>
-            <title>CoreThink Code</title>
+            <title>ChadCode</title>
           </head>
           <body>
             <noscript>You need to enable JavaScript to run this app.</noscript>
@@ -1767,7 +1767,7 @@ ${prompt}
 	}
 
 	// kilocode_change start
-	async handleKiloCodeCallback(token: string) {
+	async handleChadCodeCallback(token: string) {
 		const kilocode: ProviderName = "kilocode"
 		let { apiConfiguration, currentApiConfigName = "default" } = await this.getState()
 
@@ -1777,7 +1777,7 @@ ${prompt}
 			kilocodeToken: token,
 		})
 
-		vscode.window.showInformationMessage("CoreThink Code successfully configured!")
+		vscode.window.showInformationMessage("ChadCode successfully configured!")
 
 		if (this.getCurrentTask()) {
 			this.getCurrentTask()!.api = buildApiHandler({
@@ -2267,7 +2267,7 @@ ${prompt}
 		const hasSystemPromptOverride = await this.hasFileBasedSystemPromptOverride(currentMode)
 
 		// kilocode_change start wrapper information
-		const kiloCodeWrapperProperties = getKiloCodeWrapperProperties()
+		const kiloCodeWrapperProperties = getChadCodeWrapperProperties()
 		const taskHistory = this.getTaskHistory()
 		this.kiloCodeTaskHistorySizeForTelemetryOnly = taskHistory.length
 		// kilocode_change end
@@ -2486,8 +2486,8 @@ ${prompt}
 		const customModes = await this.customModesManager.getCustomModes()
 
 		// Determine apiProvider with the same logic as before.
-		// CoreThink Extension: Default to corethink provider
-		const apiProvider: ProviderName = stateValues.apiProvider ? stateValues.apiProvider : "corethink"
+		// ChadCode Extension: Default to chadcode provider (api.corethink.ai)
+		const apiProvider: ProviderName = stateValues.apiProvider ? stateValues.apiProvider : "chadcode"
 
 		// Build the apiConfiguration object combining state values and secrets.
 		const providerSettings = this.contextProxy.getProviderSettings()
@@ -2819,7 +2819,7 @@ ${prompt}
 			return
 		}
 
-		// Logout from CoreThink Code provider before resetting (same approach as ProfileView logout)
+		// Logout from ChadCode provider before resetting (same approach as ProfileView logout)
 		const { apiConfiguration, currentApiConfigName = "default" } = await this.getState()
 		if (apiConfiguration.kilocodeToken) {
 			await this.upsertProviderProfile(currentApiConfigName, {
@@ -3292,7 +3292,7 @@ ${prompt}
 				kiloCodeWrapperCode,
 				kiloCodeWrapperVersion,
 				kiloCodeWrapperTitle,
-			} = getKiloCodeWrapperProperties()
+			} = getChadCodeWrapperProperties()
 			// kilocode_change end
 
 			this._appProperties = {

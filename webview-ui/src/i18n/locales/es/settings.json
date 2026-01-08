@@ -36,7 +36,7 @@
 		"ui": "UI",
 		"experimental": "Experimental",
 		"language": "Idioma",
-		"about": "Acerca de CoreThink Code",
+		"about": "Acerca de ChadCode",
 		"autoPurge": "Auto-limpieza"
 	},
 	"about": {
@@ -55,7 +55,7 @@
 		"contact": {
 			"label": "¿Necesitas hablar con nosotros? Escribe"
 		},
-		"community": "¿Quieres consejos o simplemente pasar el rato con otros usuarios de CoreThink Code? Únete a <redditLink>reddit.com/r/kilocode</redditLink> o <discordLink>kilo.ai/discord</discordLink>",
+		"community": "¿Quieres consejos o simplemente pasar el rato con otros usuarios de ChadCode? Únete a <redditLink>reddit.com/r/chadcode</redditLink> o <discordLink>chadcode.ai/discord</discordLink>",
 		"contactAndCommunity": "Contacto y Comunidad",
 		"manageSettings": "Gestionar Configuración"
 	},
@@ -63,7 +63,7 @@
 		"description": "Gestiona tus comandos de barra para ejecutar rápidamente flujos de trabajo y acciones personalizadas. <DocsLink>Saber más</DocsLink>"
 	},
 	"prompts": {
-		"description": "Configura indicaciones de soporte que se utilizan para acciones rápidas como mejorar indicaciones, explicar código y solucionar problemas. Estas indicaciones ayudan a CoreThink Code a brindar mejor asistencia para tareas comunes de desarrollo."
+		"description": "Configura indicaciones de soporte que se utilizan para acciones rápidas como mejorar indicaciones, explicar código y solucionar problemas. Estas indicaciones ayudan a ChadCode a brindar mejor asistencia para tareas comunes de desarrollo."
 	},
 	"codeIndex": {
 		"title": "Indexación de código",
@@ -181,16 +181,16 @@
 	},
 	"autoApprove": {
 		"toggleShortcut": "Puedes configurar un atajo global para esta configuración <SettingsLink>en las preferencias de tu IDE</SettingsLink>.",
-		"description": "Permitir que CoreThink Code realice operaciones automáticamente sin requerir aprobación. Habilite esta configuración solo si confía plenamente en la IA y comprende los riesgos de seguridad asociados.",
+		"description": "Permitir que ChadCode realice operaciones automáticamente sin requerir aprobación. Habilite esta configuración solo si confía plenamente en la IA y comprende los riesgos de seguridad asociados.",
 		"enabled": "Auto-aprobación habilitada",
 		"toggleAriaLabel": "Alternar aprobación automática",
 		"disabledAriaLabel": "Aprobación automática desactivada: seleccione primero las opciones",
 		"readOnly": {
 			"label": "Lectura",
-			"description": "Cuando está habilitado, CoreThink Code verá automáticamente el contenido del directorio y leerá archivos sin que necesite hacer clic en el botón Aprobar.",
+			"description": "Cuando está habilitado, ChadCode verá automáticamente el contenido del directorio y leerá archivos sin que necesite hacer clic en el botón Aprobar.",
 			"outsideWorkspace": {
 				"label": "Incluir archivos fuera del espacio de trabajo",
-				"description": "Permitir a CoreThink Code leer archivos fuera del espacio de trabajo actual sin requerir aprobación."
+				"description": "Permitir a ChadCode leer archivos fuera del espacio de trabajo actual sin requerir aprobación."
 			}
 		},
 		"write": {
@@ -199,11 +199,11 @@
 			"delayLabel": "Retraso después de escritura para permitir que los diagnósticos detecten posibles problemas",
 			"outsideWorkspace": {
 				"label": "Incluir archivos fuera del espacio de trabajo",
-				"description": "Permitir a CoreThink Code crear y editar archivos fuera del espacio de trabajo actual sin requerir aprobación."
+				"description": "Permitir a ChadCode crear y editar archivos fuera del espacio de trabajo actual sin requerir aprobación."
 			},
 			"protected": {
 				"label": "Incluir archivos protegidos",
-				"description": "Permitir a CoreThink Code crear y editar archivos protegidos (como .kilocodeignore y archivos de configuración .kilocode/) sin requerir aprobación."
+				"description": "Permitir a ChadCode crear y editar archivos protegidos (como .kilocodeignore y archivos de configuración .kilocode/) sin requerir aprobación."
 			}
 		},
 		"delete": {
@@ -463,7 +463,7 @@
 			"draftModelDesc": "El modelo borrador debe ser de la misma familia de modelos para que la decodificación especulativa funcione correctamente.",
 			"selectDraftModel": "Seleccionar modelo borrador",
 			"noModelsFound": "No se encontraron modelos borrador. Asegúrese de que LM Studio esté ejecutándose con el Modo Servidor habilitado.",
-			"description": "LM Studio le permite ejecutar modelos localmente en su computadora. Para obtener instrucciones sobre cómo comenzar, consulte su <a>guía de inicio rápido</a>. También necesitará iniciar la función de <b>servidor local</b> de LM Studio para usarlo con esta extensión. <span>Nota:</span> CoreThink Code utiliza prompts complejos y funciona mejor con modelos Claude. Los modelos menos capaces pueden no funcionar como se espera."
+			"description": "LM Studio le permite ejecutar modelos localmente en su computadora. Para obtener instrucciones sobre cómo comenzar, consulte su <a>guía de inicio rápido</a>. También necesitará iniciar la función de <b>servidor local</b> de LM Studio para usarlo con esta extensión. <span>Nota:</span> ChadCode utiliza prompts complejos y funciona mejor con modelos Claude. Los modelos menos capaces pueden no funcionar como se espera."
 		},
 		"ollama": {
 			"baseUrl": "URL base (opcional)",
@@ -474,7 +474,7 @@
 			"numCtx": "Tamaño de la ventana de contexto (num_ctx)",
 			"numCtxHelp": "Sobrescribe el tamaño de la ventana de contexto predeterminado del modelo. Déjelo vacío para usar la configuración del Modelfile del modelo. El valor mínimo es 128.",
 			"description": "Ollama le permite ejecutar modelos localmente en su computadora. Para obtener instrucciones sobre cómo comenzar, consulte la guía de inicio rápido.",
-			"warning": "Nota: CoreThink Code utiliza prompts complejos y funciona mejor con modelos Claude. Los modelos menos capaces pueden no funcionar como se espera."
+			"warning": "Nota: ChadCode utiliza prompts complejos y funciona mejor con modelos Claude. Los modelos menos capaces pueden no funcionar como se espera."
 		},
 		"unboundApiKey": "Clave API de Unbound",
 		"getUnboundApiKey": "Obtener clave API de Unbound",
@@ -496,7 +496,7 @@
 			}
 		},
 		"customModel": {
-			"capabilities": "Configure las capacidades y precios para su modelo personalizado compatible con OpenAI. Tenga cuidado al especificar las capacidades del modelo, ya que pueden afectar cómo funciona CoreThink Code.",
+			"capabilities": "Configure las capacidades y precios para su modelo personalizado compatible con OpenAI. Tenga cuidado al especificar las capacidades del modelo, ya que pueden afectar cómo funciona ChadCode.",
 			"maxTokens": {
 				"label": "Tokens máximos de salida",
 				"description": "Número máximo de tokens que el modelo puede generar en una respuesta. (Especifique -1 para permitir que el servidor establezca los tokens máximos.)"
@@ -628,7 +628,7 @@
 	"browser": {
 		"enable": {
 			"label": "Habilitar herramienta de navegador",
-			"description": "Cuando está habilitado, CoreThink Code puede usar un navegador para interactuar con sitios web cuando se utilizan modelos que admiten el uso del ordenador. <0>Más información</0>"
+			"description": "Cuando está habilitado, ChadCode puede usar un navegador para interactuar con sitios web cuando se utilizan modelos que admiten el uso del ordenador. <0>Más información</0>"
 		},
 		"viewport": {
 			"label": "Tamaño del viewport",
@@ -660,7 +660,7 @@
 		},
 		"enable": {
 			"label": "Habilitar puntos de control automáticos",
-			"description": "Cuando está habilitado, CoreThink Code creará automáticamente puntos de control durante la ejecución de tareas, facilitando la revisión de cambios o la reversión a estados anteriores. <0>Más información</0>"
+			"description": "Cuando está habilitado, ChadCode creará automáticamente puntos de control durante la ejecución de tareas, facilitando la revisión de cambios o la reversión a estados anteriores. <0>Más información</0>"
 		}
 	},
 	"autoPurge": {
@@ -698,12 +698,12 @@
 	"notifications": {
 		"sound": {
 			"label": "Habilitar efectos de sonido",
-			"description": "Cuando está habilitado, CoreThink Code reproducirá efectos de sonido para notificaciones y eventos.",
+			"description": "Cuando está habilitado, ChadCode reproducirá efectos de sonido para notificaciones y eventos.",
 			"volumeLabel": "Volumen"
 		},
 		"tts": {
 			"label": "Habilitar texto a voz",
-			"description": "Cuando está habilitado, CoreThink Code leerá en voz alta sus respuestas usando texto a voz.",
+			"description": "Cuando está habilitado, ChadCode leerá en voz alta sus respuestas usando texto a voz.",
 			"speedLabel": "Velocidad"
 		}
 	},
@@ -711,7 +711,7 @@
 		"description": "Controle qué información se incluye en la ventana de contexto de la IA, afectando el uso de token y la calidad de respuesta",
 		"autoCondenseContextPercent": {
 			"label": "Umbral para activar la condensación inteligente de contexto",
-			"description": "Cuando la ventana de contexto alcanza este umbral, CoreThink Code la condensará automáticamente."
+			"description": "Cuando la ventana de contexto alcanza este umbral, ChadCode la condensará automáticamente."
 		},
 		"condensingApiConfiguration": {
 			"label": "Configuración de API para condensación de contexto",
@@ -727,7 +727,7 @@
 		},
 		"autoCondenseContext": {
 			"name": "Activar automáticamente la condensación inteligente de contexto",
-			"description": "Cuando está habilitado, CoreThink Code condensará automáticamente el contexto cuando se alcance el umbral. Cuando está deshabilitado, aún puedes activar manualmente la condensación de contexto."
+			"description": "Cuando está habilitado, ChadCode condensará automáticamente el contexto cuando se alcance el umbral. Cuando está deshabilitado, aún puedes activar manualmente la condensación de contexto."
 		},
 		"openTabs": {
 			"label": "Límite de contexto de pestañas abiertas",
@@ -743,7 +743,7 @@
 		},
 		"maxReadFile": {
 			"label": "Umbral de auto-truncado de lectura de archivos",
-			"description": "CoreThink Code lee este número de líneas cuando el modelo omite valores de inicio/fin. Si este número es menor que el total del archivo, CoreThink Code genera un índice de números de línea de las definiciones de código. Casos especiales: -1 indica a CoreThink Code que lea el archivo completo (sin indexación), y 0 indica que no lea líneas y proporcione solo índices de línea para un contexto mínimo. Valores más bajos minimizan el uso inicial de contexto, permitiendo lecturas posteriores de rangos de líneas precisos. Las solicitudes con inicio/fin explícitos no están limitadas por esta configuración.",
+			"description": "ChadCode lee este número de líneas cuando el modelo omite valores de inicio/fin. Si este número es menor que el total del archivo, ChadCode genera un índice de números de línea de las definiciones de código. Casos especiales: -1 indica a ChadCode que lea el archivo completo (sin indexación), y 0 indica que no lea líneas y proporcione solo índices de línea para un contexto mínimo. Valores más bajos minimizan el uso inicial de contexto, permitiendo lecturas posteriores de rangos de líneas precisos. Las solicitudes con inicio/fin explícitos no están limitadas por esta configuración.",
 			"lines": "líneas",
 			"always_full_read": "Siempre leer el archivo completo"
 		},
@@ -862,7 +862,7 @@
 	},
 	"toolProtocol": {
 		"label": "Protocolo de llamada a herramientas",
-		"description": "Elija cómo CoreThink Code se comunica con la API. Nativo utiliza la API de llamada a funciones del proveedor, mientras que XML utiliza definiciones de herramientas con formato XML.",
+		"description": "Elija cómo ChadCode se comunica con la API. Nativo utiliza la API de llamada a funciones del proveedor, mientras que XML utiliza definiciones de herramientas con formato XML.",
 		"default": "Predeterminado",
 		"xml": "XML",
 		"native": "Nativo",
@@ -871,7 +871,7 @@
 	"advanced": {
 		"diff": {
 			"label": "Habilitar edición a través de diffs",
-			"description": "Cuando está habilitado, CoreThink Code podrá editar archivos más rápidamente y rechazará automáticamente escrituras completas de archivos truncados",
+			"description": "Cuando está habilitado, ChadCode podrá editar archivos más rápidamente y rechazará automáticamente escrituras completas de archivos truncados",
 			"strategy": {
 				"label": "Estrategia de diff",
 				"options": {
@@ -892,7 +892,7 @@
 		},
 		"todoList": {
 			"label": "Habilitar herramienta de lista de tareas",
-			"description": "Cuando está habilitado, CoreThink Code puede crear y gestionar listas de tareas para hacer seguimiento del progreso. Esto ayuda a organizar tareas complejas en pasos manejables."
+			"description": "Cuando está habilitado, ChadCode puede crear y gestionar listas de tareas para hacer seguimiento del progreso. Esto ayuda a organizar tareas complejas en pasos manejables."
 		}
 	},
 	"experimental": {
@@ -902,19 +902,19 @@
 		},
 		"INSERT_BLOCK": {
 			"name": "Usar herramienta experimental de inserción de contenido",
-			"description": "Habilitar la herramienta experimental de inserción de contenido, permitiendo a CoreThink Code insertar contenido en números de línea específicos sin necesidad de crear un diff."
+			"description": "Habilitar la herramienta experimental de inserción de contenido, permitiendo a ChadCode insertar contenido en números de línea específicos sin necesidad de crear un diff."
 		},
 		"POWER_STEERING": {
 			"name": "Usar modo experimental de \"dirección asistida\"",
-			"description": "Cuando está habilitado, CoreThink Code recordará al modelo los detalles de su definición de modo actual con más frecuencia. Esto llevará a una mayor adherencia a las definiciones de roles e instrucciones personalizadas, pero usará más tokens por mensaje."
+			"description": "Cuando está habilitado, ChadCode recordará al modelo los detalles de su definición de modo actual con más frecuencia. Esto llevará a una mayor adherencia a las definiciones de roles e instrucciones personalizadas, pero usará más tokens por mensaje."
 		},
 		"MULTI_SEARCH_AND_REPLACE": {
 			"name": "Usar herramienta experimental de diff de bloques múltiples",
-			"description": "Cuando está habilitado, CoreThink Code usará la herramienta de diff de bloques múltiples. Esto intentará actualizar múltiples bloques de código en el archivo en una sola solicitud."
+			"description": "Cuando está habilitado, ChadCode usará la herramienta de diff de bloques múltiples. Esto intentará actualizar múltiples bloques de código en el archivo en una sola solicitud."
 		},
 		"CONCURRENT_FILE_READS": {
 			"name": "Habilitar lectura concurrente de archivos",
-			"description": "Cuando está habilitado, CoreThink Code puede leer múltiples archivos en una sola solicitud. Cuando está deshabilitado, CoreThink Code debe leer archivos uno a la vez. Deshabilitarlo puede ayudar cuando se trabaja con modelos menos capaces o cuando deseas más control sobre el acceso a archivos."
+			"description": "Cuando está habilitado, ChadCode puede leer múltiples archivos en una sola solicitud. Cuando está deshabilitado, ChadCode debe leer archivos uno a la vez. Deshabilitarlo puede ayudar cuando se trabaja con modelos menos capaces o cuando deseas más control sobre el acceso a archivos."
 		},
 		"MARKETPLACE": {
 			"name": "Habilitar Marketplace",
@@ -922,11 +922,11 @@
 		},
 		"MULTI_FILE_APPLY_DIFF": {
 			"name": "Habilitar ediciones de archivos concurrentes",
-			"description": "Cuando está habilitado, CoreThink Code puede editar múltiples archivos en una sola solicitud. Cuando está deshabilitado, CoreThink Code debe editar archivos de uno en uno. Deshabilitar esto puede ayudar cuando trabajas con modelos menos capaces o cuando quieres más control sobre las modificaciones de archivos."
+			"description": "Cuando está habilitado, ChadCode puede editar múltiples archivos en una sola solicitud. Cuando está deshabilitado, ChadCode debe editar archivos de uno en uno. Deshabilitar esto puede ayudar cuando trabajas con modelos menos capaces o cuando quieres más control sobre las modificaciones de archivos."
 		},
 		"MORPH_FAST_APPLY": {
 			"name": "Habilitar Fast Apply",
-			"description": "Cuando está habilitado, CoreThink Code puede editar archivos usando Fast Apply con modelos especializados optimizados para modificaciones de código. Requiere Kilo Gateway Provider, OpenRouter o una clave API de Morph.",
+			"description": "Cuando está habilitado, ChadCode puede editar archivos usando Fast Apply con modelos especializados optimizados para modificaciones de código. Requiere Chad Gateway Provider, OpenRouter o una clave API de Morph.",
 			"apiProvider": "Proveedor de API",
 			"apiProviderList": {
 				"current": "Actual"
@@ -944,7 +944,7 @@
 		},
 		"PREVENT_FOCUS_DISRUPTION": {
 			"name": "Edición en segundo plano",
-			"description": "Previene la interrupción del foco del editor cuando está habilitado. Las ediciones de archivos ocurren en segundo plano sin abrir vistas de diferencias o robar el foco. Puedes continuar trabajando sin interrupciones mientras CoreThink Code realiza cambios. Los archivos pueden abrirse sin foco para capturar diagnósticos o mantenerse completamente cerrados."
+			"description": "Previene la interrupción del foco del editor cuando está habilitado. Las ediciones de archivos ocurren en segundo plano sin abrir vistas de diferencias o robar el foco. Puedes continuar trabajando sin interrupciones mientras ChadCode realiza cambios. Los archivos pueden abrirse sin foco para capturar diagnósticos o mantenerse completamente cerrados."
 		},
 		"ASSISTANT_MESSAGE_PARSER": {
 			"name": "Usar el nuevo analizador de mensajes",
@@ -956,15 +956,15 @@
 		},
 		"IMAGE_GENERATION": {
 			"name": "Habilitar generación de imágenes con IA",
-			"description": "Cuando esté habilitado, CoreThink Code puede generar imágenes a partir de prompts de texto. Requiere que se configure una clave de API de CoreThink Code u OpenRouter.",
+			"description": "Cuando esté habilitado, ChadCode puede generar imágenes a partir de prompts de texto. Requiere que se configure una clave de API de ChadCode u OpenRouter.",
 			"apiProvider": "Proveedor de API",
 			"providerLabel": "Proveedor",
 			"providerDescription": "Selecciona el proveedor para la generación de imágenes.",
 			"openRouterApiKeyLabel": "Clave API de OpenRouter",
 			"openRouterApiKeyPlaceholder": "Introduce tu clave API de OpenRouter",
-			"kiloCodeApiKeyLabel": "Clave API de CoreThink Code",
-			"kiloCodeApiKeyPlaceholder": "Introduce tu clave API de CoreThink Code",
-			"kiloCodeApiKeyPaste": "Pegar clave API actual de CoreThink Code",
+			"kiloCodeApiKeyLabel": "Clave API de ChadCode",
+			"kiloCodeApiKeyPlaceholder": "Introduce tu clave API de ChadCode",
+			"kiloCodeApiKeyPaste": "Pegar clave API actual de ChadCode",
 			"getApiKeyText": "Obtén tu clave API de",
 			"modelSelectionLabel": "Modelo de generación de imágenes",
 			"modelSelectionDescription": "Selecciona el modelo para la generación de imágenes",
@@ -977,7 +977,7 @@
 		},
 		"RUN_SLASH_COMMAND": {
 			"name": "Habilitar comandos slash iniciados por el modelo",
-			"description": "Cuando está habilitado, CoreThink Code puede ejecutar tus comandos slash para ejecutar flujos de trabajo."
+			"description": "Cuando está habilitado, ChadCode puede ejecutar tus comandos slash para ejecutar flujos de trabajo."
 		},
 		"MULTIPLE_NATIVE_TOOL_CALLS": {
 			"name": "Llamadas paralelas a herramientas",
@@ -985,12 +985,12 @@
 		},
 		"SPEECH_TO_TEXT": {
 			"name": "Voz a Texto (STT)",
-			"description": "Cuando esté habilitado, CoreThink Code puede transcribir tu voz a texto usando el modelo Whisper de OpenAI. Haz clic en el botón del micrófono en el chat para comenzar a grabar. Requiere que FFmpeg esté instalado y un proveedor de API de OpenAI configurado."
+			"description": "Cuando esté habilitado, ChadCode puede transcribir tu voz a texto usando el modelo Whisper de OpenAI. Haz clic en el botón del micrófono en el chat para comenzar a grabar. Requiere que FFmpeg esté instalado y un proveedor de API de OpenAI configurado."
 		}
 	},
 	"promptCaching": {
 		"label": "Desactivar caché de prompts",
-		"description": "Cuando está marcado, CoreThink Code no utilizará el caché de prompts para este modelo."
+		"description": "Cuando está marcado, ChadCode no utilizará el caché de prompts para este modelo."
 	},
 	"temperature": {
 		"useCustom": "Usar temperatura personalizada",
@@ -1020,7 +1020,7 @@
 		}
 	},
 	"modelPicker": {
-		"automaticFetch": "La extensión obtiene automáticamente la lista más reciente de modelos disponibles en <serviceLink>{{serviceName}}</serviceLink>. Si no está seguro de qué modelo elegir, CoreThink Code funciona mejor con <defaultModelLink>{{defaultModelId}}</defaultModelLink>.",
+		"automaticFetch": "La extensión obtiene automáticamente la lista más reciente de modelos disponibles en <serviceLink>{{serviceName}}</serviceLink>. Si no está seguro de qué modelo elegir, ChadCode funciona mejor con <defaultModelLink>{{defaultModelId}}</defaultModelLink>.",
 		"label": "Modelo",
 		"searchPlaceholder": "Buscar",
 		"noMatchFound": "No se encontraron coincidencias",
@@ -1028,11 +1028,11 @@
 		"simplifiedExplanation": "Puedes ajustar la configuración detallada del modelo más tarde."
 	},
 	"footer": {
-		"feedback": "Si tiene alguna pregunta o comentario, no dude en abrir un issue en <githubLink>github.com/Kilo-Org/kilocode</githubLink> o unirse a <redditLink>reddit.com/r/kilocode</redditLink> o <discordLink>kilo.ai/discord</discordLink>",
+		"feedback": "Si tiene alguna pregunta o comentario, no dude en abrir un issue en <githubLink>github.com/ChadCode/chadcode</githubLink> o unirse a <redditLink>reddit.com/r/chadcode</redditLink> o <discordLink>chadcode.ai/discord</discordLink>",
 		"support": "Para preguntas financieras, por favor contacte a Soporte al Cliente en <supportLink>https://kilo.ai/support</supportLink>",
 		"telemetry": {
 			"label": "Permitir informes de errores y uso",
-			"description": "Ayuda a mejorar CoreThink Code enviando datos de uso e informes de errores. Nunca se envía código, prompts o información personal. Consulta nuestra política de privacidad para más detalles."
+			"description": "Ayuda a mejorar ChadCode enviando datos de uso e informes de errores. Nunca se envía código, prompts o información personal. Consulta nuestra política de privacidad para más detalles."
 		},
 		"settings": {
 			"import": "Importar",

@@ -1,5 +1,5 @@
 {
-	"greeting": "Selamat datang di CoreThink Code",
+	"greeting": "Selamat datang di ChadCode",
 	"task": {
 		"title": "Tugas",
 		"expand": "Perluas tugas",
@@ -21,7 +21,7 @@
 		"sharePublicly": "Bagikan secara publik",
 		"sharePubliclyDescription": "Siapa pun dengan tautan dapat mengakses",
 		"connectToCloud": "Hubungkan ke Cloud",
-		"connectToCloudDescription": "Masuk ke CoreThink Code Cloud untuk berbagi tugas",
+		"connectToCloudDescription": "Masuk ke ChadCode Cloud untuk berbagi tugas",
 		"sharingDisabledByOrganization": "Berbagi dinonaktifkan oleh organisasi",
 		"shareSuccessOrganization": "Tautan organisasi disalin ke clipboard",
 		"shareSuccessPublic": "Tautan publik disalin ke clipboard",
@@ -123,7 +123,7 @@
 		"title": "Mode",
 		"marketplace": "Marketplace Mode",
 		"settings": "Pengaturan Mode",
-		"description": "Persona khusus yang menyesuaikan perilaku CoreThink Code.",
+		"description": "Persona khusus yang menyesuaikan perilaku ChadCode.",
 		"searchPlaceholder": "Cari mode...",
 		"noResults": "Tidak ada hasil yang ditemukan",
 		"organizationModes": "Mode Organisasi"
@@ -197,52 +197,52 @@
 		}
 	},
 	"instructions": {
-		"wantsToFetch": "CoreThink Code ingin mengambil instruksi detail untuk membantu tugas saat ini"
+		"wantsToFetch": "ChadCode ingin mengambil instruksi detail untuk membantu tugas saat ini"
 	},
 	"fileOperations": {
-		"wantsToRead": "CoreThink Code ingin membaca file ini",
-		"wantsToReadMultiple": "CoreThink Code ingin membaca beberapa file",
-		"wantsToReadAndXMore": "CoreThink Code ingin membaca file ini dan {{count}} lainnya",
-		"wantsToReadOutsideWorkspace": "CoreThink Code ingin membaca file ini di luar workspace",
-		"didRead": "CoreThink Code membaca file ini",
-		"wantsToEdit": "CoreThink Code ingin mengedit file ini",
-		"wantsToEditOutsideWorkspace": "CoreThink Code ingin mengedit file ini di luar workspace",
-		"wantsToEditProtected": "CoreThink Code ingin mengedit file konfigurasi yang dilindungi",
-		"wantsToApplyBatchChanges": "CoreThink Code ingin menerapkan perubahan ke beberapa file",
-		"wantsToGenerateImage": "CoreThink Code ingin menghasilkan gambar",
-		"wantsToGenerateImageOutsideWorkspace": "CoreThink Code ingin menghasilkan gambar di luar workspace",
-		"wantsToGenerateImageProtected": "CoreThink Code ingin menghasilkan gambar di lokasi yang dilindungi",
-		"didGenerateImage": "CoreThink Code telah menghasilkan gambar",
-		"wantsToCreate": "CoreThink Code ingin membuat file baru",
-		"wantsToSearchReplace": "CoreThink Code ingin mencari dan mengganti di file ini",
-		"didSearchReplace": "CoreThink Code melakukan pencarian dan penggantian pada file ini",
-		"wantsToInsert": "CoreThink Code ingin menyisipkan konten ke file ini",
-		"wantsToInsertWithLineNumber": "CoreThink Code ingin menyisipkan konten ke file ini di baris {{lineNumber}}",
-		"wantsToInsertAtEnd": "CoreThink Code ingin menambahkan konten ke akhir file ini",
-		"wantsToDelete": "CoreThink Code ingin menghapus file ini",
-		"wantsToDeleteDirectory": "CoreThink Code ingin menghapus direktori ini"
+		"wantsToRead": "ChadCode ingin membaca file ini",
+		"wantsToReadMultiple": "ChadCode ingin membaca beberapa file",
+		"wantsToReadAndXMore": "ChadCode ingin membaca file ini dan {{count}} lainnya",
+		"wantsToReadOutsideWorkspace": "ChadCode ingin membaca file ini di luar workspace",
+		"didRead": "ChadCode membaca file ini",
+		"wantsToEdit": "ChadCode ingin mengedit file ini",
+		"wantsToEditOutsideWorkspace": "ChadCode ingin mengedit file ini di luar workspace",
+		"wantsToEditProtected": "ChadCode ingin mengedit file konfigurasi yang dilindungi",
+		"wantsToApplyBatchChanges": "ChadCode ingin menerapkan perubahan ke beberapa file",
+		"wantsToGenerateImage": "ChadCode ingin menghasilkan gambar",
+		"wantsToGenerateImageOutsideWorkspace": "ChadCode ingin menghasilkan gambar di luar workspace",
+		"wantsToGenerateImageProtected": "ChadCode ingin menghasilkan gambar di lokasi yang dilindungi",
+		"didGenerateImage": "ChadCode telah menghasilkan gambar",
+		"wantsToCreate": "ChadCode ingin membuat file baru",
+		"wantsToSearchReplace": "ChadCode ingin mencari dan mengganti di file ini",
+		"didSearchReplace": "ChadCode melakukan pencarian dan penggantian pada file ini",
+		"wantsToInsert": "ChadCode ingin menyisipkan konten ke file ini",
+		"wantsToInsertWithLineNumber": "ChadCode ingin menyisipkan konten ke file ini di baris {{lineNumber}}",
+		"wantsToInsertAtEnd": "ChadCode ingin menambahkan konten ke akhir file ini",
+		"wantsToDelete": "ChadCode ingin menghapus file ini",
+		"wantsToDeleteDirectory": "ChadCode ingin menghapus direktori ini"
 	},
 	"directoryOperations": {
-		"wantsToViewTopLevel": "CoreThink Code ingin melihat file tingkat atas di direktori ini",
-		"didViewTopLevel": "CoreThink Code melihat file tingkat atas di direktori ini",
-		"wantsToViewRecursive": "CoreThink Code ingin melihat semua file secara rekursif di direktori ini",
-		"didViewRecursive": "CoreThink Code melihat semua file secara rekursif di direktori ini",
-		"wantsToViewDefinitions": "CoreThink Code ingin melihat nama definisi source code yang digunakan di direktori ini",
-		"didViewDefinitions": "CoreThink Code melihat nama definisi source code yang digunakan di direktori ini",
-		"wantsToSearch": "CoreThink Code ingin mencari direktori ini untuk <code>{{regex}}</code>",
-		"didSearch": "CoreThink Code mencari direktori ini untuk <code>{{regex}}</code>",
-		"wantsToSearchOutsideWorkspace": "CoreThink Code ingin mencari direktori ini (di luar workspace) untuk <code>{{regex}}</code>",
-		"didSearchOutsideWorkspace": "CoreThink Code mencari direktori ini (di luar workspace) untuk <code>{{regex}}</code>",
-		"wantsToViewTopLevelOutsideWorkspace": "CoreThink Code ingin melihat file tingkat atas di direktori ini (di luar workspace)",
-		"didViewTopLevelOutsideWorkspace": "CoreThink Code melihat file tingkat atas di direktori ini (di luar workspace)",
-		"wantsToViewRecursiveOutsideWorkspace": "CoreThink Code ingin melihat semua file secara rekursif di direktori ini (di luar workspace)",
-		"didViewRecursiveOutsideWorkspace": "CoreThink Code melihat semua file secara rekursif di direktori ini (di luar workspace)",
-		"wantsToViewDefinitionsOutsideWorkspace": "CoreThink Code ingin melihat nama definisi source code yang digunakan di direktori ini (di luar workspace)",
-		"didViewDefinitionsOutsideWorkspace": "CoreThink Code melihat nama definisi source code yang digunakan di direktori ini (di luar workspace)"
+		"wantsToViewTopLevel": "ChadCode ingin melihat file tingkat atas di direktori ini",
+		"didViewTopLevel": "ChadCode melihat file tingkat atas di direktori ini",
+		"wantsToViewRecursive": "ChadCode ingin melihat semua file secara rekursif di direktori ini",
+		"didViewRecursive": "ChadCode melihat semua file secara rekursif di direktori ini",
+		"wantsToViewDefinitions": "ChadCode ingin melihat nama definisi source code yang digunakan di direktori ini",
+		"didViewDefinitions": "ChadCode melihat nama definisi source code yang digunakan di direktori ini",
+		"wantsToSearch": "ChadCode ingin mencari direktori ini untuk <code>{{regex}}</code>",
+		"didSearch": "ChadCode mencari direktori ini untuk <code>{{regex}}</code>",
+		"wantsToSearchOutsideWorkspace": "ChadCode ingin mencari direktori ini (di luar workspace) untuk <code>{{regex}}</code>",
+		"didSearchOutsideWorkspace": "ChadCode mencari direktori ini (di luar workspace) untuk <code>{{regex}}</code>",
+		"wantsToViewTopLevelOutsideWorkspace": "ChadCode ingin melihat file tingkat atas di direktori ini (di luar workspace)",
+		"didViewTopLevelOutsideWorkspace": "ChadCode melihat file tingkat atas di direktori ini (di luar workspace)",
+		"wantsToViewRecursiveOutsideWorkspace": "ChadCode ingin melihat semua file secara rekursif di direktori ini (di luar workspace)",
+		"didViewRecursiveOutsideWorkspace": "ChadCode melihat semua file secara rekursif di direktori ini (di luar workspace)",
+		"wantsToViewDefinitionsOutsideWorkspace": "ChadCode ingin melihat nama definisi source code yang digunakan di direktori ini (di luar workspace)",
+		"didViewDefinitionsOutsideWorkspace": "ChadCode melihat nama definisi source code yang digunakan di direktori ini (di luar workspace)"
 	},
 	"codebaseSearch": {
-		"wantsToSearch": "CoreThink Code ingin mencari codebase untuk <code>{{query}}</code>",
-		"wantsToSearchWithPath": "CoreThink Code ingin mencari codebase untuk <code>{{query}}</code> di <code>{{path}}</code>",
+		"wantsToSearch": "ChadCode ingin mencari codebase untuk <code>{{query}}</code>",
+		"wantsToSearchWithPath": "ChadCode ingin mencari codebase untuk <code>{{query}}</code> di <code>{{path}}</code>",
 		"didSearch_one": "Ditemukan 1 hasil",
 		"didSearch_other": "Ditemukan {{count}} hasil",
 		"resultTooltip": "Skor kemiripan: {{score}} (klik untuk membuka file)"
@@ -267,24 +267,24 @@
 	"response": "Respons",
 	"arguments": "Argumen",
 	"text": {
-		"rooSaid": "Kilo berkata"
+		"rooSaid": "Chad berkata"
 	},
 	"feedback": {
 		"youSaid": "Anda bilang"
 	},
 	"mcp": {
-		"wantsToUseTool": "CoreThink Code ingin menggunakan tool di server MCP {{serverName}}",
-		"wantsToAccessResource": "CoreThink Code ingin mengakses resource di server MCP {{serverName}}"
+		"wantsToUseTool": "ChadCode ingin menggunakan tool di server MCP {{serverName}}",
+		"wantsToAccessResource": "ChadCode ingin mengakses resource di server MCP {{serverName}}"
 	},
 	"modes": {
-		"wantsToSwitch": "CoreThink Code ingin beralih ke mode {{mode}}",
-		"wantsToSwitchWithReason": "CoreThink Code ingin beralih ke mode {{mode}} karena: {{reason}}",
-		"didSwitch": "CoreThink Code beralih ke mode {{mode}}",
-		"didSwitchWithReason": "CoreThink Code beralih ke mode {{mode}} karena: {{reason}}"
+		"wantsToSwitch": "ChadCode ingin beralih ke mode {{mode}}",
+		"wantsToSwitchWithReason": "ChadCode ingin beralih ke mode {{mode}} karena: {{reason}}",
+		"didSwitch": "ChadCode beralih ke mode {{mode}}",
+		"didSwitchWithReason": "ChadCode beralih ke mode {{mode}} karena: {{reason}}"
 	},
 	"subtasks": {
-		"wantsToCreate": "CoreThink Code ingin membuat subtugas baru dalam mode {{mode}}",
-		"wantsToFinish": "CoreThink Code ingin menyelesaikan subtugas ini",
+		"wantsToCreate": "ChadCode ingin membuat subtugas baru dalam mode {{mode}}",
+		"wantsToFinish": "ChadCode ingin menyelesaikan subtugas ini",
 		"newTaskContent": "Instruksi Subtugas",
 		"completionContent": "Subtugas Selesai",
 		"resultContent": "Hasil Subtugas",
@@ -292,14 +292,14 @@
 		"completionInstructions": "Subtugas selesai! Kamu bisa meninjau hasilnya dan menyarankan koreksi atau langkah selanjutnya. Jika semuanya terlihat baik, konfirmasi untuk mengembalikan hasil ke tugas induk."
 	},
 	"questions": {
-		"hasQuestion": "CoreThink Code punya pertanyaan"
+		"hasQuestion": "ChadCode punya pertanyaan"
 	},
 	"taskCompleted": "Tugas Selesai",
 	"error": "Error",
 	"diffError": {
 		"title": "Edit Tidak Berhasil"
 	},
-	"troubleMessage": "CoreThink Code mengalami masalah...",
+	"troubleMessage": "ChadCode mengalami masalah...",
 	"errorDetails": {
 		"title": "Detail Kesalahan",
 		"copyToClipboard": "Salin ke Clipboard",
@@ -360,7 +360,7 @@
 	},
 	"browser": {
 		"session": "Sesi Browser",
-		"rooWantsToUse": "CoreThink Code ingin menggunakan browser",
+		"rooWantsToUse": "ChadCode ingin menggunakan browser",
 		"consoleLogs": "Log Konsol",
 		"noNewLogs": "(Tidak ada log baru)",
 		"screenshot": "Screenshot browser",
@@ -408,18 +408,18 @@
 	"profileViolationWarning": "Profil saat ini tidak kompatibel dengan pengaturan organisasi kamu",
 	"shellIntegration": {
 		"title": "Peringatan Eksekusi Perintah",
-		"description": "Perintah kamu dijalankan tanpa integrasi shell terminal VSCode. Untuk menekan peringatan ini kamu bisa menonaktifkan integrasi shell di bagian <strong>Terminal</strong> dari <settingsLink>pengaturan CoreThink Code</settingsLink> atau troubleshoot integrasi terminal VSCode menggunakan link di bawah.",
+		"description": "Perintah kamu dijalankan tanpa integrasi shell terminal VSCode. Untuk menekan peringatan ini kamu bisa menonaktifkan integrasi shell di bagian <strong>Terminal</strong> dari <settingsLink>pengaturan ChadCode</settingsLink> atau troubleshoot integrasi terminal VSCode menggunakan link di bawah.",
 		"troubleshooting": "Klik di sini untuk dokumentasi integrasi shell."
 	},
 	"ask": {
 		"autoApprovedRequestLimitReached": {
 			"title": "Batas Permintaan yang Disetujui Otomatis Tercapai",
-			"description": "CoreThink Code telah mencapai batas {{count}} permintaan API yang disetujui otomatis. Apakah Anda ingin mengatur ulang hitungan dan melanjutkan tugas?",
+			"description": "ChadCode telah mencapai batas {{count}} permintaan API yang disetujui otomatis. Apakah Anda ingin mengatur ulang hitungan dan melanjutkan tugas?",
 			"button": "Setel Ulang dan Lanjutkan"
 		},
 		"autoApprovedCostLimitReached": {
 			"title": "Batas Biaya yang Disetujui Otomatis Tercapai",
-			"description": "CoreThink Code telah mencapai batas biaya yang disetujui otomatis sebesar ${{count}}. Apakah Anda ingin mengatur ulang biaya dan melanjutkan tugas?",
+			"description": "ChadCode telah mencapai batas biaya yang disetujui otomatis sebesar ${{count}}. Apakah Anda ingin mengatur ulang biaya dan melanjutkan tugas?",
 			"button": "Setel Ulang dan Lanjutkan"
 		}
 	},
@@ -475,8 +475,8 @@
 		"clickToEdit": "Klik untuk mengedit pesan"
 	},
 	"slashCommand": {
-		"wantsToRun": "CoreThink Code ingin menjalankan perintah slash",
-		"didRun": "CoreThink Code telah menjalankan perintah slash"
+		"wantsToRun": "ChadCode ingin menjalankan perintah slash",
+		"didRun": "ChadCode telah menjalankan perintah slash"
 	},
 	"todo": {
 		"partial": "{{completed}} dari {{total}} to-do selesai",

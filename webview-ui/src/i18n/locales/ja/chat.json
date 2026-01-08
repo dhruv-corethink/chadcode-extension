@@ -1,5 +1,5 @@
 {
-	"greeting": "CoreThink Code は何をお手伝いできますか？",
+	"greeting": "ChadCode は何をお手伝いできますか？",
 	"task": {
 		"title": "タスク",
 		"expand": "タスクを展開",
@@ -21,7 +21,7 @@
 		"sharePublicly": "公開で共有",
 		"sharePubliclyDescription": "リンクを持つ誰でもアクセスできます",
 		"connectToCloud": "クラウドに接続",
-		"connectToCloudDescription": "タスクを共有するためにCoreThink Code Cloudにサインイン",
+		"connectToCloudDescription": "タスクを共有するためにChadCode Cloudにサインイン",
 		"sharingDisabledByOrganization": "組織により共有が無効化されています",
 		"shareSuccessOrganization": "組織リンクをクリップボードにコピーしました",
 		"shareSuccessPublic": "公開リンクをクリップボードにコピーしました",
@@ -124,7 +124,7 @@
 		"title": "モード",
 		"marketplace": "モードマーケットプレイス",
 		"settings": "モード設定",
-		"description": "CoreThink Codeの動作をカスタマイズする専門的なペルソナ。",
+		"description": "ChadCodeの動作をカスタマイズする専門的なペルソナ。",
 		"searchPlaceholder": "モードを検索...",
 		"noResults": "結果が見つかりません",
 		"organizationModes": "組織モード"
@@ -139,7 +139,7 @@
 	"diffError": {
 		"title": "編集に失敗しました"
 	},
-	"troubleMessage": "CoreThink Codeに問題が発生しています...",
+	"troubleMessage": "ChadCodeに問題が発生しています...",
 	"apiRequest": {
 		"title": "APIリクエスト",
 		"failed": "APIリクエスト失敗",
@@ -179,48 +179,48 @@
 		"current": "現在"
 	},
 	"instructions": {
-		"wantsToFetch": "CoreThink Codeは現在のタスクを支援するための詳細な指示を取得したい"
+		"wantsToFetch": "ChadCodeは現在のタスクを支援するための詳細な指示を取得したい"
 	},
 	"fileOperations": {
-		"wantsToRead": "CoreThink Codeはこのファイルを読みたい",
-		"wantsToReadOutsideWorkspace": "CoreThink Codeはワークスペース外のこのファイルを読みたい",
-		"didRead": "CoreThink Codeはこのファイルを読みました",
-		"wantsToEdit": "CoreThink Codeはこのファイルを編集したい",
-		"wantsToEditOutsideWorkspace": "CoreThink Codeはワークスペース外のこのファイルを編集したい",
-		"wantsToEditProtected": "CoreThink Codeは保護された設定ファイルを編集したい",
-		"wantsToCreate": "CoreThink Codeは新しいファイルを作成したい",
-		"wantsToSearchReplace": "CoreThink Codeはこのファイルで検索と置換を行う",
-		"didSearchReplace": "CoreThink Codeはこのファイルで検索と置換を実行しました",
-		"wantsToInsert": "CoreThink Codeはこのファイルにコンテンツを挿入したい",
-		"wantsToInsertWithLineNumber": "CoreThink Codeはこのファイルの{{lineNumber}}行目にコンテンツを挿入したい",
-		"wantsToInsertAtEnd": "CoreThink Codeはこのファイルの末尾にコンテンツを追加したい",
-		"wantsToReadAndXMore": "CoreThink Code はこのファイルと他に {{count}} 個のファイルを読み込もうとしています",
-		"wantsToReadMultiple": "CoreThink Codeは複数のファイルを読み取ろうとしています",
-		"wantsToApplyBatchChanges": "CoreThink Codeは複数のファイルに変更を適用したい",
-		"wantsToGenerateImage": "CoreThink Codeは画像を生成したい",
-		"wantsToGenerateImageOutsideWorkspace": "CoreThink Codeはワークスペース外で画像を生成したい",
-		"wantsToGenerateImageProtected": "CoreThink Codeは保護された場所で画像を生成したい",
-		"didGenerateImage": "CoreThink Codeは画像を生成しました",
-		"wantsToDelete": "CoreThink Codeはこのファイルを削除したい",
-		"wantsToDeleteDirectory": "CoreThink Codeはこのディレクトリを削除したい"
+		"wantsToRead": "ChadCodeはこのファイルを読みたい",
+		"wantsToReadOutsideWorkspace": "ChadCodeはワークスペース外のこのファイルを読みたい",
+		"didRead": "ChadCodeはこのファイルを読みました",
+		"wantsToEdit": "ChadCodeはこのファイルを編集したい",
+		"wantsToEditOutsideWorkspace": "ChadCodeはワークスペース外のこのファイルを編集したい",
+		"wantsToEditProtected": "ChadCodeは保護された設定ファイルを編集したい",
+		"wantsToCreate": "ChadCodeは新しいファイルを作成したい",
+		"wantsToSearchReplace": "ChadCodeはこのファイルで検索と置換を行う",
+		"didSearchReplace": "ChadCodeはこのファイルで検索と置換を実行しました",
+		"wantsToInsert": "ChadCodeはこのファイルにコンテンツを挿入したい",
+		"wantsToInsertWithLineNumber": "ChadCodeはこのファイルの{{lineNumber}}行目にコンテンツを挿入したい",
+		"wantsToInsertAtEnd": "ChadCodeはこのファイルの末尾にコンテンツを追加したい",
+		"wantsToReadAndXMore": "ChadCode はこのファイルと他に {{count}} 個のファイルを読み込もうとしています",
+		"wantsToReadMultiple": "ChadCodeは複数のファイルを読み取ろうとしています",
+		"wantsToApplyBatchChanges": "ChadCodeは複数のファイルに変更を適用したい",
+		"wantsToGenerateImage": "ChadCodeは画像を生成したい",
+		"wantsToGenerateImageOutsideWorkspace": "ChadCodeはワークスペース外で画像を生成したい",
+		"wantsToGenerateImageProtected": "ChadCodeは保護された場所で画像を生成したい",
+		"didGenerateImage": "ChadCodeは画像を生成しました",
+		"wantsToDelete": "ChadCodeはこのファイルを削除したい",
+		"wantsToDeleteDirectory": "ChadCodeはこのディレクトリを削除したい"
 	},
 	"directoryOperations": {
-		"wantsToViewTopLevel": "CoreThink Codeはこのディレクトリのトップレベルファイルを表示したい",
-		"didViewTopLevel": "CoreThink Codeはこのディレクトリのトップレベルファイルを表示しました",
-		"wantsToViewRecursive": "CoreThink Codeはこのディレクトリのすべてのファイルを再帰的に表示したい",
-		"didViewRecursive": "CoreThink Codeはこのディレクトリのすべてのファイルを再帰的に表示しました",
-		"wantsToViewDefinitions": "CoreThink Codeはこのディレクトリで使用されているソースコード定義名を表示したい",
-		"didViewDefinitions": "CoreThink Codeはこのディレクトリで使用されているソースコード定義名を表示しました",
-		"wantsToSearch": "CoreThink Codeはこのディレクトリで <code>{{regex}}</code> を検索したい",
-		"didSearch": "CoreThink Codeはこのディレクトリで <code>{{regex}}</code> を検索しました",
-		"wantsToSearchOutsideWorkspace": "CoreThink Codeはこのディレクトリ（ワークスペース外）で <code>{{regex}}</code> を検索したい",
-		"didSearchOutsideWorkspace": "CoreThink Codeはこのディレクトリ（ワークスペース外）で <code>{{regex}}</code> を検索しました",
-		"wantsToViewTopLevelOutsideWorkspace": "CoreThink Codeはこのディレクトリ（ワークスペース外）のトップレベルファイルを表示したい",
-		"didViewTopLevelOutsideWorkspace": "CoreThink Codeはこのディレクトリ（ワークスペース外）のトップレベルファイルを表示しました",
-		"wantsToViewRecursiveOutsideWorkspace": "CoreThink Codeはこのディレクトリ（ワークスペース外）のすべてのファイルを再帰的に表示したい",
-		"didViewRecursiveOutsideWorkspace": "CoreThink Codeはこのディレクトリ（ワークスペース外）のすべてのファイルを再帰的に表示しました",
-		"wantsToViewDefinitionsOutsideWorkspace": "CoreThink Codeはこのディレクトリ（ワークスペース外）で使用されているソースコード定義名を表示したい",
-		"didViewDefinitionsOutsideWorkspace": "CoreThink Codeはこのディレクトリ（ワークスペース外）で使用されているソースコード定義名を表示しました"
+		"wantsToViewTopLevel": "ChadCodeはこのディレクトリのトップレベルファイルを表示したい",
+		"didViewTopLevel": "ChadCodeはこのディレクトリのトップレベルファイルを表示しました",
+		"wantsToViewRecursive": "ChadCodeはこのディレクトリのすべてのファイルを再帰的に表示したい",
+		"didViewRecursive": "ChadCodeはこのディレクトリのすべてのファイルを再帰的に表示しました",
+		"wantsToViewDefinitions": "ChadCodeはこのディレクトリで使用されているソースコード定義名を表示したい",
+		"didViewDefinitions": "ChadCodeはこのディレクトリで使用されているソースコード定義名を表示しました",
+		"wantsToSearch": "ChadCodeはこのディレクトリで <code>{{regex}}</code> を検索したい",
+		"didSearch": "ChadCodeはこのディレクトリで <code>{{regex}}</code> を検索しました",
+		"wantsToSearchOutsideWorkspace": "ChadCodeはこのディレクトリ（ワークスペース外）で <code>{{regex}}</code> を検索したい",
+		"didSearchOutsideWorkspace": "ChadCodeはこのディレクトリ（ワークスペース外）で <code>{{regex}}</code> を検索しました",
+		"wantsToViewTopLevelOutsideWorkspace": "ChadCodeはこのディレクトリ（ワークスペース外）のトップレベルファイルを表示したい",
+		"didViewTopLevelOutsideWorkspace": "ChadCodeはこのディレクトリ（ワークスペース外）のトップレベルファイルを表示しました",
+		"wantsToViewRecursiveOutsideWorkspace": "ChadCodeはこのディレクトリ（ワークスペース外）のすべてのファイルを再帰的に表示したい",
+		"didViewRecursiveOutsideWorkspace": "ChadCodeはこのディレクトリ（ワークスペース外）のすべてのファイルを再帰的に表示しました",
+		"wantsToViewDefinitionsOutsideWorkspace": "ChadCodeはこのディレクトリ（ワークスペース外）で使用されているソースコード定義名を表示したい",
+		"didViewDefinitionsOutsideWorkspace": "ChadCodeはこのディレクトリ（ワークスペース外）で使用されているソースコード定義名を表示しました"
 	},
 	"commandOutput": "コマンド出力",
 	"commandExecution": {
@@ -248,18 +248,18 @@
 		"youSaid": "あなたの発言"
 	},
 	"mcp": {
-		"wantsToUseTool": "CoreThink Code{{serverName}}でツールを使用したい",
-		"wantsToAccessResource": "CoreThink Code{{serverName}}のリソースにアクセスしたい"
+		"wantsToUseTool": "ChadCode{{serverName}}でツールを使用したい",
+		"wantsToAccessResource": "ChadCode{{serverName}}のリソースにアクセスしたい"
 	},
 	"modes": {
-		"wantsToSwitch": "CoreThink Codeは<code>{{mode}}</code>モードに切り替えたい",
-		"wantsToSwitchWithReason": "CoreThink Codeは次の理由で<code>{{mode}}</code>モードに切り替えたい: {{reason}}",
-		"didSwitch": "CoreThink Codeは<code>{{mode}}</code>モードに切り替えました",
-		"didSwitchWithReason": "CoreThink Codeは次の理由で<code>{{mode}}</code>モードに切り替えました: {{reason}}"
+		"wantsToSwitch": "ChadCodeは<code>{{mode}}</code>モードに切り替えたい",
+		"wantsToSwitchWithReason": "ChadCodeは次の理由で<code>{{mode}}</code>モードに切り替えたい: {{reason}}",
+		"didSwitch": "ChadCodeは<code>{{mode}}</code>モードに切り替えました",
+		"didSwitchWithReason": "ChadCodeは次の理由で<code>{{mode}}</code>モードに切り替えました: {{reason}}"
 	},
 	"subtasks": {
-		"wantsToCreate": "CoreThink Code<code>{{mode}}</code>モードで新しいサブタスクを作成したい",
-		"wantsToFinish": "CoreThink Codeはこのサブタスクを終了したい",
+		"wantsToCreate": "ChadCode<code>{{mode}}</code>モードで新しいサブタスクを作成したい",
+		"wantsToFinish": "ChadCodeはこのサブタスクを終了したい",
 		"newTaskContent": "サブタスク指示",
 		"completionContent": "サブタスク完了",
 		"resultContent": "サブタスク結果",
@@ -267,7 +267,7 @@
 		"completionInstructions": "サブタスク完了！結果を確認し、修正や次のステップを提案できます。問題なければ、親タスクに結果を返すために確認してください。"
 	},
 	"questions": {
-		"hasQuestion": "CoreThink Codeは質問があります"
+		"hasQuestion": "ChadCodeは質問があります"
 	},
 	"taskCompleted": "タスク完了",
 	"errorDetails": {
@@ -341,11 +341,11 @@
 			"tryButton": "クラウドエージェントを試す"
 		},
 		"careers": "また、<careersLink>採用中です！</careersLink>",
-		"socialLinks": "<xLink>X</xLink>、<discordLink>Discord</discordLink>、または<redditLink>r/KiloCode</redditLink>でフォローしてください 🚀"
+		"socialLinks": "<xLink>X</xLink>、<discordLink>Discord</discordLink>、または<redditLink>r/ChadCode</redditLink>でフォローしてください 🚀"
 	},
 	"browser": {
 		"session": "ブラウザセッション",
-		"rooWantsToUse": "CoreThink Codeはブラウザを使用したい",
+		"rooWantsToUse": "ChadCodeはブラウザを使用したい",
 		"consoleLogs": "コンソールログ",
 		"noNewLogs": "(新しいログはありません)",
 		"screenshot": "ブラウザのスクリーンショット",
@@ -393,24 +393,24 @@
 	"profileViolationWarning": "現在のプロファイルは組織の設定と互換性がありません",
 	"shellIntegration": {
 		"title": "コマンド実行警告",
-		"description": "コマンドはVSCodeターミナルシェル統合なしで実行されています。この警告を非表示にするには、<settingsLink>CoreThink Code設定</settingsLink>の<strong>Terminal</strong>セクションでシェル統合を無効にするか、以下のリンクを使用してVSCodeターミナル統合のトラブルシューティングを行ってください。",
+		"description": "コマンドはVSCodeターミナルシェル統合なしで実行されています。この警告を非表示にするには、<settingsLink>ChadCode設定</settingsLink>の<strong>Terminal</strong>セクションでシェル統合を無効にするか、以下のリンクを使用してVSCodeターミナル統合のトラブルシューティングを行ってください。",
 		"troubleshooting": "シェル統合のドキュメントはこちらをクリック"
 	},
 	"ask": {
 		"autoApprovedRequestLimitReached": {
 			"title": "自動承認リクエスト制限に達しました",
-			"description": "CoreThink Codeは{{count}}件のAPI自動承認リクエスト制限に達しました。カウントをリセットしてタスクを続行しますか？",
+			"description": "ChadCodeは{{count}}件のAPI自動承認リクエスト制限に達しました。カウントをリセットしてタスクを続行しますか？",
 			"button": "リセットして続行"
 		},
 		"autoApprovedCostLimitReached": {
 			"title": "自動承認コスト制限に達しました",
-			"description": "CoreThink Codeは自動承認されたコスト制限の${{count}}に達しました。コストをリセットしてタスクを続行しますか？",
+			"description": "ChadCodeは自動承認されたコスト制限の${{count}}に達しました。コストをリセットしてタスクを続行しますか？",
 			"button": "リセットして続ける"
 		}
 	},
 	"codebaseSearch": {
-		"wantsToSearch": "CoreThink Codeはコードベースで <code>{{query}}</code> を検索したい",
-		"wantsToSearchWithPath": "CoreThink Codeは <code>{{path}}</code> 内のコードベースで <code>{{query}}</code> を検索したい",
+		"wantsToSearch": "ChadCodeはコードベースで <code>{{query}}</code> を検索したい",
+		"wantsToSearchWithPath": "ChadCodeは <code>{{path}}</code> 内のコードベースで <code>{{query}}</code> を検索したい",
 		"didSearch_one": "1件の結果が見つかりました",
 		"didSearch_other": "{{count}}件の結果が見つかりました",
 		"resultTooltip": "類似度スコア: {{score}} (クリックしてファイルを開く)"
@@ -475,8 +475,8 @@
 		"clickToEdit": "クリックしてメッセージを編集"
 	},
 	"slashCommand": {
-		"wantsToRun": "CoreThink Codeはスラッシュコマンドを実行したい",
-		"didRun": "CoreThink Codeはスラッシュコマンドを実行しました"
+		"wantsToRun": "ChadCodeはスラッシュコマンドを実行したい",
+		"didRun": "ChadCodeはスラッシュコマンドを実行しました"
 	},
 	"todo": {
 		"partial": "{{total}}件中{{completed}}件のTo-Doが完了",

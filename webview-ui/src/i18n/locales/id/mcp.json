@@ -2,16 +2,16 @@
 	"title": "Server MCP",
 	"done": "Selesai",
 	"marketplace": "Marketplace MCP",
-	"description": "<0>Model Context Protocol</0> memungkinkan komunikasi dengan server MCP yang berjalan secara lokal yang menyediakan tools dan resources tambahan untuk memperluas kemampuan CoreThink Code. Anda dapat menggunakan <1>server buatan komunitas</1> atau meminta CoreThink Code membuat tools baru yang spesifik untuk workflow Anda (misalnya, \"tambahkan tool yang mendapatkan dokumentasi npm terbaru\").",
+	"description": "<0>Model Context Protocol</0> memungkinkan komunikasi dengan server MCP yang berjalan secara lokal yang menyediakan tools dan resources tambahan untuk memperluas kemampuan ChadCode. Anda dapat menggunakan <1>server buatan komunitas</1> atau meminta ChadCode membuat tools baru yang spesifik untuk workflow Anda (misalnya, \"tambahkan tool yang mendapatkan dokumentasi npm terbaru\").",
 	"instructions": "Instruksi",
 	"enableToggle": {
 		"title": "Aktifkan Server MCP",
-		"description": "Nyalakan ini untuk membiarkan CoreThink Code menggunakan tools dari server MCP yang terhubung. Ini memberikan CoreThink Code lebih banyak kemampuan. Jika Anda tidak berencana menggunakan tools tambahan ini, matikan untuk membantu mengurangi biaya token API."
+		"description": "Nyalakan ini untuk membiarkan ChadCode menggunakan tools dari server MCP yang terhubung. Ini memberikan ChadCode lebih banyak kemampuan. Jika Anda tidak berencana menggunakan tools tambahan ini, matikan untuk membantu mengurangi biaya token API."
 	},
 	"enableServerCreation": {
 		"title": "Aktifkan Pembuatan Server MCP",
-		"description": "Aktifkan ini agar CoreThink Code membantu Anda membangun server MCP kustom <1>baru</1>. <0>Pelajari tentang pembuatan server</0>",
-		"hint": "Petunjuk: Untuk mengurangi biaya token API, nonaktifkan pengaturan ini ketika Anda tidak secara aktif meminta CoreThink Code untuk membuat server MCP baru."
+		"description": "Aktifkan ini agar ChadCode membantu Anda membangun server MCP kustom <1>baru</1>. <0>Pelajari tentang pembuatan server</0>",
+		"hint": "Petunjuk: Untuk mengurangi biaya token API, nonaktifkan pengaturan ini ketika Anda tidak secara aktif meminta ChadCode untuk membuat server MCP baru."
 	},
 	"editGlobalMCP": "Edit MCP Global",
 	"editProjectMCP": "Edit MCP Proyek",

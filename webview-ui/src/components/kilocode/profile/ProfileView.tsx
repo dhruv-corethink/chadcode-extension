@@ -10,7 +10,7 @@ interface ProfileViewProps {
 }
 
 /**
- * CoreThink Extension - Profile View
+ * ChadCode Extension - Profile View
  *
  * Simplified profile view for API key authentication.
  * Shows API key status and links to settings.
@@ -37,7 +37,7 @@ const ProfileView: React.FC<ProfileViewProps> = ({ onDone }) => {
 				<div className="h-full flex flex-col items-center justify-center p-6">
 					<Logo />
 
-					<h2 className="m-0 p-0 mb-4">CoreThink</h2>
+					<h2 className="m-0 p-0 mb-4">ChadCode</h2>
 
 					{hasApiKey ? (
 						<>
@@ -46,7 +46,7 @@ const ProfileView: React.FC<ProfileViewProps> = ({ onDone }) => {
 								<span className="text-green-500">API Key Configured</span>
 							</div>
 							<p className="text-center text-vscode-descriptionForeground mb-4">
-								Your CoreThink API key is set and ready to use.
+								Your ChadCode API key is set and ready to use.
 							</p>
 						</>
 					) : (
@@ -56,7 +56,7 @@ const ProfileView: React.FC<ProfileViewProps> = ({ onDone }) => {
 								<span className="text-yellow-500">No API Key</span>
 							</div>
 							<p className="text-center text-vscode-descriptionForeground mb-4">
-								Enter your CoreThink API key in the settings to get started.
+								Enter your ChadCode API key in the settings to get started.
 							</p>
 						</>
 					)}

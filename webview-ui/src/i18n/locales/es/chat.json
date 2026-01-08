@@ -1,5 +1,5 @@
 {
-	"greeting": "¿Qué puede hacer CoreThink Code por ti?",
+	"greeting": "¿Qué puede hacer ChadCode por ti?",
 	"task": {
 		"title": "Tarea",
 		"expand": "Expandir tarea",
@@ -21,7 +21,7 @@
 		"sharePublicly": "Compartir públicamente",
 		"sharePubliclyDescription": "Cualquiera con el enlace puede acceder",
 		"connectToCloud": "Conectar al Cloud",
-		"connectToCloudDescription": "Inicia sesión en CoreThink Code Cloud para compartir tareas",
+		"connectToCloudDescription": "Inicia sesión en ChadCode Cloud para compartir tareas",
 		"sharingDisabledByOrganization": "Compartir deshabilitado por la organización",
 		"shareSuccessOrganization": "Enlace de organización copiado al portapapeles",
 		"shareSuccessPublic": "Enlace público copiado al portapapeles",
@@ -95,7 +95,7 @@
 	"scrollToBottom": "Desplazarse al final del chat",
 	"about": "Genera, refactoriza y depura código con asistencia de IA. Consulta nuestra <DocsLink>documentación</DocsLink> para saber más.",
 	"docs": "Consulta nuestra <DocsLink>documentación</DocsLink> para saber más.",
-	"onboarding": "<strong>Tu lista de tareas en este espacio de trabajo está vacía.</strong> Comienza escribiendo una tarea abajo. ¿No estás seguro cómo empezar? Lee más sobre lo que CoreThink Code puede hacer por ti en <DocsLink>la documentación</DocsLink>.",
+	"onboarding": "<strong>Tu lista de tareas en este espacio de trabajo está vacía.</strong> Comienza escribiendo una tarea abajo. ¿No estás seguro cómo empezar? Lee más sobre lo que ChadCode puede hacer por ti en <DocsLink>la documentación</DocsLink>.",
 	"rooTips": {
 		"customizableModes": {
 			"title": "Modos personalizables",
@@ -124,7 +124,7 @@
 		"title": "Modos",
 		"marketplace": "Marketplace de Modos",
 		"settings": "Configuración de Modos",
-		"description": "Personalidades especializadas que adaptan el comportamiento de CoreThink Code.",
+		"description": "Personalidades especializadas que adaptan el comportamiento de ChadCode.",
 		"searchPlaceholder": "Buscar modos...",
 		"noResults": "No se encontraron resultados",
 		"organizationModes": "Modos de organización"
@@ -139,7 +139,7 @@
 	"diffError": {
 		"title": "Edición fallida"
 	},
-	"troubleMessage": "CoreThink Code está teniendo problemas...",
+	"troubleMessage": "ChadCode está teniendo problemas...",
 	"apiRequest": {
 		"title": "Solicitud API",
 		"failed": "Solicitud API falló",
@@ -179,48 +179,48 @@
 		"current": "Actual"
 	},
 	"instructions": {
-		"wantsToFetch": "CoreThink Code quiere obtener instrucciones detalladas para ayudar con la tarea actual"
+		"wantsToFetch": "ChadCode quiere obtener instrucciones detalladas para ayudar con la tarea actual"
 	},
 	"fileOperations": {
-		"wantsToRead": "CoreThink Code quiere leer este archivo",
-		"wantsToReadOutsideWorkspace": "CoreThink Code quiere leer este archivo fuera del espacio de trabajo",
-		"didRead": "CoreThink Code leyó este archivo",
-		"wantsToEdit": "CoreThink Code quiere editar este archivo",
-		"wantsToEditOutsideWorkspace": "CoreThink Code quiere editar este archivo fuera del espacio de trabajo",
-		"wantsToEditProtected": "CoreThink Code quiere editar un archivo de configuración protegido",
-		"wantsToCreate": "CoreThink Code quiere crear un nuevo archivo",
-		"wantsToSearchReplace": "CoreThink Code quiere realizar búsqueda y reemplazo en este archivo",
-		"didSearchReplace": "CoreThink Code realizó búsqueda y reemplazo en este archivo",
-		"wantsToInsert": "CoreThink Code quiere insertar contenido en este archivo",
-		"wantsToInsertWithLineNumber": "CoreThink Code quiere insertar contenido en este archivo en la línea {{lineNumber}}",
-		"wantsToInsertAtEnd": "CoreThink Code quiere añadir contenido al final de este archivo",
-		"wantsToReadAndXMore": "CoreThink Code quiere leer este archivo y {{count}} más",
-		"wantsToReadMultiple": "CoreThink Code quiere leer varios archivos",
-		"wantsToApplyBatchChanges": "CoreThink Code quiere aplicar cambios a múltiples archivos",
-		"wantsToGenerateImage": "CoreThink Code quiere generar una imagen",
-		"wantsToGenerateImageOutsideWorkspace": "CoreThink Code quiere generar una imagen fuera del espacio de trabajo",
-		"wantsToGenerateImageProtected": "CoreThink Code quiere generar una imagen en una ubicación protegida",
-		"didGenerateImage": "CoreThink Code generó una imagen",
-		"wantsToDelete": "CoreThink Code quiere eliminar este archivo",
-		"wantsToDeleteDirectory": "CoreThink Code quiere eliminar este directorio"
+		"wantsToRead": "ChadCode quiere leer este archivo",
+		"wantsToReadOutsideWorkspace": "ChadCode quiere leer este archivo fuera del espacio de trabajo",
+		"didRead": "ChadCode leyó este archivo",
+		"wantsToEdit": "ChadCode quiere editar este archivo",
+		"wantsToEditOutsideWorkspace": "ChadCode quiere editar este archivo fuera del espacio de trabajo",
+		"wantsToEditProtected": "ChadCode quiere editar un archivo de configuración protegido",
+		"wantsToCreate": "ChadCode quiere crear un nuevo archivo",
+		"wantsToSearchReplace": "ChadCode quiere realizar búsqueda y reemplazo en este archivo",
+		"didSearchReplace": "ChadCode realizó búsqueda y reemplazo en este archivo",
+		"wantsToInsert": "ChadCode quiere insertar contenido en este archivo",
+		"wantsToInsertWithLineNumber": "ChadCode quiere insertar contenido en este archivo en la línea {{lineNumber}}",
+		"wantsToInsertAtEnd": "ChadCode quiere añadir contenido al final de este archivo",
+		"wantsToReadAndXMore": "ChadCode quiere leer este archivo y {{count}} más",
+		"wantsToReadMultiple": "ChadCode quiere leer varios archivos",
+		"wantsToApplyBatchChanges": "ChadCode quiere aplicar cambios a múltiples archivos",
+		"wantsToGenerateImage": "ChadCode quiere generar una imagen",
+		"wantsToGenerateImageOutsideWorkspace": "ChadCode quiere generar una imagen fuera del espacio de trabajo",
+		"wantsToGenerateImageProtected": "ChadCode quiere generar una imagen en una ubicación protegida",
+		"didGenerateImage": "ChadCode generó una imagen",
+		"wantsToDelete": "ChadCode quiere eliminar este archivo",
+		"wantsToDeleteDirectory": "ChadCode quiere eliminar este directorio"
 	},
 	"directoryOperations": {
-		"wantsToViewTopLevel": "CoreThink Code quiere ver los archivos de nivel superior en este directorio",
-		"didViewTopLevel": "CoreThink Code vio los archivos de nivel superior en este directorio",
-		"wantsToViewRecursive": "CoreThink Code quiere ver recursivamente todos los archivos en este directorio",
-		"didViewRecursive": "CoreThink Code vio recursivamente todos los archivos en este directorio",
-		"wantsToViewDefinitions": "CoreThink Code quiere ver nombres de definiciones de código fuente utilizados en este directorio",
-		"didViewDefinitions": "CoreThink Code vio nombres de definiciones de código fuente utilizados en este directorio",
-		"wantsToSearch": "CoreThink Code quiere buscar en este directorio <code>{{regex}}</code>",
-		"didSearch": "CoreThink Code buscó en este directorio <code>{{regex}}</code>",
-		"wantsToSearchOutsideWorkspace": "CoreThink Code quiere buscar en este directorio (fuera del espacio de trabajo) <code>{{regex}}</code>",
-		"didSearchOutsideWorkspace": "CoreThink Code buscó en este directorio (fuera del espacio de trabajo) <code>{{regex}}</code>",
-		"wantsToViewTopLevelOutsideWorkspace": "CoreThink Code quiere ver los archivos de nivel superior en este directorio (fuera del espacio de trabajo)",
-		"didViewTopLevelOutsideWorkspace": "CoreThink Code vio los archivos de nivel superior en este directorio (fuera del espacio de trabajo)",
-		"wantsToViewRecursiveOutsideWorkspace": "CoreThink Code quiere ver recursivamente todos los archivos en este directorio (fuera del espacio de trabajo)",
-		"didViewRecursiveOutsideWorkspace": "CoreThink Code vio recursivamente todos los archivos en este directorio (fuera del espacio de trabajo)",
-		"wantsToViewDefinitionsOutsideWorkspace": "CoreThink Code quiere ver nombres de definiciones de código fuente utilizados en este directorio (fuera del espacio de trabajo)",
-		"didViewDefinitionsOutsideWorkspace": "CoreThink Code vio nombres de definiciones de código fuente utilizados en este directorio (fuera del espacio de trabajo)"
+		"wantsToViewTopLevel": "ChadCode quiere ver los archivos de nivel superior en este directorio",
+		"didViewTopLevel": "ChadCode vio los archivos de nivel superior en este directorio",
+		"wantsToViewRecursive": "ChadCode quiere ver recursivamente todos los archivos en este directorio",
+		"didViewRecursive": "ChadCode vio recursivamente todos los archivos en este directorio",
+		"wantsToViewDefinitions": "ChadCode quiere ver nombres de definiciones de código fuente utilizados en este directorio",
+		"didViewDefinitions": "ChadCode vio nombres de definiciones de código fuente utilizados en este directorio",
+		"wantsToSearch": "ChadCode quiere buscar en este directorio <code>{{regex}}</code>",
+		"didSearch": "ChadCode buscó en este directorio <code>{{regex}}</code>",
+		"wantsToSearchOutsideWorkspace": "ChadCode quiere buscar en este directorio (fuera del espacio de trabajo) <code>{{regex}}</code>",
+		"didSearchOutsideWorkspace": "ChadCode buscó en este directorio (fuera del espacio de trabajo) <code>{{regex}}</code>",
+		"wantsToViewTopLevelOutsideWorkspace": "ChadCode quiere ver los archivos de nivel superior en este directorio (fuera del espacio de trabajo)",
+		"didViewTopLevelOutsideWorkspace": "ChadCode vio los archivos de nivel superior en este directorio (fuera del espacio de trabajo)",
+		"wantsToViewRecursiveOutsideWorkspace": "ChadCode quiere ver recursivamente todos los archivos en este directorio (fuera del espacio de trabajo)",
+		"didViewRecursiveOutsideWorkspace": "ChadCode vio recursivamente todos los archivos en este directorio (fuera del espacio de trabajo)",
+		"wantsToViewDefinitionsOutsideWorkspace": "ChadCode quiere ver nombres de definiciones de código fuente utilizados en este directorio (fuera del espacio de trabajo)",
+		"didViewDefinitionsOutsideWorkspace": "ChadCode vio nombres de definiciones de código fuente utilizados en este directorio (fuera del espacio de trabajo)"
 	},
 	"commandOutput": "Salida del comando",
 	"commandExecution": {
@@ -248,18 +248,18 @@
 		"youSaid": "Has dicho"
 	},
 	"mcp": {
-		"wantsToUseTool": "CoreThink Code quiere usar una herramienta en el servidor MCP {{serverName}}",
-		"wantsToAccessResource": "CoreThink Code quiere acceder a un recurso en el servidor MCP {{serverName}}"
+		"wantsToUseTool": "ChadCode quiere usar una herramienta en el servidor MCP {{serverName}}",
+		"wantsToAccessResource": "ChadCode quiere acceder a un recurso en el servidor MCP {{serverName}}"
 	},
 	"modes": {
-		"wantsToSwitch": "CoreThink Code quiere cambiar a modo <code>{{mode}}</code>",
-		"wantsToSwitchWithReason": "CoreThink Code quiere cambiar a modo <code>{{mode}}</code> porque: {{reason}}",
-		"didSwitch": "CoreThink Code cambió a modo <code>{{mode}}</code>",
-		"didSwitchWithReason": "CoreThink Code cambió a modo <code>{{mode}}</code> porque: {{reason}}"
+		"wantsToSwitch": "ChadCode quiere cambiar a modo <code>{{mode}}</code>",
+		"wantsToSwitchWithReason": "ChadCode quiere cambiar a modo <code>{{mode}}</code> porque: {{reason}}",
+		"didSwitch": "ChadCode cambió a modo <code>{{mode}}</code>",
+		"didSwitchWithReason": "ChadCode cambió a modo <code>{{mode}}</code> porque: {{reason}}"
 	},
 	"subtasks": {
-		"wantsToCreate": "CoreThink Code quiere crear una nueva subtarea en modo <code>{{mode}}</code>",
-		"wantsToFinish": "CoreThink Code quiere finalizar esta subtarea",
+		"wantsToCreate": "ChadCode quiere crear una nueva subtarea en modo <code>{{mode}}</code>",
+		"wantsToFinish": "ChadCode quiere finalizar esta subtarea",
 		"newTaskContent": "Instrucciones de la subtarea",
 		"completionContent": "Subtarea completada",
 		"resultContent": "Resultados de la subtarea",
@@ -267,7 +267,7 @@
 		"completionInstructions": "¡Subtarea completada! Puedes revisar los resultados y sugerir correcciones o próximos pasos. Si todo se ve bien, confirma para devolver el resultado a la tarea principal."
 	},
 	"questions": {
-		"hasQuestion": "CoreThink Code tiene una pregunta"
+		"hasQuestion": "ChadCode tiene una pregunta"
 	},
 	"taskCompleted": "Tarea completada",
 	"errorDetails": {
@@ -341,11 +341,11 @@
 			"tryButton": "Prueba los Agentes en la Nube"
 		},
 		"careers": "Además, <careersLink>¡estamos contratando!</careersLink>",
-		"socialLinks": "Únete a nosotros en <xLink>X</xLink>, <discordLink>Discord</discordLink>, o <redditLink>r/KiloCode</redditLink> 🚀"
+		"socialLinks": "Únete a nosotros en <xLink>X</xLink>, <discordLink>Discord</discordLink>, o <redditLink>r/ChadCode</redditLink> 🚀"
 	},
 	"browser": {
 		"session": "Sesión del navegador",
-		"rooWantsToUse": "CoreThink Code quiere usar el navegador",
+		"rooWantsToUse": "ChadCode quiere usar el navegador",
 		"consoleLogs": "Registros de la consola",
 		"noNewLogs": "(No hay nuevos registros)",
 		"screenshot": "Captura de pantalla del navegador",
@@ -393,24 +393,24 @@
 	"profileViolationWarning": "El perfil actual no es compatible con la configuración de tu organización",
 	"shellIntegration": {
 		"title": "Advertencia de ejecución de comandos",
-		"description": "Tu comando se está ejecutando sin la integración de shell de terminal de VSCode. Para suprimir esta advertencia, puedes desactivar la integración de shell en la sección <strong>Terminal</strong> de la <settingsLink>configuración de CoreThink Code</settingsLink> o solucionar problemas de integración de terminal de VSCode usando el enlace de abajo.",
+		"description": "Tu comando se está ejecutando sin la integración de shell de terminal de VSCode. Para suprimir esta advertencia, puedes desactivar la integración de shell en la sección <strong>Terminal</strong> de la <settingsLink>configuración de ChadCode</settingsLink> o solucionar problemas de integración de terminal de VSCode usando el enlace de abajo.",
 		"troubleshooting": "Haz clic aquí para ver la documentación de integración de shell."
 	},
 	"ask": {
 		"autoApprovedRequestLimitReached": {
 			"title": "Límite de Solicitudes Auto-aprobadas Alcanzado",
-			"description": "CoreThink Code ha alcanzado el límite auto-aprobado de {{count}} solicitud(es) API. ¿Deseas reiniciar el contador y continuar con la tarea?",
+			"description": "ChadCode ha alcanzado el límite auto-aprobado de {{count}} solicitud(es) API. ¿Deseas reiniciar el contador y continuar con la tarea?",
 			"button": "Reiniciar y Continuar"
 		},
 		"autoApprovedCostLimitReached": {
 			"title": "Límite de Costo Auto-Aprobado Alcanzado",
-			"description": "CoreThink Code ha alcanzado el límite de costo autoaprobado de ${{count}}. ¿Le gustaría reiniciar el costo y continuar con la tarea?",
+			"description": "ChadCode ha alcanzado el límite de costo autoaprobado de ${{count}}. ¿Le gustaría reiniciar el costo y continuar con la tarea?",
 			"button": "Reiniciar y continuar"
 		}
 	},
 	"codebaseSearch": {
-		"wantsToSearch": "CoreThink Code quiere buscar en la base de código <code>{{query}}</code>",
-		"wantsToSearchWithPath": "CoreThink Code quiere buscar en la base de código <code>{{query}}</code> en <code>{{path}}</code>",
+		"wantsToSearch": "ChadCode quiere buscar en la base de código <code>{{query}}</code>",
+		"wantsToSearchWithPath": "ChadCode quiere buscar en la base de código <code>{{query}}</code> en <code>{{path}}</code>",
 		"didSearch_one": "Se encontró 1 resultado",
 		"didSearch_other": "Se encontraron {{count}} resultados",
 		"resultTooltip": "Puntuación de similitud: {{score}} (haz clic para abrir el archivo)"
@@ -475,8 +475,8 @@
 		"clickToEdit": "Haz clic para editar el mensaje"
 	},
 	"slashCommand": {
-		"wantsToRun": "CoreThink Code quiere ejecutar un comando slash",
-		"didRun": "CoreThink Code ejecutó un comando slash"
+		"wantsToRun": "ChadCode quiere ejecutar un comando slash",
+		"didRun": "ChadCode ejecutó un comando slash"
 	},
 	"todo": {
 		"partial": "{{completed}} de {{total}} tareas pendientes realizadas",

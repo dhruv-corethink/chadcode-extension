@@ -51,7 +51,7 @@
 		}
 	},
 	"commitMessage": {
-		"activated": "Gerador de mensagens de commit CoreThink Code ativado",
+		"activated": "Gerador de mensagens de commit ChadCode ativado",
 		"gitNotFound": "⚠️ Repositório Git não encontrado ou git indisponível",
 		"gitInitError": "⚠️ Erro de inicialização do Git: {{error}}",
 		"generating": "Kilo: Gerando mensagem de commit...",
@@ -63,7 +63,7 @@
 		"providerRegistered": "Kilo: Provedor de mensagens de commit registrado",
 		"errors": {
 			"noProject": "Nenhum projeto disponível",
-			"connectionFailed": "Falha ao conectar com a extensão CoreThink Code",
+			"connectionFailed": "Falha ao conectar com a extensão ChadCode",
 			"invalidResponse": "Formato de resposta inválido recebido da extensão",
 			"missingMessage": "Nenhuma mensagem de commit recebida da extensão",
 			"timeout": "Solicitação excedeu o tempo limite após 30 segundos",
@@ -88,7 +88,7 @@
 		"progress": {
 			"analyzing": "Analisando mudanças...",
 			"title": "Gerando Mensagem de Commit",
-			"connecting": "Conectando ao CoreThink Code...",
+			"connecting": "Conectando ao ChadCode...",
 			"generating": "Gerando mensagem de commit..."
 		},
 		"ui": {
@@ -102,8 +102,8 @@
 			"snoozed": "pausado",
 			"warning": "$(warning) Autocomplete",
 			"tooltip": {
-				"basic": "CoreThink Code Autocomplete",
-				"disabled": "CoreThink Code Autocomplete (desabilitado)",
+				"basic": "ChadCode Autocomplete",
+				"disabled": "ChadCode Autocomplete (desabilitado)",
 				"tokenError": "Um token válido deve ser definido para usar o Autocomplete",
 				"sessionTotal": "Custo total da sessão:",
 				"provider": "Provedor:",
@@ -118,36 +118,36 @@
 				"lessThanCent": "<$0.01"
 			}
 		},
-		"toggleMessage": "CoreThink Code Autocomplete {{status}}",
+		"toggleMessage": "ChadCode Autocomplete {{status}}",
 		"progress": {
-			"title": "CoreThink Code",
+			"title": "ChadCode",
 			"analyzing": "Analisando seu código...",
 			"generating": "Gerando edições sugeridas...",
 			"processing": "Processando edições sugeridas...",
 			"showing": "Exibindo edições sugeridas..."
 		},
 		"input": {
-			"title": "CoreThink Code: Tarefa Rápida",
+			"title": "ChadCode: Tarefa Rápida",
 			"placeholder": "ex., 'refatore esta função para ser mais eficiente'"
 		},
 		"commands": {
-			"generateSuggestions": "CoreThink Code: Gerar Edições Sugeridas",
+			"generateSuggestions": "ChadCode: Gerar Edições Sugeridas",
 			"displaySuggestions": "Exibir Edições Sugeridas",
 			"cancelSuggestions": "Cancelar Edições Sugeridas",
 			"applyCurrentSuggestion": "Aplicar Edição Sugerida Atual",
 			"applyAllSuggestions": "Aplicar Todas as Edições Sugeridas",
-			"category": "CoreThink Code"
+			"category": "ChadCode"
 		},
 		"codeAction": {
-			"title": "CoreThink Code: Edições Sugeridas"
+			"title": "ChadCode: Edições Sugeridas"
 		},
 		"chatParticipant": {
-			"fullName": "CoreThink Code Agent",
+			"fullName": "ChadCode Agent",
 			"name": "Agent",
 			"description": "Posso te ajudar com tarefas rápidas e edições sugeridas."
 		},
 		"incompatibilityExtensionPopup": {
-			"message": "O CoreThink Code Autocomplete está sendo bloqueado por um conflito com o GitHub Copilot. Para corrigir isso, você deve desabilitar as sugestões inline do Copilot.",
+			"message": "O ChadCode Autocomplete está sendo bloqueado por um conflito com o GitHub Copilot. Para corrigir isso, você deve desabilitar as sugestões inline do Copilot.",
 			"disableCopilot": "Desabilitar Copilot",
 			"disableInlineAssist": "Desabilitar Autocomplete"
 		}

@@ -2657,10 +2657,10 @@ export const webviewMessageHandler = async (
 				const kilocodeToken = apiConfiguration?.kilocodeToken
 
 				if (!kilocodeToken) {
-					provider.log("KiloCode token not found in extension state.")
+					provider.log("ChadCode token not found in extension state.")
 					provider.postMessageToWebview({
 						type: "profileDataResponse",
-						payload: { success: false, error: "KiloCode API token not configured." },
+						payload: { success: false, error: "ChadCode API token not configured." },
 					})
 					break
 				}
@@ -2752,10 +2752,10 @@ export const webviewMessageHandler = async (
 				const { kilocodeToken, kilocodeOrganizationId } = apiConfiguration ?? {}
 
 				if (!kilocodeToken) {
-					provider.log("KiloCode token not found in extension state for balance data.")
+					provider.log("ChadCode token not found in extension state for balance data.")
 					provider.postMessageToWebview({
 						type: "balanceDataResponse", // New response type
-						payload: { success: false, error: "KiloCode API token not configured." },
+						payload: { success: false, error: "ChadCode API token not configured." },
 					})
 					break
 				}
@@ -2766,7 +2766,7 @@ export const webviewMessageHandler = async (
 				}
 
 				if (kilocodeOrganizationId) {
-					headers["X-KiloCode-OrganizationId"] = kilocodeOrganizationId
+					headers["X-ChadCode-OrganizationId"] = kilocodeOrganizationId
 				}
 
 				// Add X-KILOCODE-TESTER: SUPPRESS header if the setting is enabled
@@ -2798,7 +2798,7 @@ export const webviewMessageHandler = async (
 				const { apiConfiguration } = await provider.getState()
 				const kilocodeToken = apiConfiguration?.kilocodeToken
 				if (!kilocodeToken) {
-					provider.log("KiloCode token not found in extension state for buy credits.")
+					provider.log("ChadCode token not found in extension state for buy credits.")
 					break
 				}
 				const credits = message.values?.credits || 50

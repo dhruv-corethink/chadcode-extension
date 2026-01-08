@@ -1,4 +1,4 @@
-export interface KiloCodeWrapperProperties {
+export interface ChadCodeWrapperProperties {
 	kiloCodeWrapped: boolean
 	kiloCodeWrapper: string | null
 	kiloCodeWrapperTitle: string | null

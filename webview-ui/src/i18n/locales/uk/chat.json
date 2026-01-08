@@ -1,5 +1,5 @@
 {
-	"greeting": "Що CoreThink Code може зробити для тебе?",
+	"greeting": "Що ChadCode може зробити для тебе?",
 	"task": {
 		"title": "Завдання",
 		"seeMore": "Дивитися більше",
@@ -19,7 +19,7 @@
 		"sharePublicly": "Поділитися публічно",
 		"sharePubliclyDescription": "Будь-хто з посиланням має доступ",
 		"connectToCloud": "Підключитися до Cloud",
-		"connectToCloudDescription": "Увійдіть до CoreThink Code Cloud для обміну завданнями",
+		"connectToCloudDescription": "Увійдіть до ChadCode Cloud для обміну завданнями",
 		"sharingDisabledByOrganization": "Обмін вимкнено організацією",
 		"shareSuccessOrganization": "Посилання організації скопійовано до буфера обміну",
 		"shareSuccessPublic": "Публічне посилання скопійовано до буфера обміну",
@@ -138,7 +138,7 @@
 		"title": "Режими",
 		"marketplace": "Ринок режимів",
 		"settings": "Налаштування режимів",
-		"description": "Спеціалізовані персони, які налаштовують поведінку CoreThink Code.",
+		"description": "Спеціалізовані персони, які налаштовують поведінку ChadCode.",
 		"searchPlaceholder": "Пошук режимів...",
 		"noResults": "Результатів не знайдено",
 		"organizationModes": "Режими організації"
@@ -224,52 +224,52 @@
 		"tokens": "токени"
 	},
 	"instructions": {
-		"wantsToFetch": "CoreThink Code хоче отримати детальні інструкції для допомоги з поточним завданням"
+		"wantsToFetch": "ChadCode хоче отримати детальні інструкції для допомоги з поточним завданням"
 	},
 	"fileOperations": {
-		"wantsToRead": "CoreThink Code хоче прочитати цей файл:",
-		"wantsToReadMultiple": "CoreThink Code хоче прочитати кілька файлів:",
-		"wantsToReadAndXMore": "CoreThink Code хоче прочитати цей файл і ще {{count}}:",
-		"wantsToReadOutsideWorkspace": "CoreThink Code хоче прочитати цей файл за межами робочого простору:",
-		"didRead": "CoreThink Code прочитав цей файл:",
-		"wantsToEdit": "CoreThink Code хоче редагувати цей файл:",
-		"wantsToEditOutsideWorkspace": "CoreThink Code хоче редагувати цей файл за межами робочого простору:",
-		"wantsToEditProtected": "CoreThink Code хоче редагувати захищений файл конфігурації:",
-		"wantsToApplyBatchChanges": "CoreThink Code хоче застосувати зміни до кількох файлів:",
-		"wantsToGenerateImage": "CoreThink Code хоче згенерувати зображення:",
-		"wantsToGenerateImageOutsideWorkspace": "CoreThink Code хоче згенерувати зображення поза робочою областю:",
-		"wantsToGenerateImageProtected": "CoreThink Code хоче згенерувати зображення у захищеному місці:",
-		"didGenerateImage": "CoreThink Code згенерував зображення:",
-		"wantsToCreate": "CoreThink Code хоче створити новий файл:",
-		"wantsToSearchReplace": "CoreThink Code хоче шукати та замінити в цьому файлі:",
-		"didSearchReplace": "CoreThink Code виконав пошук і заміну в цьому файлі:",
-		"wantsToInsert": "CoreThink Code хоче вставити вміст у цей файл:",
-		"wantsToInsertWithLineNumber": "CoreThink Code хоче вставити вміст у цей файл на рядку {{lineNumber}}:",
-		"wantsToInsertAtEnd": "CoreThink Code хоче додати вміст в кінець цього файлу:",
-		"wantsToDelete": "CoreThink Code хоче видалити цей файл",
-		"wantsToDeleteDirectory": "CoreThink Code хоче видалити цю директорію"
+		"wantsToRead": "ChadCode хоче прочитати цей файл:",
+		"wantsToReadMultiple": "ChadCode хоче прочитати кілька файлів:",
+		"wantsToReadAndXMore": "ChadCode хоче прочитати цей файл і ще {{count}}:",
+		"wantsToReadOutsideWorkspace": "ChadCode хоче прочитати цей файл за межами робочого простору:",
+		"didRead": "ChadCode прочитав цей файл:",
+		"wantsToEdit": "ChadCode хоче редагувати цей файл:",
+		"wantsToEditOutsideWorkspace": "ChadCode хоче редагувати цей файл за межами робочого простору:",
+		"wantsToEditProtected": "ChadCode хоче редагувати захищений файл конфігурації:",
+		"wantsToApplyBatchChanges": "ChadCode хоче застосувати зміни до кількох файлів:",
+		"wantsToGenerateImage": "ChadCode хоче згенерувати зображення:",
+		"wantsToGenerateImageOutsideWorkspace": "ChadCode хоче згенерувати зображення поза робочою областю:",
+		"wantsToGenerateImageProtected": "ChadCode хоче згенерувати зображення у захищеному місці:",
+		"didGenerateImage": "ChadCode згенерував зображення:",
+		"wantsToCreate": "ChadCode хоче створити новий файл:",
+		"wantsToSearchReplace": "ChadCode хоче шукати та замінити в цьому файлі:",
+		"didSearchReplace": "ChadCode виконав пошук і заміну в цьому файлі:",
+		"wantsToInsert": "ChadCode хоче вставити вміст у цей файл:",
+		"wantsToInsertWithLineNumber": "ChadCode хоче вставити вміст у цей файл на рядку {{lineNumber}}:",
+		"wantsToInsertAtEnd": "ChadCode хоче додати вміст в кінець цього файлу:",
+		"wantsToDelete": "ChadCode хоче видалити цей файл",
+		"wantsToDeleteDirectory": "ChadCode хоче видалити цю директорію"
 	},
 	"directoryOperations": {
-		"wantsToViewTopLevel": "CoreThink Code хоче переглянути файли верхнього рівня в цій директорії:",
-		"didViewTopLevel": "CoreThink Code переглянув файли верхнього рівня в цій директорії:",
-		"wantsToViewTopLevelOutsideWorkspace": "CoreThink Code хоче переглянути файли верхнього рівня в цій директорії (за межами робочого простору):",
-		"didViewTopLevelOutsideWorkspace": "CoreThink Code переглянув файли верхнього рівня в цій директорії (за межами робочого простору):",
-		"wantsToViewRecursive": "CoreThink Code хоче рекурсивно переглянути всі файли в цій директорії:",
-		"didViewRecursive": "CoreThink Code рекурсивно переглянув всі файли в цій директорії:",
-		"wantsToViewRecursiveOutsideWorkspace": "CoreThink Code хоче рекурсивно переглянути всі файли в цій директорії (за межами робочого простору):",
-		"didViewRecursiveOutsideWorkspace": "CoreThink Code рекурсивно переглянув всі файли в цій директорії (за межами робочого простору):",
-		"wantsToViewDefinitions": "CoreThink Code хоче переглянути назви визначень вихідного коду, що використовуються в цій директорії:",
-		"didViewDefinitions": "CoreThink Code переглянув назви визначень вихідного коду, що використовуються в цій директорії:",
-		"wantsToViewDefinitionsOutsideWorkspace": "CoreThink Code хоче переглянути назви визначень вихідного коду, що використовуються в цій директорії (за межами робочого простору):",
-		"didViewDefinitionsOutsideWorkspace": "CoreThink Code переглянув назви визначень вихідного коду, що використовуються в цій директорії (за межами робочого простору):",
-		"wantsToSearch": "CoreThink Code хоче шукати в цій директорії <code>{{regex}}</code>:",
-		"didSearch": "CoreThink Code шукав у цій директорії <code>{{regex}}</code>:",
-		"wantsToSearchOutsideWorkspace": "CoreThink Code хоче шукати в цій директорії (за межами робочого простору) <code>{{regex}}</code>:",
-		"didSearchOutsideWorkspace": "CoreThink Code шукав у цій директорії (за межами робочого простору) <code>{{regex}}</code>:"
+		"wantsToViewTopLevel": "ChadCode хоче переглянути файли верхнього рівня в цій директорії:",
+		"didViewTopLevel": "ChadCode переглянув файли верхнього рівня в цій директорії:",
+		"wantsToViewTopLevelOutsideWorkspace": "ChadCode хоче переглянути файли верхнього рівня в цій директорії (за межами робочого простору):",
+		"didViewTopLevelOutsideWorkspace": "ChadCode переглянув файли верхнього рівня в цій директорії (за межами робочого простору):",
+		"wantsToViewRecursive": "ChadCode хоче рекурсивно переглянути всі файли в цій директорії:",
+		"didViewRecursive": "ChadCode рекурсивно переглянув всі файли в цій директорії:",
+		"wantsToViewRecursiveOutsideWorkspace": "ChadCode хоче рекурсивно переглянути всі файли в цій директорії (за межами робочого простору):",
+		"didViewRecursiveOutsideWorkspace": "ChadCode рекурсивно переглянув всі файли в цій директорії (за межами робочого простору):",
+		"wantsToViewDefinitions": "ChadCode хоче переглянути назви визначень вихідного коду, що використовуються в цій директорії:",
+		"didViewDefinitions": "ChadCode переглянув назви визначень вихідного коду, що використовуються в цій директорії:",
+		"wantsToViewDefinitionsOutsideWorkspace": "ChadCode хоче переглянути назви визначень вихідного коду, що використовуються в цій директорії (за межами робочого простору):",
+		"didViewDefinitionsOutsideWorkspace": "ChadCode переглянув назви визначень вихідного коду, що використовуються в цій директорії (за межами робочого простору):",
+		"wantsToSearch": "ChadCode хоче шукати в цій директорії <code>{{regex}}</code>:",
+		"didSearch": "ChadCode шукав у цій директорії <code>{{regex}}</code>:",
+		"wantsToSearchOutsideWorkspace": "ChadCode хоче шукати в цій директорії (за межами робочого простору) <code>{{regex}}</code>:",
+		"didSearchOutsideWorkspace": "ChadCode шукав у цій директорії (за межами робочого простору) <code>{{regex}}</code>:"
 	},
 	"codebaseSearch": {
-		"wantsToSearch": "CoreThink Code хоче шукати в кодовій базі <code>{{query}}</code>:",
-		"wantsToSearchWithPath": "CoreThink Code хоче шукати в кодовій базі <code>{{query}}</code> в <code>{{path}}</code>:",
+		"wantsToSearch": "ChadCode хоче шукати в кодовій базі <code>{{query}}</code>:",
+		"wantsToSearchWithPath": "ChadCode хоче шукати в кодовій базі <code>{{query}}</code> в <code>{{path}}</code>:",
 		"didSearch_one": "Знайдено 1 результат",
 		"didSearch_other": "Знайдено {{count}} результатів",
 		"resultTooltip": "Оцінка схожості: {{score}} (клікни для відкриття файлу)"
@@ -296,24 +296,24 @@
 	"response": "Відповідь",
 	"arguments": "Аргументи",
 	"text": {
-		"rooSaid": "Kilo сказав"
+		"rooSaid": "Chad сказав"
 	},
 	"feedback": {
 		"youSaid": "Ти сказав"
 	},
 	"mcp": {
-		"wantsToUseTool": "CoreThink Code хоче використати інструмент на сервері MCP {{serverName}}:",
-		"wantsToAccessResource": "CoreThink Code хоче отримати доступ до ресурсу на сервері MCP {{serverName}}:"
+		"wantsToUseTool": "ChadCode хоче використати інструмент на сервері MCP {{serverName}}:",
+		"wantsToAccessResource": "ChadCode хоче отримати доступ до ресурсу на сервері MCP {{serverName}}:"
 	},
 	"modes": {
-		"wantsToSwitch": "CoreThink Code хоче перейти в режим {{mode}}",
-		"wantsToSwitchWithReason": "CoreThink Code хоче перейти в режим {{mode}}, тому що: {{reason}}",
-		"didSwitch": "CoreThink Code перейшов у режим {{mode}}",
-		"didSwitchWithReason": "CoreThink Code перейшов у режим {{mode}}, тому що: {{reason}}"
+		"wantsToSwitch": "ChadCode хоче перейти в режим {{mode}}",
+		"wantsToSwitchWithReason": "ChadCode хоче перейти в режим {{mode}}, тому що: {{reason}}",
+		"didSwitch": "ChadCode перейшов у режим {{mode}}",
+		"didSwitchWithReason": "ChadCode перейшов у режим {{mode}}, тому що: {{reason}}"
 	},
 	"subtasks": {
-		"wantsToCreate": "CoreThink Code хоче створити нове підзавдання в режимі {{mode}}:",
-		"wantsToFinish": "CoreThink Code хоче завершити це підзавдання",
+		"wantsToCreate": "ChadCode хоче створити нове підзавдання в режимі {{mode}}:",
+		"wantsToFinish": "ChadCode хоче завершити це підзавдання",
 		"newTaskContent": "Інструкції підзавдання",
 		"completionContent": "Підзавдання завершено",
 		"resultContent": "Результати підзавдання",
@@ -321,7 +321,7 @@
 		"completionInstructions": "Підзавдання завершено! Ти можеш переглянути результати та запропонувати будь-які виправлення або наступні кроки. Якщо все виглядає добре, підтверди, щоб повернути результат до батьківського завдання."
 	},
 	"questions": {
-		"hasQuestion": "CoreThink Code має питання:"
+		"hasQuestion": "ChadCode має питання:"
 	},
 	"taskCompleted": "Завдання виконано",
 	"error": "Помилка",
@@ -333,14 +333,14 @@
 	"diffError": {
 		"title": "Редагування не вдалося"
 	},
-	"troubleMessage": "CoreThink Code має проблеми...",
+	"troubleMessage": "ChadCode має проблеми...",
 	"powershell": {
 		"issues": "Схоже, у тебе проблеми з Windows PowerShell, будь ласка, подивись це"
 	},
 	"autoApprove": {
 		"title": "Автосхвалення:",
 		"none": "Немає",
-		"description": "Автосхвалення дозволяє CoreThink Code виконувати дії без запиту дозволу. Увімкни лише для дій, яким ти повністю довіряєш. Більш детальна конфігурація доступна в <settingsLink>Налаштуваннях</settingsLink>.",
+		"description": "Автосхвалення дозволяє ChadCode виконувати дії без запиту дозволу. Увімкни лише для дій, яким ти повністю довіряєш. Більш детальна конфігурація доступна в <settingsLink>Налаштуваннях</settingsLink>.",
 		"selectOptionsFirst": "Спочатку вибери принаймні один варіант нижче, щоб увімкнути автосхвалення",
 		"toggleAriaLabel": "Перемкнути автосхвалення",
 		"disabledAriaLabel": "Автосхвалення вимкнено - спочатку вибери варіанти",
@@ -399,7 +399,7 @@
 	},
 	"browser": {
 		"session": "Сесія браузера",
-		"rooWantsToUse": "CoreThink Code хоче використати браузер:",
+		"rooWantsToUse": "ChadCode хоче використати браузер:",
 		"consoleLogs": "Логи консолі",
 		"noNewLogs": "(Немає нових логів)",
 		"screenshot": "Знімок екрана браузера",
@@ -467,18 +467,18 @@
 	"profileViolationWarning": "Поточний профіль несумісний з налаштуваннями твоєї організації",
 	"shellIntegration": {
 		"title": "Попередження про виконання команди",
-		"description": "Твоя команда виконується без інтеграції оболонки терміналу VSCode. Щоб прибрати це попередження, ти можеш вимкнути інтеграцію оболонки в розділі <strong>Terminal</strong> <settingsLink>налаштувань CoreThink Code</settingsLink> або усунути проблеми з інтеграцією терміналу VSCode, використовуючи посилання нижче.",
+		"description": "Твоя команда виконується без інтеграції оболонки терміналу VSCode. Щоб прибрати це попередження, ти можеш вимкнути інтеграцію оболонки в розділі <strong>Terminal</strong> <settingsLink>налаштувань ChadCode</settingsLink> або усунути проблеми з інтеграцією терміналу VSCode, використовуючи посилання нижче.",
 		"troubleshooting": "Натисни тут для документації з інтеграції оболонки."
 	},
 	"ask": {
 		"autoApprovedRequestLimitReached": {
 			"title": "Досягнуто ліміт автосхвалених запитів",
-			"description": "CoreThink Code досяг автосхваленого ліміту {{count}} API запит(ів). Хочеш скинути лічильник і продовжити завдання?",
+			"description": "ChadCode досяг автосхваленого ліміту {{count}} API запит(ів). Хочеш скинути лічильник і продовжити завдання?",
 			"button": "Скинути і продовжити"
 		},
 		"autoApprovedCostLimitReached": {
 			"title": "Досягнуто ліміт автоматично схвалених витрат",
-			"description": "CoreThink Code досяг ліміту автоматично схвалених витрат ${{count}}. Хочете скинути витрати і продовжити завдання?",
+			"description": "ChadCode досяг ліміту автоматично схвалених витрат ${{count}}. Хочете скинути витрати і продовжити завдання?",
 			"button": "Скинути і продовжити"
 		}
 	},
@@ -526,8 +526,8 @@
 	},
 	"generateCommitMessage": "Згенерувати повідомлення коміту",
 	"slashCommand": {
-		"wantsToRun": "CoreThink Code хоче виконати slash команду:",
-		"didRun": "CoreThink Code виконав slash команду:"
+		"wantsToRun": "ChadCode хоче виконати slash команду:",
+		"didRun": "ChadCode виконав slash команду:"
 	},
 	"contextMenu": {
 		"noResults": "Результатів немає",

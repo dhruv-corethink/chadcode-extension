@@ -5,8 +5,8 @@ import type { ProviderSettings, ModelInfo, ToolProtocol } from "@roo-code/types"
 
 import { ApiStream } from "./transform/stream"
 
-// CoreThink: Import only CoreThinkHandler - all other providers are disabled
-import { CoreThinkHandler, isCoreThinkMode, getCoreThinkApiKey } from "./providers/corethink"
+// ChadCode: Import only ChadCodeHandler - all other providers are disabled
+import { ChadCodeHandler, isChadCodeMode, getChadCodeApiKey } from "./providers/chadcode"
 
 // Legacy provider imports - kept for reference but not used
 // import {
@@ -56,8 +56,8 @@ export interface ApiHandlerCreateMessageMetadata {
 	store?: boolean
 	// kilocode_change start
 	/**
-	 * KiloCode-specific: The project ID for the current workspace (derived from git origin remote).
-	 * Used by KiloCodeOpenrouterHandler for backend tracking. Ignored by other providers.
+	 * ChadCode-specific: The project ID for the current workspace (derived from git origin remote).
+	 * Used by ChadCodeOpenrouterHandler for backend tracking. Ignored by other providers.
 	 * @kilocode-only
 	 */
 	projectId?: string
@@ -109,9 +109,9 @@ export interface ApiHandler {
 }
 
 /**
- * Build API handler - CoreThink Extension
+ * Build API handler - ChadCode Extension
  *
- * This extension uses CoreThink as the ONLY AI provider.
+ * This extension uses ChadCode as the ONLY AI provider.
  * All other providers have been disabled.
  *
  * Configuration is done via environment variable: CORETHINK_API_KEY
@@ -120,22 +120,22 @@ export function buildApiHandler(configuration: ProviderSettings): ApiHandler {
 	const { apiProvider, ...options } = configuration
 
 	// Get API key from environment or options
-	const apiKey = getCoreThinkApiKey() || options.apiKey
+	const apiKey = getChadCodeApiKey() || options.apiKey
 
 	if (!apiKey) {
 		console.warn(
-			"[CoreThink] CORETHINK_API_KEY environment variable not set. " +
-				"Please set it to your CoreThink API key (should start with 'sk_').",
+			"[ChadCode] CORETHINK_API_KEY environment variable not set. " +
+				"Please set it to your ChadCode API key (should start with 'sk_').",
 		)
 	}
 
-	// Always return CoreThinkHandler - this is the only provider in CoreThink Extension
-	// CoreThink uses OpenAI-compatible base URL, fallback to env var or default
+	// Always return ChadCodeHandler - this is the only provider in ChadCode Extension
+	// ChadCode uses OpenAI-compatible base URL, fallback to env var or default
 	const apiBaseUrl = process.env.CORETHINK_API_URL || options.openAiBaseUrl
 
-	return new CoreThinkHandler({
+	return new ChadCodeHandler({
 		apiKey,
 		apiBaseUrl,
-		apiModelId: options.apiModelId || "corethink",
+		apiModelId: options.apiModelId || "chadcode",
 	})
 }

@@ -44,7 +44,7 @@ import {
 import { initializeI18n } from "./i18n"
 import { registerGhostProvider } from "./services/ghost" // kilocode_change
 import { registerMainThreadForwardingLogger } from "./utils/fowardingLogger" // kilocode_change
-import { getKiloCodeWrapperProperties } from "./core/kilocode/wrapper" // kilocode_change
+import { getChadCodeWrapperProperties } from "./core/kilocode/wrapper" // kilocode_change
 import { checkAnthropicApiKeyConflict } from "./utils/anthropicApiKeyWarning" // kilocode_change
 import { SettingsSyncService } from "./services/settings-sync/SettingsSyncService" // kilocode_change
 import { ManagedIndexer } from "./services/code-index/managed/ManagedIndexer" // kilocode_change
@@ -345,23 +345,23 @@ export async function activate(context: vscode.ExtensionContext) {
 
 	// kilocode_change start
 	if (!context.globalState.get("firstInstallCompleted")) {
-		outputChannel.appendLine("First installation detected, opening CoreThink Code sidebar!")
+		outputChannel.appendLine("First installation detected, opening ChadCode sidebar!")
 		try {
 			await vscode.commands.executeCommand("kilo-code.SidebarProvider.focus")
 
-			outputChannel.appendLine("Opening CoreThink Code walkthrough")
+			outputChannel.appendLine("Opening ChadCode walkthrough")
 
 			// this can crash, see:
 			// https://discord.com/channels/1349288496988160052/1395865796026040470
 			await vscode.commands.executeCommand(
 				"workbench.action.openWalkthrough",
-				"corethink.corethink#corethinkWalkthrough",
+				"chadcode.chadcode#chadcodeWalkthrough",
 				false,
 			)
 
 			// Enable autocomplete by default for new installs, but not for JetBrains IDEs
 			// JetBrains users can manually enable it if they want to test the feature
-			const { kiloCodeWrapperJetbrains } = getKiloCodeWrapperProperties()
+			const { kiloCodeWrapperJetbrains } = getChadCodeWrapperProperties()
 			const currentGhostSettings = contextProxy.getValue("ghostServiceSettings")
 			await contextProxy.setValue("ghostServiceSettings", {
 				...currentGhostSettings,
@@ -461,8 +461,8 @@ export async function activate(context: vscode.ExtensionContext) {
 		}),
 	)
 
-	// kilocode_change start - CoreThink Code specific registrations
-	const { kiloCodeWrapped, kiloCodeWrapperCode } = getKiloCodeWrapperProperties()
+	// kilocode_change start - ChadCode specific registrations
+	const { kiloCodeWrapped, kiloCodeWrapperCode } = getChadCodeWrapperProperties()
 	if (kiloCodeWrapped) {
 		// Only foward logs in Jetbrains
 		registerMainThreadForwardingLogger(context)
@@ -472,12 +472,12 @@ export async function activate(context: vscode.ExtensionContext) {
 		registerGhostProvider(context, provider)
 	}
 	registerCommitMessageProvider(context, outputChannel) // kilocode_change
-	// kilocode_change end - CoreThink Code specific registrations
+	// kilocode_change end - ChadCode specific registrations
 
 	registerCodeActions(context)
 	registerTerminalActions(context)
 
-	// Allows other extensions to activate once CoreThink Code is ready.
+	// Allows other extensions to activate once ChadCode is ready.
 	vscode.commands.executeCommand(`${Package.name}.activationCompleted`)
 
 	// Implements the `RooCodeAPI` interface.

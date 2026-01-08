@@ -2,16 +2,16 @@
 	"title": "MCPサーバー",
 	"done": "完了",
 	"marketplace": "MCPマーケットプレイス",
-	"description": "<0>Model Context Protocol</0>は、ローカルで実行されているMCPサーバーとの通信を可能にし、CoreThink Codeの機能を拡張するための追加ツールやリソースを提供します。<1>コミュニティによって作成されたサーバー</1>を使用したり、CoreThink Codeにワークフロー専用の新しいツールを作成するよう依頼したりできます（例：「最新のnpmドキュメントを取得するツールを追加する」）。",
+	"description": "<0>Model Context Protocol</0>は、ローカルで実行されているMCPサーバーとの通信を可能にし、ChadCodeの機能を拡張するための追加ツールやリソースを提供します。<1>コミュニティによって作成されたサーバー</1>を使用したり、ChadCodeにワークフロー専用の新しいツールを作成するよう依頼したりできます（例：「最新のnpmドキュメントを取得するツールを追加する」）。",
 	"instructions": "手順",
 	"enableToggle": {
 		"title": "MCPサーバーを有効化",
-		"description": "これをONにすると、CoreThink Codeが接続されたMCPサーバーのツールを使えるようになるよ。CoreThink Codeの機能が増える！追加ツールを使わないなら、APIトークンのコストを抑えるためにOFFにしてね。"
+		"description": "これをONにすると、ChadCodeが接続されたMCPサーバーのツールを使えるようになるよ。ChadCodeの機能が増える！追加ツールを使わないなら、APIトークンのコストを抑えるためにOFFにしてね。"
 	},
 	"enableServerCreation": {
 		"title": "MCPサーバー作成を有効化",
-		"description": "これをONにすると、CoreThink Codeが<1>新しい</1>カスタムMCPサーバーを作るのを手伝ってくれるよ。<0>サーバー作成について詳しく</0>",
-		"hint": "ヒント: APIトークンのコストを抑えたいときは、CoreThink Codeに新しいMCPサーバーを作らせないときにこの設定をOFFにしてね。"
+		"description": "これをONにすると、ChadCodeが<1>新しい</1>カスタムMCPサーバーを作るのを手伝ってくれるよ。<0>サーバー作成について詳しく</0>",
+		"hint": "ヒント: APIトークンのコストを抑えたいときは、ChadCodeに新しいMCPサーバーを作らせないときにこの設定をOFFにしてね。"
 	},
 	"editGlobalMCP": "グローバルMCPを編集",
 	"editProjectMCP": "プロジェクトMCPを編集",

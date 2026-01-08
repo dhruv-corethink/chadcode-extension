@@ -124,7 +124,7 @@ vi.mock("@roo-code/telemetry", () => ({
 }))
 
 vi.mock("../../../core/kilocode/wrapper", () => ({
-	getKiloCodeWrapperProperties: () => ({ kiloCodeWrapperJetbrains: false }),
+	getChadCodeWrapperProperties: () => ({ kiloCodeWrapperJetbrains: false }),
 }))
 
 vi.mock("../../../core/config/ContextProxy", () => {

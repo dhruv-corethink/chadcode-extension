@@ -8,7 +8,7 @@ import { ButtonPrimary } from "../common/ButtonPrimary"
 import ApiOptions from "../../settings/ApiOptions"
 
 /**
- * CoreThink Extension - Welcome View
+ * ChadCode Extension - Welcome View
  *
  * Simplified welcome view with only API key authentication.
  * No OAuth or device auth flow - just enter your API key and start.
@@ -62,11 +62,11 @@ const WelcomeView = () => {
 	return (
 		<Tab>
 			<TabContent className="flex flex-col gap-5">
-				{/* CoreThink Welcome Header */}
+				{/* ChadCode Welcome Header */}
 				<div className="text-center mb-4">
-					<h2 className="text-xl font-bold mb-2">Welcome to CoreThink</h2>
+					<h2 className="text-xl font-bold mb-2">Welcome to ChadCode</h2>
 					<p className="text-vscode-descriptionForeground">
-						Enter your CoreThink API key to get started.
+						Enter your ChadCode API key to get started.
 					</p>
 				</div>
 
@@ -78,7 +78,7 @@ const WelcomeView = () => {
 					setApiConfigurationField={(field, value) => setApiConfiguration({ [field]: value })}
 					errorMessage={errorMessage}
 					setErrorMessage={setErrorMessage}
-					hideKiloCodeButton
+					hideChadCodeButton
 				/>
 
 				{/* Start Button - only enabled when API key is set */}

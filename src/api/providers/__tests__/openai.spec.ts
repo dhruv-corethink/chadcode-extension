@@ -112,8 +112,8 @@ describe("OpenAiHandler", () => {
 				apiKey: expect.any(String),
 				defaultHeaders: {
 					"HTTP-Referer": "https://kilocode.ai",
-					"X-Title": "CoreThink Code",
-					"X-KiloCode-Version": Package.version,
+					"X-Title": "ChadCode",
+					"X-ChadCode-Version": Package.version,
 					"User-Agent": `Kilo-Code/${Package.version}`,
 				},
 				timeout: expect.any(Number),

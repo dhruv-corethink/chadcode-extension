@@ -2,7 +2,7 @@
 /**
  * API client for managed codebase indexing
  *
- * This module provides pure functions for communicating with the CoreThink Code
+ * This module provides pure functions for communicating with the ChadCode
  * backend API for managed indexing operations (upsert, search, delete, manifest).
  */
 

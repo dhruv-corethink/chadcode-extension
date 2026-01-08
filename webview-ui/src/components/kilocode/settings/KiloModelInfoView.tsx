@@ -151,7 +151,7 @@ export const KiloModelInfoView = ({
 				</div>
 			</div>
 			{stats && stats.cost && stats.costPerRequest && model.inputPrice && model.outputPrice ? (
-				<StandardTooltip content={t("kilocode:settings.modelInfo.averageKiloCodeCost")}>
+				<StandardTooltip content={t("kilocode:settings.modelInfo.averageChadCodeCost")}>
 					<div className="text-sm text-vscode-descriptionForeground font-medium flex flex-wrap gap-2">
 						<div className="rounded-full border px-2.5 py-1">{formatPrice(stats.cost)} / M tokens</div>
 						<div className="rounded-full border px-2.5 py-1">

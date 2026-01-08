@@ -13,7 +13,7 @@
 		"cancel": "キャンセル"
 	},
 	"ui": {
-		"initializing": "CoreThink Codeを初期化しています...",
+		"initializing": "ChadCodeを初期化しています...",
 		"systemInformation": "システム情報"
 	}
 }

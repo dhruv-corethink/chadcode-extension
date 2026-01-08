@@ -9,7 +9,7 @@
 # 🚀 Kilo
 
 > Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most popular open source coding agent.
-> #1 on OpenRouter. 750k+ CoreThink Coders. 6.1 trillion tokens used per month.
+> #1 on OpenRouter. 750k+ ChadCoders. 6.1 trillion tokens used per month.
 
 - ✨ Generate code from natural language
 - ✅ Checks its own work
@@ -36,7 +36,7 @@
 
 ## How to get started with Kilo
 
-1. Install the CoreThink Code extension from the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=kilocode.Kilo-Code).
+1. Install the ChadCode extension from the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=kilocode.Kilo-Code).
 2. Create your account to access 500+ cutting-edge AI models including Gemini 3 Pro, Claude 4.5 Sonnet & Opus, and GPT-5 – with transparent pricing that matches provider rates exactly.
 3. Start coding with AI that adapts to your workflow. Watch our quick-start guide to see Kilo in action:
 

@@ -1,6 +1,6 @@
 {
 	"extension": {
-		"name": "CoreThink Code",
+		"name": "ChadCode",
 		"description": "Помічник з кодування AI з відкритим кодом для планування, створення та виправлення коду."
 	},
 	"number_format": {
@@ -162,7 +162,7 @@
 	"warnings": {
 		"no_terminal_content": "Не вибрано вміст терміналу",
 		"missing_task_files": "Файли цього завдання відсутні. Хочеш видалити його зі списку завдань?",
-		"auto_import_failed": "Не вдалося автоматично імпортувати налаштування CoreThink Code: {{error}}"
+		"auto_import_failed": "Не вдалося автоматично імпортувати налаштування ChadCode: {{error}}"
 	},
 	"info": {
 		"no_changes": "Змін не знайдено.",
@@ -171,7 +171,7 @@
 		"custom_storage_path_set": "Встановлено користувацький шлях зберігання: {{path}}",
 		"default_storage_path": "Повернуто до використання шляху зберігання за замовчуванням",
 		"settings_imported": "Налаштування успішно імпортовано.",
-		"auto_import_success": "Налаштування CoreThink Code автоматично імпортовано з {{filename}}",
+		"auto_import_success": "Налаштування ChadCode автоматично імпортовано з {{filename}}",
 		"share_link_copied": "Посилання для поділу скопійовано в буфер обміну",
 		"organization_share_link_copied": "Посилання для поділу організації скопійовано в буфер обміну!",
 		"public_share_link_copied": "Публічне посилання для поділу скопійовано в буфер обміну!",
@@ -201,12 +201,12 @@
 	},
 	"storage": {
 		"prompt_custom_path": "Введи користувацький шлях зберігання історії розмов, залиш порожнім для використання розташування за замовчуванням",
-		"path_placeholder": "D:\\KiloCodeStorage",
-		"enter_absolute_path": "Будь ласка, введи абсолютний шлях (наприклад, D:\\KiloCodeStorage або /home/user/storage)",
+		"path_placeholder": "D:\\ChadCodeStorage",
+		"enter_absolute_path": "Будь ласка, введи абсолютний шлях (наприклад, D:\\ChadCodeStorage або /home/user/storage)",
 		"enter_valid_path": "Будь ласка, введи дійсний шлях"
 	},
 	"input": {
-		"task_prompt": "Що має зробити CoreThink Code?",
+		"task_prompt": "Що має зробити ChadCode?",
 		"task_placeholder": "Створити, знайти, запитати щось"
 	},
 	"customModes": {
@@ -233,8 +233,8 @@
 	},
 	"mdm": {
 		"errors": {
-			"cloud_auth_required": "Твоя організація вимагає автентифікації CoreThink Code Cloud. Будь ласка, увійди, щоб продовжити.",
-			"organization_mismatch": "Ти повинен бути автентифікований з обліковим записом CoreThink Code Cloud твоєї організації.",
+			"cloud_auth_required": "Твоя організація вимагає автентифікації ChadCode Cloud. Будь ласка, увійди, щоб продовжити.",
+			"organization_mismatch": "Ти повинен бути автентифікований з обліковим записом ChadCode Cloud твоєї організації.",
 			"verification_failed": "Не вдалося перевірити автентифікацію організації."
 		},
 		"info": {

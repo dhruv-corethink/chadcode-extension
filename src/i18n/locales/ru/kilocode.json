@@ -46,7 +46,7 @@
 		}
 	},
 	"commitMessage": {
-		"activated": "Генератор сообщений коммитов CoreThink Code активирован",
+		"activated": "Генератор сообщений коммитов ChadCode активирован",
 		"gitNotFound": "⚠️ Репозиторий Git не найден или git недоступен",
 		"gitInitError": "⚠️ Ошибка инициализации Git: {{error}}",
 		"generating": "Kilo: Генерация сообщения коммита...",
@@ -59,7 +59,7 @@
 		"errors": {
 			"noProject": "Нет доступных проектов",
 			"invalidResponse": "Получен неверный формат ответа от расширения",
-			"connectionFailed": "Не удалось подключиться к расширению CoreThink Code",
+			"connectionFailed": "Не удалось подключиться к расширению ChadCode",
 			"timeout": "Время запроса истекло после 30 секунд",
 			"missingMessage": "Не получено сообщение о коммите от расширения",
 			"noChanges": "Изменений для фиксации не найдено",
@@ -82,7 +82,7 @@
 		},
 		"progress": {
 			"title": "Генерация Сообщения Коммита",
-			"connecting": "Подключение к CoreThink Code...",
+			"connecting": "Подключение к ChadCode...",
 			"analyzing": "Анализируем изменения...",
 			"generating": "Генерация сообщения коммита..."
 		},
@@ -97,8 +97,8 @@
 			"snoozed": "приостановлено",
 			"warning": "$(warning) Autocomplete",
 			"tooltip": {
-				"basic": "CoreThink Code Autocomplete",
-				"disabled": "CoreThink Code Autocomplete (отключено)",
+				"basic": "ChadCode Autocomplete",
+				"disabled": "ChadCode Autocomplete (отключено)",
 				"tokenError": "Для использования Autocomplete необходимо установить действительный токен",
 				"sessionTotal": "Общая стоимость сессии:",
 				"provider": "Провайдер:",
@@ -113,36 +113,36 @@
 				"lessThanCent": "<$0.01"
 			}
 		},
-		"toggleMessage": "CoreThink Code Autocomplete {{status}}",
+		"toggleMessage": "ChadCode Autocomplete {{status}}",
 		"progress": {
-			"title": "CoreThink Code",
+			"title": "ChadCode",
 			"analyzing": "Анализирую твой код...",
 			"generating": "Генерирую предлагаемые правки...",
 			"processing": "Обрабатываю предлагаемые правки...",
 			"showing": "Показываю предлагаемые правки..."
 		},
 		"input": {
-			"title": "CoreThink Code: Быстрая Задача",
+			"title": "ChadCode: Быстрая Задача",
 			"placeholder": "напр., 'рефактори эту функцию для большей эффективности'"
 		},
 		"commands": {
-			"generateSuggestions": "CoreThink Code: Генерировать Предлагаемые Правки",
+			"generateSuggestions": "ChadCode: Генерировать Предлагаемые Правки",
 			"displaySuggestions": "Показать Предлагаемые Правки",
 			"cancelSuggestions": "Отменить Предлагаемые Правки",
 			"applyCurrentSuggestion": "Применить Текущую Предлагаемую Правку",
 			"applyAllSuggestions": "Применить Все Предлагаемые Правки",
-			"category": "CoreThink Code"
+			"category": "ChadCode"
 		},
 		"codeAction": {
-			"title": "CoreThink Code: Предлагаемые Правки"
+			"title": "ChadCode: Предлагаемые Правки"
 		},
 		"chatParticipant": {
-			"fullName": "CoreThink Code Agent",
+			"fullName": "ChadCode Agent",
 			"name": "Agent",
 			"description": "Я могу помочь тебе с быстрыми задачами и предлагаемыми правками."
 		},
 		"incompatibilityExtensionPopup": {
-			"message": "CoreThink Code Autocomplete блокируется конфликтом с GitHub Copilot. Чтобы исправить это, ты должен отключить встроенные предложения Copilot.",
+			"message": "ChadCode Autocomplete блокируется конфликтом с GitHub Copilot. Чтобы исправить это, ты должен отключить встроенные предложения Copilot.",
 			"disableCopilot": "Отключить Copilot",
 			"disableInlineAssist": "Отключить Autocomplete"
 		}

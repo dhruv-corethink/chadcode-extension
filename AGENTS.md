@@ -1,6 +1,6 @@
 # AGENTS.md
 
-CoreThink Code is an open source AI coding agent for VS Code that generates code from natural language, automates tasks, and supports 500+ AI models.
+ChadCode is an open source AI coding agent for VS Code that generates code from natural language, automates tasks, and supports 500+ AI models.
 
 ## Mode-Specific Rules
 
@@ -33,11 +33,11 @@ Keep changesets concise but well-written as they become part of release notes.
 
 ## Fork Merge Process
 
-CoreThink Code is a fork of [Roo Code](https://github.com/RooVetGit/Roo-Code). We periodically merge upstream changes using scripts in `scripts/kilocode/`.
+ChadCode is a fork of [Roo Code](https://github.com/RooVetGit/Roo-Code). We periodically merge upstream changes using scripts in `scripts/kilocode/`.
 
 ## kilocode_change Markers
 
-To minimize merge conflicts when syncing with upstream, mark CoreThink Code-specific changes in shared code with `kilocode_change` comments.
+To minimize merge conflicts when syncing with upstream, mark ChadCode-specific changes in shared code with `kilocode_change` comments.
 
 **Single line:**
 ```typescript
@@ -59,7 +59,7 @@ const bar = 2
 
 ### When markers are NOT needed
 
-Code in these directories is CoreThink Code-specific and doesn't need markers:
+Code in these directories is ChadCode-specific and doesn't need markers:
 
 - `cli/` - CLI package
 - `jetbrains/` - JetBrains plugin

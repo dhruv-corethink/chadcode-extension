@@ -1,5 +1,5 @@
 {
-  description = "CoreThink Code development environment";
+  description = "ChadCode Code development environment";
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-25.05";

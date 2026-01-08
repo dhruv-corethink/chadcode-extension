@@ -51,7 +51,7 @@
 		}
 	},
 	"commitMessage": {
-		"activated": "ตัวสร้างข้อความคอมมิต CoreThink Code เปิดใช้งานแล้ว",
+		"activated": "ตัวสร้างข้อความคอมมิต ChadCode เปิดใช้งานแล้ว",
 		"gitNotFound": "⚠️ ไม่พบที่เก็บ Git หรือ git ไม่พร้อมใช้งาน",
 		"gitInitError": "⚠️ ข้อผิดพลาดในการเริ่มต้น Git: {{error}}",
 		"generating": "Kilo: กำลังสร้างข้อความคอมมิต...",
@@ -64,7 +64,7 @@
 		"errors": {
 			"noProject": "ไม่มีโครงการที่ใช้งานได้",
 			"timeout": "คำขอหมดเวลาหลังจาก 30 วินาที",
-			"connectionFailed": "ไม่สามารถเชื่อมต่อกับส่วนขยาย CoreThink Code",
+			"connectionFailed": "ไม่สามารถเชื่อมต่อกับส่วนขยาย ChadCode",
 			"noChanges": "ไม่พบการเปลี่ยนแปลงที่จะคอมมิต",
 			"missingMessage": "ไม่ได้รับข้อความคอมมิตจากส่วนขยาย",
 			"invalidResponse": "ได้รับรูปแบบการตอบกลับที่ไม่ถูกต้องจากส่วนขยาย",
@@ -88,7 +88,7 @@
 		"progress": {
 			"analyzing": "กำลังวิเคราะห์การเปลี่ยนแปลง...",
 			"title": "กำลังสร้างข้อความคอมมิต",
-			"connecting": "กำลังเชื่อมต่อกับ CoreThink Code...",
+			"connecting": "กำลังเชื่อมต่อกับ ChadCode...",
 			"generating": "กำลังสร้างข้อความคอมมิต..."
 		},
 		"ui": {
@@ -133,8 +133,8 @@
 			"snoozed": "หยุดชั่วคราว",
 			"warning": "$(warning) Autocomplete",
 			"tooltip": {
-				"basic": "CoreThink Code Autocomplete",
-				"disabled": "CoreThink Code Autocomplete (ปิดใช้งาน)",
+				"basic": "ChadCode Autocomplete",
+				"disabled": "ChadCode Autocomplete (ปิดใช้งาน)",
 				"tokenError": "ต้องตั้งค่าโทเค็นที่ถูกต้องเพื่อใช้ Autocomplete",
 				"sessionTotal": "ค่าใช้จ่ายรวมของเซสชัน:",
 				"provider": "ผู้ให้บริการ:",
@@ -149,36 +149,36 @@
 				"lessThanCent": "<$0.01"
 			}
 		},
-		"toggleMessage": "CoreThink Code Autocomplete {{status}}",
+		"toggleMessage": "ChadCode Autocomplete {{status}}",
 		"progress": {
-			"title": "CoreThink Code",
+			"title": "ChadCode",
 			"analyzing": "กำลังวิเคราะห์โค้ดของคุณ...",
 			"generating": "กำลังสร้างการแก้ไขที่แนะนำ...",
 			"processing": "กำลังประมวลผลการแก้ไขที่แนะนำ...",
 			"showing": "กำลังแสดงการแก้ไขที่แนะนำ..."
 		},
 		"input": {
-			"title": "CoreThink Code: งานด่วน",
+			"title": "ChadCode: งานด่วน",
 			"placeholder": "เช่น 'ปรับโครงสร้างฟังก์ชันนี้ให้มีประสิทธิภาพมากขึ้น'"
 		},
 		"commands": {
-			"generateSuggestions": "CoreThink Code: สร้างการแก้ไขที่แนะนำ",
+			"generateSuggestions": "ChadCode: สร้างการแก้ไขที่แนะนำ",
 			"displaySuggestions": "แสดงการแก้ไขที่แนะนำ",
 			"cancelSuggestions": "ยกเลิกการแก้ไขที่แนะนำ",
 			"applyCurrentSuggestion": "ใช้การแก้ไขที่แนะนำปัจจุบัน",
 			"applyAllSuggestions": "ใช้การแก้ไขที่แนะนำทั้งหมด",
-			"category": "CoreThink Code"
+			"category": "ChadCode"
 		},
 		"codeAction": {
-			"title": "CoreThink Code: การแก้ไขที่แนะนำ"
+			"title": "ChadCode: การแก้ไขที่แนะนำ"
 		},
 		"chatParticipant": {
-			"fullName": "CoreThink Code Agent",
+			"fullName": "ChadCode Agent",
 			"name": "Agent",
 			"description": "ฉันสามารถช่วยคุณในงานด่วนและการแก้ไขที่แนะนำได้"
 		},
 		"incompatibilityExtensionPopup": {
-			"message": "CoreThink Code Autocomplete ถูกบล็อกโดยความขัดแย้งกับ GitHub Copilot เพื่อแก้ไขปัญหานี้ คุณต้องปิดใช้งานคำแนะนำแบบอินไลน์ของ Copilot",
+			"message": "ChadCode Autocomplete ถูกบล็อกโดยความขัดแย้งกับ GitHub Copilot เพื่อแก้ไขปัญหานี้ คุณต้องปิดใช้งานคำแนะนำแบบอินไลน์ของ Copilot",
 			"disableCopilot": "ปิดใช้งาน Copilot",
 			"disableInlineAssist": "ปิดใช้งาน Autocomplete"
 		}

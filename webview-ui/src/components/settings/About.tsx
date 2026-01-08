@@ -27,7 +27,7 @@ type AboutProps = HTMLAttributes<HTMLDivElement> & {
 export const About = ({ telemetrySetting, setTelemetrySetting, className, ...props }: AboutProps) => {
 	const { t } = useAppTranslation()
 
-	const [kiloCodeBloat, setKiloCodeBloat] = useState<number[][]>([])
+	const [kiloCodeBloat, setChadCodeBloat] = useState<number[][]>([])
 
 	return (
 		<div className={cn("flex flex-col gap-2", className)} {...props}>
@@ -110,7 +110,7 @@ export const About = ({ telemetrySetting, setTelemetrySetting, className, ...pro
 							<Button
 								variant="destructive"
 								onClick={() => {
-									setKiloCodeBloat([...kiloCodeBloat, new Array<number>(20_000_000).fill(0)])
+									setChadCodeBloat([...kiloCodeBloat, new Array<number>(20_000_000).fill(0)])
 									console.debug(`Memory percentage: ${getMemoryPercentage()}`)
 								}}>
 								Development: Allocate memory

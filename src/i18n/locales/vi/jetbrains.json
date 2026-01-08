@@ -13,7 +13,7 @@
 		"cancel": "Hủy"
 	},
 	"ui": {
-		"initializing": "CoreThink Code đang khởi tạo...",
+		"initializing": "ChadCode đang khởi tạo...",
 		"systemInformation": "Thông tin hệ thống"
 	}
 }

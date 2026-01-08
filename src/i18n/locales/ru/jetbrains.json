@@ -13,7 +13,7 @@
 		"cancel": "Отмена"
 	},
 	"ui": {
-		"initializing": "CoreThink Code инициализируется...",
+		"initializing": "ChadCode инициализируется...",
 		"systemInformation": "Информация о системе"
 	}
 }

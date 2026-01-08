@@ -107,7 +107,7 @@ export class GhostModel {
 		}
 
 		if (!(this.apiHandler instanceof KilocodeOpenrouterHandler)) {
-			throw new Error("FIM is only supported for KiloCode provider")
+			throw new Error("FIM is only supported for ChadCode provider")
 		}
 
 		if (!this.apiHandler.supportsFim()) {

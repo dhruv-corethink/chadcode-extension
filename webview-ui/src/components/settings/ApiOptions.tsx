@@ -76,9 +76,9 @@ import {
 	CollapsibleContent,
 } from "@src/components/ui"
 
-// CoreThink Extension: CoreThink is the main provider, others are disabled but imported for compilation
+// ChadCode Extension: ChadCode is the main provider, others are disabled but imported for compilation
 import {
-	CoreThink,
+	ChadCode,
 	Anthropic,
 	Baseten,
 	Bedrock,
@@ -136,7 +136,6 @@ import { TemperatureControl } from "./TemperatureControl"
 import { RateLimitSecondsControl } from "./RateLimitSecondsControl"
 import { ConsecutiveMistakeLimitControl } from "./ConsecutiveMistakeLimitControl"
 import { BedrockCustomArn } from "./providers/BedrockCustomArn"
-import { KiloCode } from "../kilocode/settings/providers/KiloCode" // kilocode_change
 import { RooBalanceDisplay } from "./providers/RooBalanceDisplay"
 import { buildDocLink } from "@src/utils/docLinks"
 import { KiloProviderRouting, KiloProviderRoutingManagedByOrganization } from "./providers/KiloProviderRouting"
@@ -154,7 +153,7 @@ export interface ApiOptionsProps {
 	fromWelcomeView?: boolean
 	errorMessage: string | undefined
 	setErrorMessage: React.Dispatch<React.SetStateAction<string | undefined>>
-	hideKiloCodeButton?: boolean // kilocode_change
+	hideChadCodeButton?: boolean // kilocode_change
 	currentApiConfigName?: string // kilocode_change
 }
 
@@ -165,7 +164,7 @@ const ApiOptions = ({
 	fromWelcomeView,
 	errorMessage,
 	setErrorMessage,
-	hideKiloCodeButton = false,
+	hideChadCodeButton = false,
 	currentApiConfigName, // kilocode_change
 }: ApiOptionsProps) => {
 	const { t } = useAppTranslation()
@@ -532,31 +531,31 @@ const ApiOptions = ({
 			)}
 			{/* kilocode_change end */}
 
-			{/* CoreThink Extension - Fixed provider header */}
+			{/* ChadCode Extension - Fixed provider header */}
 			<div className="flex flex-col gap-1 relative">
 				<div className="flex justify-between items-center">
 					<label className="block font-medium">{t("settings:providers.apiProvider")}</label>
 				</div>
 				<div className="px-3 py-2 bg-vscode-input-background border border-vscode-input-border rounded text-vscode-input-foreground font-medium">
-					CoreThink
+					ChadCode
 				</div>
 			</div>
 
 			{errorMessage && <ApiErrorMessage errorMessage={errorMessage} />}
 
-			{/* CoreThink Extension - Show CoreThink settings always */}
-			<CoreThink
+			{/* ChadCode Extension - Show ChadCode settings always */}
+			<ChadCode
 				apiConfiguration={apiConfiguration}
 				setApiConfigurationField={setApiConfigurationField}
 			/>
 
-			{/* Legacy provider components - commented out for CoreThink Extension */}
-			{/* kilocode_change start - disabled for CoreThink */}
+			{/* Legacy provider components - commented out for ChadCode Extension */}
+			{/* kilocode_change start - disabled for ChadCode */}
 			{/* selectedProvider === "kilocode" && (
-				<KiloCode
+				<ChadCode
 					apiConfiguration={apiConfiguration}
 					setApiConfigurationField={setApiConfigurationField}
-					hideKiloCodeButton={hideKiloCodeButton}
+					hideChadCodeButton={hideChadCodeButton}
 					currentApiConfigName={currentApiConfigName}
 					routerModels={routerModels}
 					organizationAllowList={organizationAllowList}
@@ -565,7 +564,7 @@ const ApiOptions = ({
 			) */}
 			{/* kilocode_change end */}
 
-			{/* CoreThink Extension: All other providers disabled */}
+			{/* ChadCode Extension: All other providers disabled */}
 			{false && selectedProvider === "openrouter" && (
 				<OpenRouter
 					apiConfiguration={apiConfiguration}
@@ -930,7 +929,7 @@ const ApiOptions = ({
 			{/* kilocode_change end */}
 			{/* End of disabled providers */}
 
-			{/* CoreThink Extension: Model selection disabled - CoreThink uses fixed model */}
+			{/* ChadCode Extension: Model selection disabled - ChadCode uses fixed model */}
 			{false && selectedProviderModels.length > 0 && (
 				<>
 					<div>
@@ -1011,7 +1010,7 @@ const ApiOptions = ({
 				/>
 			)}
 
-			{/* CoreThink Extension: Kilo-specific routing disabled
+			{/* ChadCode Extension: Kilo-specific routing disabled
 				// kilocode_change start
 				(selectedProvider === "kilocode" || selectedProvider === "openrouter") &&
 					(apiConfiguration.kilocodeOrganizationId ? (

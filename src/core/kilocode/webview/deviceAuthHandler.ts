@@ -12,7 +12,7 @@ export interface DeviceAuthHandlerCallbacks {
 }
 
 /**
- * Handles device authorization flow for CoreThink Code authentication
+ * Handles device authorization flow for ChadCode authentication
  * This class encapsulates all device auth logic to keep ClineProvider clean
  */
 export class DeviceAuthHandler {
@@ -62,7 +62,7 @@ export class DeviceAuthHandler {
 				})
 
 				this.callbacks.showInformationMessage(
-					`CoreThink Code successfully configured! Authenticated as ${userEmail}`,
+					`ChadCode successfully configured! Authenticated as ${userEmail}`,
 				)
 
 				// Clean up

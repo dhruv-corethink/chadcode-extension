@@ -31,7 +31,7 @@ export interface TrpcClientDependencies {
 }
 
 /**
- * Client for making tRPC requests to the KiloCode API.
+ * Client for making tRPC requests to the ChadCode API.
  * Handles authentication and request formatting.
  */
 export class TrpcClient {

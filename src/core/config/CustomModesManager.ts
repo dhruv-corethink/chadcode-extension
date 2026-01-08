@@ -1041,7 +1041,7 @@ export class CustomModesManager {
 
 	// kilocode_change start: New method to fetch organization modes
 	/**
-	 * Fetches custom modes for a specific organization from the KiloCode API
+	 * Fetches custom modes for a specific organization from the ChadCode API
 	 * @param kilocodeToken - The authentication token
 	 * @param organizationId - The organization ID (undefined for personal account)
 	 * @param kilocodeTesterWarningsDisabledUntil - Timestamp for suppressing tester warnings

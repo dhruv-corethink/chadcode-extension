@@ -383,11 +383,11 @@ function getFastApplyConfiguration(state: ClineProviderState): FastApplyConfigur
 		}
 	}
 
-	// Priority 2: Use KiloCode provider
+	// Priority 2: Use ChadCode provider
 	if (apiProvider === "kilocode") {
 		const token = useCurrentApiConfiguration ? state.apiConfiguration.kilocodeToken : state.morphApiKey
 		if (!token) {
-			return { available: false, error: "No KiloCode token available to use Fast Apply" }
+			return { available: false, error: "No ChadCode token available to use Fast Apply" }
 		}
 		const url = getKiloUrlFromToken("https://api.kilo.ai/api/openrouter/", token)
 

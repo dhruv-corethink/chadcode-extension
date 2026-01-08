@@ -1,7 +1,7 @@
 {
 	"welcome": {
-		"greeting": "Witaj w CoreThink Code!",
-		"introText1": "CoreThink Code to darmowy, otwartoźródłowy agent kodowania AI.",
+		"greeting": "Witaj w ChadCode!",
+		"introText1": "ChadCode to darmowy, otwartoźródłowy agent kodowania AI.",
 		"introText2": "Współpracuje z najnowszymi modelami AI, takimi jak Claude Sonnet 4.5, Gemini 2.5 Pro, GPT-5 i ponad 450 innymi.",
 		"introText3": "Stwórz darmowe konto i otrzymaj $20 bonusowych kredytów przy pierwszym doładowaniu.",
 		"ctaButton": "Rozpocznij",
@@ -11,7 +11,7 @@
 	},
 	"lowCreditWarning": {
 		"addCredit": "Dodaj kredyt",
-		"lowBalance": "Twój stan konta CoreThink Code jest niski",
+		"lowBalance": "Twój stan konta ChadCode jest niski",
 		"newOrganization": "Używasz Kilo do pracy?"
 	},
 	"pagination": {
@@ -34,15 +34,15 @@
 			"mcp": "Serwery MCP"
 		},
 		"provider": {
-			"account": "Konto CoreThink Code",
-			"apiKey": "Klucz API CoreThink Code",
-			"login": "Zaloguj się do CoreThink Code",
-			"logout": "Wyloguj się z CoreThink Code",
+			"account": "Konto ChadCode",
+			"apiKey": "Klucz API ChadCode",
+			"login": "Zaloguj się do ChadCode",
+			"logout": "Wyloguj się z ChadCode",
 			"providerRouting": {
 				"title": "Routing dostawców",
 				"managedByOrganization": "Zarządzaj routingiem dostawców na poziomie organizacji",
 				"createOrganization": "Utwórz organizację, aby zarządzać routingiem dostawców",
-				"description": "CoreThink Code kieruje żądania do najlepszych dostępnych dostawców dla Twojego modelu. Domyślnie żądania są równoważone obciążeniem między najlepszymi dostawcami, aby zmaksymalizować czas działania. Możesz jednak wybrać konkretnego dostawcę do użycia dla tego modelu.",
+				"description": "ChadCode kieruje żądania do najlepszych dostępnych dostawców dla Twojego modelu. Domyślnie żądania są równoważone obciążeniem między najlepszymi dostawcami, aby zmaksymalizować czas działania. Możesz jednak wybrać konkretnego dostawcę do użycia dla tego modelu.",
 				"sorting": {
 					"default": "Domyślne sortowanie dostawców",
 					"price": "Preferuj dostawców z niższą ceną",
@@ -57,12 +57,12 @@
 					"zdr": "Zerowe przechowywanie danych"
 				}
 			},
-			"automaticFetch": "Najnowsze modele są automatycznie dostępne w CoreThink Code. Jeśli nie jesteś pewien, który model wybrać, CoreThink Code działa najlepiej z zalecanymi modelami wymienionymi na górze <strong>pogrubioną czcionką</strong>."
+			"automaticFetch": "Najnowsze modele są automatycznie dostępne w ChadCode. Jeśli nie jesteś pewien, który model wybrać, ChadCode działa najlepiej z zalecanymi modelami wymienionymi na górze <strong>pogrubioną czcionką</strong>."
 		},
 		"modelInfo": {
 			"contextWindow": "Okno kontekstu",
 			"providerBreakdown": "Zestawienie Cen i Możliwości Dostawcy",
-			"averageKiloCodeCost": "To jest średni rzeczywisty koszt za korzystanie z CoreThink Code z tym modelem w ciągu ostatniego tygodnia. Może być niższy niż podana cena ze względu na wykorzystanie pamięci podręcznej promptów.",
+			"averageChadCodeCost": "To jest średni rzeczywisty koszt za korzystanie z ChadCode z tym modelem w ciągu ostatniego tygodnia. Może być niższy niż podana cena ze względu na wykorzystanie pamięci podręcznej promptów.",
 			"table": {
 				"provider": "Dostawca",
 				"context": "Punkt końcowy może przetworzyć tę liczbę tokenów (wejście + wyjście).",
@@ -75,15 +75,15 @@
 		"contextManagement": {
 			"allowVeryLargeReads": {
 				"label": "Zezwól na odczyt bardzo dużych plików",
-				"description": "Gdy włączone, CoreThink Code będzie wykonywać odczyty bardzo dużych plików lub wyjść MCP, nawet jeśli istnieje duże prawdopodobieństwo przepełnienia okna kontekstu (rozmiar zawartości >80% okna kontekstu)."
+				"description": "Gdy włączone, ChadCode będzie wykonywać odczyty bardzo dużych plików lub wyjść MCP, nawet jeśli istnieje duże prawdopodobieństwo przepełnienia okna kontekstu (rozmiar zawartości >80% okna kontekstu)."
 			}
 		},
 		"systemNotifications": {
 			"label": "Włącz powiadomienia systemowe",
-			"description": "Gdy włączone, CoreThink Code będzie wysyłać powiadomienia systemowe o ważnych wydarzeniach, takich jak zakończenie zadania lub błędy.",
+			"description": "Gdy włączone, ChadCode będzie wysyłać powiadomienia systemowe o ważnych wydarzeniach, takich jak zakończenie zadania lub błędy.",
 			"testButton": "Testuj powiadomienie",
-			"testTitle": "CoreThink Code",
-			"testMessage": "To jest testowe powiadomienie z CoreThink Code."
+			"testTitle": "ChadCode",
+			"testMessage": "To jest testowe powiadomienie z ChadCode."
 		},
 		"terminal": {
 			"commandGenerator": {
@@ -111,7 +111,7 @@
 	},
 	"chat": {
 		"condense": {
-			"wantsToCondense": "CoreThink Code chce skondensować Twoją rozmowę",
+			"wantsToCondense": "ChadCode chce skondensować Twoją rozmowę",
 			"condenseConversation": "Skondensuj Rozmowę"
 		},
 		"seeNewChanges": "Pokaż nowe zmiany",
@@ -142,15 +142,15 @@
 	},
 	"docs": "Dokumentacja",
 	"rules": {
-		"tooltip": "Zarządzaj Regułami i Przepływami Pracy CoreThink Code",
-		"ariaLabel": "Reguły CoreThink Code",
+		"tooltip": "Zarządzaj Regułami i Przepływami Pracy ChadCode",
+		"ariaLabel": "Reguły ChadCode",
 		"tabs": {
 			"rules": "Reguły",
 			"workflows": "Przepływy Pracy"
 		},
 		"description": {
-			"rules": "Reguły pozwalają dostarczyć CoreThink Code instrukcje, których powinien przestrzegać we wszystkich trybach i dla wszystkich promptów. To trwały sposób dołączania kontekstu i preferencji dla wszystkich rozmów w twoim obszarze roboczym lub globalnie.",
-			"workflows": "Przepływy pracy to przygotowany szablon dla rozmowy. Przepływy pracy pozwalają zdefiniować prompty, których często używasz, i mogą zawierać serię kroków, aby poprowadzić CoreThink Code przez powtarzalne zadania, takie jak wdrażanie usługi lub przesyłanie PR. Aby wywołać przepływ pracy, wpisz",
+			"rules": "Reguły pozwalają dostarczyć ChadCode instrukcje, których powinien przestrzegać we wszystkich trybach i dla wszystkich promptów. To trwały sposób dołączania kontekstu i preferencji dla wszystkich rozmów w twoim obszarze roboczym lub globalnie.",
+			"workflows": "Przepływy pracy to przygotowany szablon dla rozmowy. Przepływy pracy pozwalają zdefiniować prompty, których często używasz, i mogą zawierać serię kroków, aby poprowadzić ChadCode przez powtarzalne zadania, takie jak wdrażanie usługi lub przesyłanie PR. Aby wywołać przepływ pracy, wpisz",
 			"workflowsInChat": "w czacie."
 		},
 		"sections": {
@@ -220,11 +220,11 @@
 			"keybindingDescription": "Funkcje Autocomplete mogą być wyzwalane przez polecenia. Możesz skonfigurować <DocsLink>Skróty Klawiszowe tutaj</DocsLink>.",
 			"enableAutoTrigger": {
 				"label": "Włącz Autocomplete",
-				"description": "Gdy włączone, CoreThink Code automatycznie wyzwoli Autocomplete, gdy przestaniesz pisać. Może to być przydatne do szybkich poprawek i sugestii."
+				"description": "Gdy włączone, ChadCode automatycznie wyzwoli Autocomplete, gdy przestaniesz pisać. Może to być przydatne do szybkich poprawek i sugestii."
 			},
 			"autoTriggerDelay": {
 				"label": "Opóźnienie Automatycznego Wyzwalania",
-				"description": "Opóźnienie w sekundach przed tym, jak CoreThink Code wyzwoli Autocomplete po tym, jak przestaniesz pisać. Krótsze opóźnienie oznacza szybsze sugestie, ale może być bardziej zasobożerne."
+				"description": "Opóźnienie w sekundach przed tym, jak ChadCode wyzwoli Autocomplete po tym, jak przestaniesz pisać. Krótsze opóźnienie oznacza szybsze sugestie, ale może być bardziej zasobożerne."
 			},
 			"enableQuickInlineTaskKeybinding": {
 				"label": "Szybkie zadanie ({{keybinding}})",
@@ -241,7 +241,7 @@
 			"provider": "Dostawca",
 			"enableChatAutocomplete": {
 				"label": "Automatyczne uzupełnianie wpisów czatu",
-				"description": "Po włączeniu, CoreThink Code będzie sugerować uzupełnienia podczas pisania w oknie czatu. Naciśnij Tab, aby zaakceptować sugestie."
+				"description": "Po włączeniu, ChadCode będzie sugerować uzupełnienia podczas pisania w oknie czatu. Naciśnij Tab, aby zaakceptować sugestie."
 			},
 			"snooze": {
 				"label": "Wstrzymaj Autocomplete",
@@ -308,7 +308,7 @@
 		"shareModesNewBanner": "Nowość: Udostępniaj tryby tworząc organizację"
 	},
 	"deviceAuth": {
-		"title": "Zaloguj się do CoreThink Code",
+		"title": "Zaloguj się do ChadCode",
 		"step1": "Otwórz następujący adres URL w przeglądarce",
 		"step2": "Zweryfikuj kod i autoryzuj to urządzenie w przeglądarce",
 		"scanQr": "Lub zeskanuj ten kod QR telefonem",

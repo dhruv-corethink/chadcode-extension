@@ -26,4 +26,4 @@ export const VercelAiGatewayChunkSchema = z.object({
 	),
 })
 
-export const KiloCodeChunkSchema = OpenRouterChunkSchema.and(VercelAiGatewayChunkSchema)
+export const ChadCodeChunkSchema = OpenRouterChunkSchema.and(VercelAiGatewayChunkSchema)

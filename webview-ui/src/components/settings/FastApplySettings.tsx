@@ -28,7 +28,7 @@ export const FastApplySettings = ({
 					}
 					className="w-full">
 					<VSCodeOption className="py-2 px-3" value="kilocode">
-						CoreThink Code
+						ChadCode
 					</VSCodeOption>
 					<VSCodeOption className="py-2 px-3" value="openrouter">
 						OpenRouter

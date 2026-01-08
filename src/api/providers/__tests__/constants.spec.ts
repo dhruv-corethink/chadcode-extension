@@ -15,7 +15,7 @@ describe("DEFAULT_HEADERS", () => {
 	})
 
 	it("should have correct X-Title value", () => {
-		expect(DEFAULT_HEADERS["X-Title"]).toBe("CoreThink Code")
+		expect(DEFAULT_HEADERS["X-Title"]).toBe("ChadCode")
 	})
 
 	it("should have correct User-Agent format", () => {
@@ -55,6 +55,6 @@ describe("DEFAULT_HEADERS", () => {
 	it("should have exactly 4 headers", () => {
 		const headerKeys = Object.keys(DEFAULT_HEADERS)
 		expect(headerKeys).toHaveLength(4)
-		expect(headerKeys).toEqual(["HTTP-Referer", "X-Title", "X-KiloCode-Version", "User-Agent"])
+		expect(headerKeys).toEqual(["HTTP-Referer", "X-Title", "X-ChadCode-Version", "User-Agent"])
 	})
 })

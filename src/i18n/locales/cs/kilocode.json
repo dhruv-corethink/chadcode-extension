@@ -51,7 +51,7 @@
 		}
 	},
 	"commitMessage": {
-		"activated": "Generátor zpráv pro commit CoreThink Code aktivován",
+		"activated": "Generátor zpráv pro commit ChadCode aktivován",
 		"gitNotFound": "⚠️ Git repozitář nebyl nalezen nebo git není dostupný",
 		"gitInitError": "⚠️ Chyba inicializace Gitu: {{error}}",
 		"generating": "Kilo: Generuji zprávu commitu...",
@@ -63,7 +63,7 @@
 		"providerRegistered": "Kilo: Poskytovatel zpráv commitů zaregistrován",
 		"errors": {
 			"noProject": "Žádný projekt k dispozici",
-			"connectionFailed": "Nepodařilo se připojit k rozšíření CoreThink Code",
+			"connectionFailed": "Nepodařilo se připojit k rozšíření ChadCode",
 			"timeout": "Časový limit požadavku vypršel po 30 sekundách",
 			"invalidResponse": "Neplatný formát odpovědi obdržen od rozšíření",
 			"missingMessage": "Z rozšíření nebyla přijata žádná zpráva o commitu",
@@ -87,7 +87,7 @@
 		},
 		"progress": {
 			"title": "Generování Commit Message",
-			"connecting": "Připojování k CoreThink Code...",
+			"connecting": "Připojování k ChadCode...",
 			"analyzing": "Analyzuji změny...",
 			"generating": "Generuji zprávu commitu..."
 		},
@@ -133,8 +133,8 @@
 			"snoozed": "pozastaveno",
 			"warning": "$(warning) Autocomplete",
 			"tooltip": {
-				"basic": "CoreThink Code Autocomplete",
-				"disabled": "CoreThink Code Autocomplete (zakázáno)",
+				"basic": "ChadCode Autocomplete",
+				"disabled": "ChadCode Autocomplete (zakázáno)",
 				"tokenError": "Pro použití Autocomplete musí být nastaven platný token",
 				"sessionTotal": "Celkové náklady relace:",
 				"provider": "Poskytovatel:",
@@ -149,36 +149,36 @@
 				"lessThanCent": "<$0.01"
 			}
 		},
-		"toggleMessage": "CoreThink Code Autocomplete {{status}}",
+		"toggleMessage": "ChadCode Autocomplete {{status}}",
 		"progress": {
-			"title": "CoreThink Code",
+			"title": "ChadCode",
 			"analyzing": "Analyzuji tvůj kód...",
 			"generating": "Generuji navrhované úpravy...",
 			"processing": "Zpracovávám navrhované úpravy...",
 			"showing": "Zobrazuji navrhované úpravy..."
 		},
 		"input": {
-			"title": "CoreThink Code: Rychlý úkol",
+			"title": "ChadCode: Rychlý úkol",
 			"placeholder": "např. 'refaktoruj tuto funkci, aby byla efektivnější'"
 		},
 		"commands": {
-			"generateSuggestions": "CoreThink Code: Generovat navrhované úpravy",
+			"generateSuggestions": "ChadCode: Generovat navrhované úpravy",
 			"displaySuggestions": "Zobrazit navrhované úpravy",
 			"cancelSuggestions": "Zrušit navrhované úpravy",
 			"applyCurrentSuggestion": "Použít aktuální navrhovanou úpravu",
 			"applyAllSuggestions": "Použít všechny navrhované úpravy",
-			"category": "CoreThink Code"
+			"category": "ChadCode"
 		},
 		"codeAction": {
-			"title": "CoreThink Code: Navrhované úpravy"
+			"title": "ChadCode: Navrhované úpravy"
 		},
 		"chatParticipant": {
-			"fullName": "CoreThink Code Agent",
+			"fullName": "ChadCode Agent",
 			"name": "Agent",
 			"description": "Mohu ti pomoci s rychlými úkoly a navrženými úpravami."
 		},
 		"incompatibilityExtensionPopup": {
-			"message": "CoreThink Code Autocomplete je blokováno konfliktem s GitHub Copilot. Pro vyřešení tohoto problému musíš zakázat inline návrhy Copilot.",
+			"message": "ChadCode Autocomplete je blokováno konfliktem s GitHub Copilot. Pro vyřešení tohoto problému musíš zakázat inline návrhy Copilot.",
 			"disableCopilot": "Zakázat Copilot",
 			"disableInlineAssist": "Zakázat Autocomplete"
 		}

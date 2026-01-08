@@ -3,8 +3,8 @@ import type { ExtensionContext, Memento } from "vscode"
 import { UsageResultByDuration, UsageEvent, UsageResult, UsageType, UsageWindow } from "@roo-code/types"
 import { ContextProxy } from "../core/config/ContextProxy"
 
-const USAGE_STORAGE_KEY = "kilocode.virtualQuotaFallbackProvider.usage.v1"
-const COOLDOWNS_STORAGE_KEY = "kilocode.virtualQuotaFallbackProvider.cooldowns.v1"
+const USAGE_STORAGE_KEY = "chadcode.virtualQuotaFallbackProvider.usage.v1"
+const COOLDOWNS_STORAGE_KEY = "chadcode.virtualQuotaFallbackProvider.cooldowns.v1"
 const ONE_MINUTE_MS = 60 * 1000
 const ONE_HOUR_MS = 60 * ONE_MINUTE_MS
 const ONE_DAY_MS = 24 * ONE_HOUR_MS

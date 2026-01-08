@@ -43,13 +43,13 @@ type OpenRouterProviderParams = {
 }
 
 import { safeJsonParse } from "../../shared/safeJsonParse"
-import { isAnyRecognizedKiloCodeError } from "../../shared/kilocode/errorUtils"
+import { isAnyRecognizedChadCodeError } from "../../shared/kilocode/errorUtils"
 // kilocode_change end
 
 import type { ApiHandlerCreateMessageMetadata, SingleCompletionHandler } from "../index"
 import { handleOpenAIError } from "./utils/openai-error-handler"
 import { generateImageWithProvider, ImageGenerationResult } from "./utils/image-generation"
-import { KiloCodeChunkSchema } from "./kilocode/chunk-schema"
+import { ChadCodeChunkSchema } from "./kilocode/chunk-schema"
 
 // Add custom interface for OpenRouter params.
 type OpenRouterChatCompletionParams = OpenAI.Chat.ChatCompletionCreateParams & {
@@ -95,7 +95,7 @@ export class OpenRouterHandler extends BaseProvider implements SingleCompletionH
 	protected endpoints: ModelRecord = {}
 
 	// kilocode_change start property
-	protected get providerName(): "OpenRouter" | "KiloCode" {
+	protected get providerName(): "OpenRouter" | "ChadCode" {
 		return "OpenRouter" as const
 	}
 	// kilocode_change end
@@ -325,8 +325,8 @@ export class OpenRouterHandler extends BaseProvider implements SingleCompletionH
 			stream = await this.client.chat.completions.create(completionParams, requestOptions)
 		} catch (error) {
 			// kilocode_change start
-			// KiloCode backend errors are already user-readable and should be handled upstream.
-			if (this.providerName === "KiloCode" && isAnyRecognizedKiloCodeError(error)) {
+			// ChadCode backend errors are already user-readable and should be handled upstream.
+			if (this.providerName === "ChadCode" && isAnyRecognizedChadCodeError(error)) {
 				throw error
 			}
 
@@ -364,7 +364,7 @@ export class OpenRouterHandler extends BaseProvider implements SingleCompletionH
 			}
 
 			// kilocode_change start
-			const kiloCodeChunk = KiloCodeChunkSchema.safeParse(chunk).data
+			const kiloCodeChunk = ChadCodeChunkSchema.safeParse(chunk).data
 			inferenceProvider =
 				kiloCodeChunk?.choices?.[0]?.delta?.provider_metadata?.gateway?.routing?.resolvedProvider ??
 				kiloCodeChunk?.provider ??

@@ -2,6 +2,6 @@
 
   <img src="images/unknown_error_stripe_rb.png" alt="Fixing an Unknown Error" />
 
-Running into errors? Switch to Debug mode and describe the problem. CoreThink Code will analyze the code, find the issue, and apply a fix.
+Running into errors? Switch to Debug mode and describe the problem. ChadCode will analyze the code, find the issue, and apply a fix.
 
-You can paste error messages or point to a file. CoreThink Code will take it from there.
+You can paste error messages or point to a file. ChadCode will take it from there.

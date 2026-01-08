@@ -28,7 +28,7 @@ export function getKiloBaseUriFromToken(kilocodeToken?: string): string {
 			// Note: this is UNTRUSTED, so we need to make sure we're OK with this being manipulated by an attacker
 			if (payload.env === "development") return "http://localhost:3000"
 		} catch (_error) {
-			console.warn("Failed to get base URL from CoreThink Code token")
+			console.warn("Failed to get base URL from ChadCode token")
 		}
 	}
 	return "https://api.kilo.ai"
@@ -101,8 +101,8 @@ export class LLMClient {
 
 			// Match the format from new autocomplete (continuedev)
 			// NewAutocompleteModel.ts sets completionOptions: { temperature: 0.2, maxTokens: 256 }
-			// These are now passed through KiloCode._streamFim() to KilocodeOpenrouterHandler.streamFim()
-			// See: KiloCode.ts line 119-123, kilocode-openrouter.ts line 169-177
+			// These are now passed through ChadCode._streamFim() to KilocodeOpenrouterHandler.streamFim()
+			// See: ChadCode.ts line 119-123, kilocode-openrouter.ts line 169-177
 			const body = {
 				model: this.model,
 				prompt: prefix,

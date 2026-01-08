@@ -91,7 +91,7 @@ const mockTasks: HistoryItem[] = [
 	},
 ]
 
-const mockKiloCodeTaskHistoryVersion = 0
+const mockChadCodeTaskHistoryVersion = 0
 
 describe("HistoryPreview", () => {
 	beforeEach(() => {
@@ -111,7 +111,7 @@ describe("HistoryPreview", () => {
 			setShowAllWorkspaces: vi.fn(),
 		})
 
-		const { container } = render(<HistoryPreview taskHistoryVersion={mockKiloCodeTaskHistoryVersion} />)
+		const { container } = render(<HistoryPreview taskHistoryVersion={mockChadCodeTaskHistoryVersion} />)
 
 		// Should render the container but no task items
 		expect(container.firstChild).toHaveClass("flex", "flex-col", "gap-1")
@@ -131,7 +131,7 @@ describe("HistoryPreview", () => {
 			setShowAllWorkspaces: vi.fn(),
 		})
 
-		render(<HistoryPreview taskHistoryVersion={mockKiloCodeTaskHistoryVersion} />)
+		render(<HistoryPreview taskHistoryVersion={mockChadCodeTaskHistoryVersion} />)
 
 		// Should render only the first 3 tasks
 		expect(screen.getByTestId("task-item-task-1")).toBeInTheDocument()
@@ -156,7 +156,7 @@ describe("HistoryPreview", () => {
 			setShowAllWorkspaces: vi.fn(),
 		})
 
-		render(<HistoryPreview taskHistoryVersion={mockKiloCodeTaskHistoryVersion} />)
+		render(<HistoryPreview taskHistoryVersion={mockChadCodeTaskHistoryVersion} />)
 
 		expect(screen.getByTestId("task-item-task-1")).toBeInTheDocument()
 		expect(screen.getByTestId("task-item-task-2")).toBeInTheDocument()
@@ -180,7 +180,7 @@ describe("HistoryPreview", () => {
 			setShowAllWorkspaces: vi.fn(),
 		})
 
-		render(<HistoryPreview taskHistoryVersion={mockKiloCodeTaskHistoryVersion} />)
+		render(<HistoryPreview taskHistoryVersion={mockChadCodeTaskHistoryVersion} />)
 
 		expect(screen.getByTestId("task-item-task-1")).toBeInTheDocument()
 		expect(screen.queryByTestId("task-item-task-2")).not.toBeInTheDocument()
@@ -199,7 +199,7 @@ describe("HistoryPreview", () => {
 			setShowAllWorkspaces: vi.fn(),
 		})
 
-		render(<HistoryPreview taskHistoryVersion={mockKiloCodeTaskHistoryVersion} />)
+		render(<HistoryPreview taskHistoryVersion={mockChadCodeTaskHistoryVersion} />)
 
 		// Verify TaskItem was called with correct props for first 3 tasks
 		expect(mockTaskItem).toHaveBeenCalledWith(
@@ -238,7 +238,7 @@ describe("HistoryPreview", () => {
 			setShowAllWorkspaces: vi.fn(),
 		})
 
-		const { container } = render(<HistoryPreview taskHistoryVersion={mockKiloCodeTaskHistoryVersion} />)
+		const { container } = render(<HistoryPreview taskHistoryVersion={mockChadCodeTaskHistoryVersion} />)
 
 		expect(container.firstChild).toHaveClass("flex", "flex-col", "gap-1")
 	})
