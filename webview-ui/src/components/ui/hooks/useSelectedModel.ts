@@ -399,6 +399,17 @@ function getSelectedModel({
 					const id = selectedModel[0]
 					let info = selectedModel[1]
 
+					// Force corethink model to use correct context window
+					if (id === "corethink" || id.startsWith("corethink")) {
+						info = {
+							...info,
+							contextWindow: 79000,
+							supportsImages: true,
+							inputPrice: 1.0,
+							outputPrice: 1.0,
+						}
+					}
+
 					const specificProvider = apiConfiguration.openRouterSpecificProvider
 					if (specificProvider && openRouterModelProviders[specificProvider]) {
 						info = info
@@ -410,9 +421,22 @@ function getSelectedModel({
 			}
 
 			const invalidOrDefaultModel = apiConfiguration.kilocodeModel ?? kilocodeDefaultModel
+			let defaultInfo = routerModels["kilocode"][invalidOrDefaultModel]
+
+			// Force corethink model to use correct context window
+			if (invalidOrDefaultModel === "corethink" || invalidOrDefaultModel.startsWith("corethink")) {
+				defaultInfo = {
+					...defaultInfo,
+					contextWindow: 79000,
+					supportsImages: true,
+					inputPrice: 1.0,
+					outputPrice: 1.0,
+				}
+			}
+
 			return {
 				id: invalidOrDefaultModel,
-				info: routerModels["kilocode"][invalidOrDefaultModel],
+				info: defaultInfo,
 			}
 		}
 		case "gemini-cli": {
@@ -526,11 +550,27 @@ function getSelectedModel({
 			return { id, info }
 		}
 		// kilocode_change end
+		// ChadCode Extension - use custom model info if set
+		case "chadcode": {
+			const id = apiConfiguration.apiModelId ?? "corethink"
+			// Default model info for ChadCode
+			const chadcodeDefaults: ModelInfo = {
+				maxTokens: 8192,
+				contextWindow: 79000,
+				supportsImages: true,
+				supportsPromptCache: false,
+				supportsNativeTools: true,
+				inputPrice: 1.0,
+				outputPrice: 1.0,
+			}
+			const info = (apiConfiguration as any)?.chadcodeCustomModelInfo ?? chadcodeDefaults
+			return { id, info }
+		}
 		// case "anthropic":
 		// case "human-relay":
 		// case "fake-ai":
 		default: {
-			provider satisfies "anthropic" | "gemini-cli" | "qwen-code" | "human-relay" | "fake-ai" | "kilocode" | "chadcode"
+			provider satisfies "anthropic" | "gemini-cli" | "qwen-code" | "human-relay" | "fake-ai" | "kilocode"
 			const id = apiConfiguration.apiModelId ?? anthropicDefaultModelId
 			const baseInfo = anthropicModels[id as keyof typeof anthropicModels]
 

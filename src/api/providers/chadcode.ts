@@ -101,42 +101,22 @@ interface ChadCodeStreamEvent {
 	error?: string
 }
 
-// ChadCode available models
+// Corethink available models
 export const CORETHINK_MODELS = {
-	chadcode: {
+	corethink: {
 		maxTokens: 8192,
-		contextWindow: 200000,
+		contextWindow: 79000,
 		supportsPromptCache: false,
 		supportsImages: true,
 		supportsNativeTools: true,
-		inputPrice: 0,
-		outputPrice: 0,
-		description: "ChadCode Default Model",
-	},
-	"chadcode-fast": {
-		maxTokens: 4096,
-		contextWindow: 128000,
-		supportsPromptCache: false,
-		supportsImages: true,
-		supportsNativeTools: true,
-		inputPrice: 0,
-		outputPrice: 0,
-		description: "ChadCode Fast Model - Optimized for speed",
-	},
-	"chadcode-pro": {
-		maxTokens: 16384,
-		contextWindow: 200000,
-		supportsPromptCache: false,
-		supportsImages: true,
-		supportsNativeTools: true,
-		inputPrice: 0,
-		outputPrice: 0,
-		description: "ChadCode Pro Model - Maximum capability",
+		inputPrice: 1.0,
+		outputPrice: 1.0,
+		description: "Corethink - AI coding assistant powered by Corethink",
 	},
 } as const
 
 // Default model info
-const CORETHINK_DEFAULT_MODEL_INFO: ModelInfo = CORETHINK_MODELS.chadcode
+const CORETHINK_DEFAULT_MODEL_INFO: ModelInfo = CORETHINK_MODELS.corethink
 
 export class ChadCodeHandler extends BaseProvider {
 	private apiUrl: string
@@ -147,7 +127,7 @@ export class ChadCodeHandler extends BaseProvider {
 		super()
 		this.apiKey = options.apiKey || CORETHINK_API_KEY
 		this.apiUrl = options.apiBaseUrl || CORETHINK_API_URL
-		this.modelId = options.apiModelId || "chadcode"
+		this.modelId = options.apiModelId || "corethink"
 
 		if (!this.apiKey) {
 			console.warn("[ChadCode] Warning: CORETHINK_API_KEY not set. API calls may fail.")

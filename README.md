@@ -20,9 +20,6 @@
 ## Getting Started
 
 1. Install the ChadCode extension
-2. Connect to api.corethink.ai to access AI models
+2. Use the api key from Chadcode
 3. Start coding with AI that adapts to your workflow
 
-## Support
-
-For issues and feature requests, contact support@corethink.ai

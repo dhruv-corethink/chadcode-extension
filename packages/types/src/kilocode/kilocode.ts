@@ -47,13 +47,13 @@ export const fastApplyApiProviderSchema = z.enum(["current", "morph", "kilocode"
 
 export type FastApplyApiProvider = z.infer<typeof fastApplyApiProviderSchema>
 
-export const DEFAULT_KILOCODE_BACKEND_URL = "https://chadcode.ai"
+export const DEFAULT_KILOCODE_BACKEND_URL = "https://corethink.ai"
 
 export function getKiloBaseUriFromToken(kilocodeToken?: string) {
 	if (kilocodeToken) {
 		try {
 			const payload_string = kilocodeToken.split(".")[1]
-			if (!payload_string) return "https://api.chadcode.ai"
+			if (!payload_string) return "https://api.corethink.ai"
 
 			const payload_json =
 				typeof atob !== "undefined" ? atob(payload_string) : Buffer.from(payload_string, "base64").toString()
@@ -73,7 +73,7 @@ export function getKiloBaseUriFromToken(kilocodeToken?: string) {
 			console.warn("Failed to get base URL from ChadCode token")
 		}
 	}
-	return "https://api.chadcode.ai"
+	return "https://api.corethink.ai"
 }
 
 /**
@@ -127,7 +127,7 @@ export function getApiUrl(path: string = ""): string {
 	}
 
 	// In production, use the api subdomain
-	return new URL(path, "https://api.chadcode.ai").toString()
+	return new URL(path, "https://api.corethink.ai").toString()
 }
 
 /**
@@ -141,10 +141,10 @@ export function getExtensionConfigUrl(): string {
 		if (backend !== DEFAULT_KILOCODE_BACKEND_URL) {
 			return getAppUrl("/extension-config.json")
 		} else {
-			return "https://api.chadcode.ai/extension-config.json"
+			return "https://api.corethink.ai/extension-config.json"
 		}
 	} catch (error) {
 		console.warn("Failed to build extension config URL:", error)
-		return "https://api.chadcode.ai/extension-config.json"
+		return "https://api.corethink.ai/extension-config.json"
 	}
 }

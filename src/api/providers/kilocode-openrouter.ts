@@ -100,6 +100,17 @@ export class KilocodeOpenrouterHandler extends OpenRouterHandler {
 		let id = this.options.kilocodeModel ?? this.defaultModel
 		let info = this.models[id] ?? openRouterDefaultModelInfo
 
+		// Force corethink model to use correct context window
+		if (id === "corethink" || id.startsWith("corethink")) {
+			info = {
+				...info,
+				contextWindow: 79000,
+				supportsImages: true,
+				inputPrice: 1.0,
+				outputPrice: 1.0,
+			}
+		}
+
 		// If a specific provider is requested, use the endpoint for that provider.
 		if (this.options.openRouterSpecificProvider && this.endpoints[this.options.openRouterSpecificProvider]) {
 			info = this.endpoints[this.options.openRouterSpecificProvider]

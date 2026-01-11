@@ -10,28 +10,17 @@ import {
  * All other providers have been removed.
  */
 
-// ChadCode models - must match backend
+// Corethink models - must match backend
 export const CORETHINK_MODELS: Record<string, ModelInfo> = {
-	chadcode: {
-		maxTokens: 16384,
-		contextWindow: 128000,
-		supportsImages: true,
-		supportsPromptCache: false,
-		description: "ChadCode Default - Balanced performance and capability",
-	},
-	"chadcode-fast": {
+	corethink: {
 		maxTokens: 8192,
-		contextWindow: 64000,
+		contextWindow: 79000,
 		supportsImages: true,
 		supportsPromptCache: false,
-		description: "ChadCode Fast - Optimized for speed",
-	},
-	"chadcode-pro": {
-		maxTokens: 32768,
-		contextWindow: 200000,
-		supportsImages: true,
-		supportsPromptCache: false,
-		description: "ChadCode Pro - Maximum capability",
+		supportsNativeTools: true,
+		inputPrice: 1.0,
+		outputPrice: 1.0,
+		description: "Corethink - AI coding assistant powered by Corethink",
 	},
 }
 
@@ -39,7 +28,7 @@ export const MODELS_BY_PROVIDER: Partial<Record<ProviderName, Record<string, Mod
 	chadcode: CORETHINK_MODELS,
 }
 
-// ChadCode is the only provider
+// Corethink is the only provider
 export const PROVIDERS = [
-	{ value: "chadcode", label: "ChadCode" },
+	{ value: "chadcode", label: "Corethink" },
 ]

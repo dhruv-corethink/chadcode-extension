@@ -465,6 +465,8 @@ const kilocodeSchema = baseProviderSettingsSchema.extend({
 const chadcodeSchema = apiModelIdProviderModelSchema.extend({
 	apiKey: z.string().optional(), // ChadCode API key (sk_...)
 	chadcodeBaseUrl: z.string().optional(), // Optional custom base URL
+	chadcodeCustomModelInfo: modelInfoSchema.nullish(), // Custom model capabilities
+	chadcodeHeaders: z.record(z.string(), z.string()).optional(), // Custom headers
 })
 
 export const virtualQuotaFallbackProfileDataSchema = z.object({
