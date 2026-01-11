@@ -49,7 +49,6 @@ export const dynamicProviders = [
 	"huggingface",
 	"litellm",
 	// kilocode_change start
-	"kilocode",
 	"ovhcloud",
 	"gemini",
 	"inception",
