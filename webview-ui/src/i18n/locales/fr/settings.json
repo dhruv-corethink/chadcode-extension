@@ -55,7 +55,7 @@
 		"contact": {
 			"label": "Besoin de nous parler ? Écrivez"
 		},
-		"community": "Vous voulez des conseils ou simplement discuter avec d'autres utilisateurs de ChadCode ? Rejoignez <redditLink>reddit.com/r/chadcode</redditLink> ou <discordLink>chadcode.ai/discord</discordLink>",
+		"community": "Vous voulez des conseils ou simplement discuter avec d'autres utilisateurs de ChadCode ? Rejoignez <redditLink>reddit.com/r/chadcode</redditLink> ou <discordLink>chadcode.dev/discord</discordLink>",
 		"contactAndCommunity": "Contact et Communauté",
 		"manageSettings": "Gérer les Paramètres"
 	},
@@ -1028,7 +1028,7 @@
 		"simplifiedExplanation": "Tu peux ajuster les paramètres détaillés du modèle ultérieurement."
 	},
 	"footer": {
-		"feedback": "Si vous avez des questions ou des commentaires, n'hésitez pas à ouvrir un problème sur <githubLink>github.com/ChadCode/chadcode</githubLink> ou à rejoindre <redditLink>reddit.com/r/chadcode</redditLink> ou <discordLink>chadcode.ai/discord</discordLink>",
+		"feedback": "Si vous avez des questions ou des commentaires, n'hésitez pas à ouvrir un problème sur <githubLink>github.com/ChadCode/chadcode</githubLink> ou à rejoindre <redditLink>reddit.com/r/chadcode</redditLink> ou <discordLink>chadcode.dev/discord</discordLink>",
 		"support": "Pour les questions financières, veuillez contacter le Support Client à <supportLink>https://kilo.ai/support</supportLink>",
 		"telemetry": {
 			"label": "Autoriser les rapports d'erreurs et d'utilisation",

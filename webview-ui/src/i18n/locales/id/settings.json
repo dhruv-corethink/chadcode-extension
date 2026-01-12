@@ -55,7 +55,7 @@
 		"contact": {
 			"label": "Perlu bicara dengan kami? Tulis"
 		},
-		"community": "Ingin tips atau hanya nongkrong dengan pengguna ChadCode lainnya? Bergabunglah dengan <redditLink>reddit.com/r/chadcode</redditLink> atau <discordLink>chadcode.ai/discord</discordLink>",
+		"community": "Ingin tips atau hanya nongkrong dengan pengguna ChadCode lainnya? Bergabunglah dengan <redditLink>reddit.com/r/chadcode</redditLink> atau <discordLink>chadcode.dev/discord</discordLink>",
 		"contactAndCommunity": "Kontak & Komunitas",
 		"manageSettings": "Kelola Pengaturan"
 	},
@@ -1050,7 +1050,7 @@
 		"simplifiedExplanation": "Anda dapat menyesuaikan pengaturan model terperinci nanti."
 	},
 	"footer": {
-		"feedback": "Jika kamu punya pertanyaan atau feedback, jangan ragu untuk membuka issue di <githubLink>github.com/ChadCode/chadcode</githubLink> atau bergabung <redditLink>reddit.com/r/chadcode</redditLink> atau <discordLink>chadcode.ai/discord</discordLink>",
+		"feedback": "Jika kamu punya pertanyaan atau feedback, jangan ragu untuk membuka issue di <githubLink>github.com/ChadCode/chadcode</githubLink> atau bergabung <redditLink>reddit.com/r/chadcode</redditLink> atau <discordLink>chadcode.dev/discord</discordLink>",
 		"support": "Untuk pertanyaan keuangan, silakan hubungi Customer Support di <supportLink>https://kilo.ai/support</supportLink>",
 		"telemetry": {
 			"label": "Izinkan pelaporan error dan penggunaan",

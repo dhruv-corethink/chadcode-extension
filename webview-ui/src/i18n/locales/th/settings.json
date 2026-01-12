@@ -59,8 +59,8 @@
 		"contactSupport": "ติดต่อฝ่ายสนับสนุน",
 		"contactSupportDesc": "สำหรับคำถามทั่วไป การแก้ไขปัญหา และความช่วยเหลือด้านเทคนิค",
 		"joinCommunity": "เข้าร่วมชุมชน",
-		"joinCommunityDesc": "ต้องการเทคนิคหรือแค่ใช้เวลาร่วมกับผู้ใช้ ChadCode คนอื่นๆ? เข้าร่วม <redditLink>reddit.com/r/chadcode</redditLink> หรือ <discordLink>chadcode.ai/discord</discordLink>",
-		"community": "ต้องการเทคนิคหรือแค่ใช้เวลาร่วมกับผู้ใช้ ChadCode คนอื่นๆ? เข้าร่วม <redditLink>reddit.com/r/chadcode</redditLink> หรือ <discordLink>chadcode.ai/discord</discordLink>",
+		"joinCommunityDesc": "ต้องการเทคนิคหรือแค่ใช้เวลาร่วมกับผู้ใช้ ChadCode คนอื่นๆ? เข้าร่วม <redditLink>reddit.com/r/chadcode</redditLink> หรือ <discordLink>chadcode.dev/discord</discordLink>",
+		"community": "ต้องการเทคนิคหรือแค่ใช้เวลาร่วมกับผู้ใช้ ChadCode คนอื่นๆ? เข้าร่วม <redditLink>reddit.com/r/chadcode</redditLink> หรือ <discordLink>chadcode.dev/discord</discordLink>",
 		"contactAndCommunity": "ติดต่อและชุมชน",
 		"manageSettings": "จัดการการตั้งค่า"
 	},
@@ -1124,7 +1124,7 @@
 		"simplifiedExplanation": "คุณสามารถปรับการตั้งค่าโมเดลโดยละเอียดได้ภายหลัง"
 	},
 	"footer": {
-		"feedback": "หากคุณมีคำถามหรือข้อเสนอแนะ โปรดเปิด issue ที่ <githubLink>github.com/ChadCode/chadcode</githubLink> หรือเข้าร่วม <redditLink>reddit.com/r/chadcode</redditLink> หรือ <discordLink>chadcode.ai/discord</discordLink>",
+		"feedback": "หากคุณมีคำถามหรือข้อเสนอแนะ โปรดเปิด issue ที่ <githubLink>github.com/ChadCode/chadcode</githubLink> หรือเข้าร่วม <redditLink>reddit.com/r/chadcode</redditLink> หรือ <discordLink>chadcode.dev/discord</discordLink>",
 		"support": "สำหรับคำถามด้านการเงิน โปรดติดต่อฝ่ายสนับสนุนลูกค้าที่ <supportLink>https://kilo.ai/support</supportLink>",
 		"telemetry": {
 			"label": "อนุญาตการรายงานข้อผิดพลาดและการใช้งาน",

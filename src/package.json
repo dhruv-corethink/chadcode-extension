@@ -4,7 +4,7 @@
 	"description": "%extension.description%",
 	"publisher": "chadcode",
 	"version": "1.0.7",
-	"icon": "assets/icons/logo-outline-black.png",
+	"icon": "assets/icons/marketplaceLogo.png",
 	"galleryBanner": {
 		"color": "#FFFFFF",
 		"theme": "light"
@@ -23,7 +23,7 @@
 		"type": "git",
 		"url": "https://github.com/chadcode/chadcode-extension"
 	},
-	"homepage": "https://chadcode.ai",
+	"homepage": "https://chadcode.dev",
 	"categories": [
 		"AI",
 		"Chat",

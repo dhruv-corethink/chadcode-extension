@@ -56,7 +56,7 @@
 		"contact": {
 			"label": "需要與我們聯絡？請寫信"
 		},
-		"community": "想要獲取使用技巧或與其他 ChadCode 使用者交流？加入 <redditLink>reddit.com/r/chadcode</redditLink> 或 <discordLink>chadcode.ai/discord</discordLink>",
+		"community": "想要獲取使用技巧或與其他 ChadCode 使用者交流？加入 <redditLink>reddit.com/r/chadcode</redditLink> 或 <discordLink>chadcode.dev/discord</discordLink>",
 		"contactAndCommunity": "聯絡與社群",
 		"manageSettings": "管理設定"
 	},
@@ -1030,7 +1030,7 @@
 		"simplifiedExplanation": "你可以稍後調整詳細的模型設定。"
 	},
 	"footer": {
-		"feedback": "若您有任何問題或建議，歡迎至 <githubLink>github.com/ChadCode/chadcode</githubLink> 提出 issue，或加入 <redditLink>reddit.com/r/chadcode</redditLink> 或 <discordLink>chadcode.ai/discord</discordLink> 討論。",
+		"feedback": "若您有任何問題或建議，歡迎至 <githubLink>github.com/ChadCode/chadcode</githubLink> 提出 issue，或加入 <redditLink>reddit.com/r/chadcode</redditLink> 或 <discordLink>chadcode.dev/discord</discordLink> 討論。",
 		"support": "如有財務相關問題，請聯絡客戶支援 <supportLink>https://kilo.ai/support</supportLink>",
 		"telemetry": {
 			"label": "允許匿名錯誤與使用情況回報",

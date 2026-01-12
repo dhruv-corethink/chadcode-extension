@@ -59,7 +59,7 @@
 		"contactSupportDesc": "Získat pomoc s technickými problémy nebo dotazy k účtu",
 		"joinCommunity": "Připojit se ke komunitě",
 		"joinCommunityDesc": "Připoj se k ostatním uživatelům pro tipy a diskuse",
-		"community": "Chceš tipy nebo si jen popovídat s ostatními uživateli ChadCode? Připoj se na <redditLink>reddit.com/r/chadcode</redditLink> nebo <discordLink>chadcode.ai/discord</discordLink>",
+		"community": "Chceš tipy nebo si jen popovídat s ostatními uživateli ChadCode? Připoj se na <redditLink>reddit.com/r/chadcode</redditLink> nebo <discordLink>chadcode.dev/discord</discordLink>",
 		"contactAndCommunity": "Kontakt a komunita",
 		"manageSettings": "Spravovat nastavení"
 	},
@@ -1113,7 +1113,7 @@
 		"simplifiedExplanation": "Podrobná nastavení modelu můžete upravit později."
 	},
 	"footer": {
-		"feedback": "Pokud máte nějaké dotazy nebo zpětnou vazbu, neváhejte otevřít problém na <githubLink>github.com/ChadCode/chadcode</githubLink> nebo se připojte k <redditLink>reddit.com/r/chadcode</redditLink> nebo <discordLink>chadcode.ai/discord</discordLink>.",
+		"feedback": "Pokud máte nějaké dotazy nebo zpětnou vazbu, neváhejte otevřít problém na <githubLink>github.com/ChadCode/chadcode</githubLink> nebo se připojte k <redditLink>reddit.com/r/chadcode</redditLink> nebo <discordLink>chadcode.dev/discord</discordLink>.",
 		"support": "Pro finanční dotazy kontaktujte prosím zákaznickou podporu na <supportLink>https://kilo.ai/support</supportLink>",
 		"telemetry": {
 			"label": "Povolit hlášení chyb a používání",

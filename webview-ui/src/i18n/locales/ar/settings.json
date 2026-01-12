@@ -55,7 +55,7 @@
 		"contact": {
 			"label": "تحتاج تتواصل معنا؟ راسلنا"
 		},
-		"community": "تبي نصائح أو تتسولف مع مستخدمين آخرين؟ انضم لـ <redditLink>reddit.com/r/chadcode</redditLink> أو <discordLink>chadcode.ai/discord</discordLink>",
+		"community": "تبي نصائح أو تتسولف مع مستخدمين آخرين؟ انضم لـ <redditLink>reddit.com/r/chadcode</redditLink> أو <discordLink>chadcode.dev/discord</discordLink>",
 		"contactSupport": "تواصل مع الدعم",
 		"contactSupportDesc": "احصل على مساعدة من فريق دعم العملاء",
 		"joinCommunity": "انضم للمجتمع",
@@ -1137,7 +1137,7 @@
 		"simplifiedExplanation": "يمكنك ضبط إعدادات النموذج التفصيلية لاحقًا."
 	},
 	"footer": {
-		"feedback": "عندك سؤال أو ملاحظة؟ افتح تذكرة في <githubLink>github.com/ChadCode/chadcode</githubLink> أو انضم لـ <redditLink>r/kilocode</redditLink> أو <discordLink>chadcode.ai/discord</discordLink>.",
+		"feedback": "عندك سؤال أو ملاحظة؟ افتح تذكرة في <githubLink>github.com/ChadCode/chadcode</githubLink> أو انضم لـ <redditLink>r/kilocode</redditLink> أو <discordLink>chadcode.dev/discord</discordLink>.",
 		"support": "للاستفسارات المالية: <supportLink>https://kilo.ai/support</supportLink>",
 		"telemetry": {
 			"label": "السماح بتقارير الأخطاء والاستخدام",

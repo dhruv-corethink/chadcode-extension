@@ -56,7 +56,7 @@
 		"contact": {
 			"label": "Bizimle konuşmanız mı gerekiyor? Yazın"
 		},
-		"community": "İpuçları mı istiyorsunuz yoksa sadece diğer ChadCode kullanıcılarıyla takılmak mı istiyorsunuz? <redditLink>reddit.com/r/chadcode</redditLink> veya <discordLink>chadcode.ai/discord</discordLink>'a katılın",
+		"community": "İpuçları mı istiyorsunuz yoksa sadece diğer ChadCode kullanıcılarıyla takılmak mı istiyorsunuz? <redditLink>reddit.com/r/chadcode</redditLink> veya <discordLink>chadcode.dev/discord</discordLink>'a katılın",
 		"contactAndCommunity": "İletişim ve Topluluk",
 		"manageSettings": "Ayarları Yönet"
 	},
@@ -1030,7 +1030,7 @@
 		"simplifiedExplanation": "Ayrıntılı model ayarlarını daha sonra ayarlayabilirsiniz."
 	},
 	"footer": {
-		"feedback": "Herhangi bir sorunuz veya geri bildiriminiz varsa, <githubLink>github.com/ChadCode/chadcode</githubLink> adresinde bir konu açmaktan veya <redditLink>reddit.com/r/chadcode</redditLink> ya da <discordLink>chadcode.ai/discord</discordLink>'a katılmaktan çekinmeyin",
+		"feedback": "Herhangi bir sorunuz veya geri bildiriminiz varsa, <githubLink>github.com/ChadCode/chadcode</githubLink> adresinde bir konu açmaktan veya <redditLink>reddit.com/r/chadcode</redditLink> ya da <discordLink>chadcode.dev/discord</discordLink>'a katılmaktan çekinmeyin",
 		"support": "Mali konular için lütfen <supportLink>https://kilo.ai/support</supportLink> adresinden Müşteri Desteği ile iletişime geçin",
 		"telemetry": {
 			"label": "Hata ve kullanım raporlamaya izin ver",

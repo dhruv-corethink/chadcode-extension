@@ -55,7 +55,7 @@
 		"contact": {
 			"label": "需要联系我们？请发送邮件至"
 		},
-		"community": "想要获取使用技巧或与其他 ChadCode 用户交流？加入 <redditLink>reddit.com/r/chadcode</redditLink> 或 <discordLink>chadcode.ai/discord</discordLink>",
+		"community": "想要获取使用技巧或与其他 ChadCode 用户交流？加入 <redditLink>reddit.com/r/chadcode</redditLink> 或 <discordLink>chadcode.dev/discord</discordLink>",
 		"contactAndCommunity": "联系与社区",
 		"manageSettings": "管理设置"
 	},
@@ -1033,7 +1033,7 @@
 		"simplifiedExplanation": "你可以稍后调整详细的模型设置。"
 	},
 	"footer": {
-		"feedback": "如果您有任何问题或反馈，请随时在 <githubLink>github.com/ChadCode/chadcode</githubLink> 上提出问题或加入 <redditLink>reddit.com/r/chadcode</redditLink> 或 <discordLink>chadcode.ai/discord</discordLink>",
+		"feedback": "如果您有任何问题或反馈，请随时在 <githubLink>github.com/ChadCode/chadcode</githubLink> 上提出问题或加入 <redditLink>reddit.com/r/chadcode</redditLink> 或 <discordLink>chadcode.dev/discord</discordLink>",
 		"support": "如有财务问题，请联系客户支持 <supportLink>https://kilo.ai/support</supportLink>",
 		"telemetry": {
 			"label": "允许错误和使用情况报告",

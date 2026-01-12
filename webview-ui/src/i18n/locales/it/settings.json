@@ -56,7 +56,7 @@
 		"contact": {
 			"label": "Hai bisogno di parlarci? Scrivi"
 		},
-		"community": "Vuoi consigli o semplicemente uscire con altri utenti di Roo Code? Unisciti a <redditLink>reddit.com/r/chadcode</redditLink> o <discordLink>chadcode.ai/discord</discordLink>",
+		"community": "Vuoi consigli o semplicemente uscire con altri utenti di Roo Code? Unisciti a <redditLink>reddit.com/r/chadcode</redditLink> o <discordLink>chadcode.dev/discord</discordLink>",
 		"contactAndCommunity": "Contatti e Comunità",
 		"manageSettings": "Gestisci Impostazioni"
 	},
@@ -1030,7 +1030,7 @@
 		"simplifiedExplanation": "Puoi modificare le impostazioni dettagliate del modello in seguito."
 	},
 	"footer": {
-		"feedback": "Se hai domande o feedback, sentiti libero di aprire un issue su <githubLink>github.com/ChadCode/chadcode</githubLink> o unirti a <redditLink>reddit.com/r/chadcode</redditLink> o <discordLink>chadcode.ai/discord</discordLink>",
+		"feedback": "Se hai domande o feedback, sentiti libero di aprire un issue su <githubLink>github.com/ChadCode/chadcode</githubLink> o unirti a <redditLink>reddit.com/r/chadcode</redditLink> o <discordLink>chadcode.dev/discord</discordLink>",
 		"support": "Per domande finanziarie, contatta il Supporto Clienti a <supportLink>https://kilo.ai/support</supportLink>",
 		"telemetry": {
 			"label": "Consenti segnalazioni di errori e utilizzo",

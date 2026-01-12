@@ -55,7 +55,7 @@
 		"contact": {
 			"label": "Necessites parlar amb nosaltres? Escriu"
 		},
-		"community": "Vols consells o simplement passar l'estona amb altres usuaris de ChadCode? Uneix-te a <redditLink>reddit.com/r/chadcode</redditLink> o <discordLink>chadcode.ai/discord</discordLink>",
+		"community": "Vols consells o simplement passar l'estona amb altres usuaris de ChadCode? Uneix-te a <redditLink>reddit.com/r/chadcode</redditLink> o <discordLink>chadcode.dev/discord</discordLink>",
 		"contactAndCommunity": "Contacte i Comunitat",
 		"manageSettings": "Gestionar Configuració"
 	},
@@ -1028,7 +1028,7 @@
 		"simplifiedExplanation": "Pots ajustar la configuració detallada del model més tard."
 	},
 	"footer": {
-		"feedback": "Si teniu qualsevol pregunta o comentari, no dubteu a obrir un issue a <githubLink>github.com/ChadCode/chadcode</githubLink> o unir-vos a <redditLink>reddit.com/r/chadcode</redditLink> o <discordLink>chadcode.ai/discord</discordLink>",
+		"feedback": "Si teniu qualsevol pregunta o comentari, no dubteu a obrir un issue a <githubLink>github.com/ChadCode/chadcode</githubLink> o unir-vos a <redditLink>reddit.com/r/chadcode</redditLink> o <discordLink>chadcode.dev/discord</discordLink>",
 		"support": "Per a qüestions financeres, poseu-vos en contacte amb el Suport al Client a <supportLink>https://kilo.ai/support</supportLink>",
 		"telemetry": {
 			"label": "Permetre informes d'errors i ús",

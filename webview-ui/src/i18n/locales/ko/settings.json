@@ -55,7 +55,7 @@
 		"contact": {
 			"label": "문의가 필요하신가요? 이메일 보내기"
 		},
-		"community": "팁을 얻거나 다른 ChadCode 사용자들과 교류하고 싶으신가요? <redditLink>reddit.com/r/chadcode</redditLink> 또는 <discordLink>chadcode.ai/discord</discordLink>에 참여하세요",
+		"community": "팁을 얻거나 다른 ChadCode 사용자들과 교류하고 싶으신가요? <redditLink>reddit.com/r/chadcode</redditLink> 또는 <discordLink>chadcode.dev/discord</discordLink>에 참여하세요",
 		"contactAndCommunity": "문의 및 커뮤니티",
 		"manageSettings": "설정 관리"
 	},
@@ -1029,7 +1029,7 @@
 		"simplifiedExplanation": "나중에 자세한 모델 설정을 조정할 수 있습니다."
 	},
 	"footer": {
-		"feedback": "질문이나 피드백이 있으시면 <githubLink>github.com/ChadCode/chadcode</githubLink>에서 이슈를 열거나 <redditLink>reddit.com/r/chadcode</redditLink> 또는 <discordLink>chadcode.ai/discord</discordLink>에 가입하세요",
+		"feedback": "질문이나 피드백이 있으시면 <githubLink>github.com/ChadCode/chadcode</githubLink>에서 이슈를 열거나 <redditLink>reddit.com/r/chadcode</redditLink> 또는 <discordLink>chadcode.dev/discord</discordLink>에 가입하세요",
 		"support": "재무 관련 문의는 <supportLink>https://kilo.ai/support</supportLink>로 고객 지원팀에 문의하세요",
 		"telemetry": {
 			"label": "오류 및 사용 보고 허용",

@@ -55,7 +55,7 @@
 		"contact": {
 			"label": "Moet je met ons praten? Schrijf"
 		},
-		"community": "Wil je tips of gewoon even hangen met andere ChadCode-gebruikers? Sluit je aan bij <redditLink>reddit.com/r/chadcode</redditLink> of <discordLink>chadcode.ai/discord</discordLink>",
+		"community": "Wil je tips of gewoon even hangen met andere ChadCode-gebruikers? Sluit je aan bij <redditLink>reddit.com/r/chadcode</redditLink> of <discordLink>chadcode.dev/discord</discordLink>",
 		"contactAndCommunity": "Contact & Gemeenschap",
 		"manageSettings": "Instellingen Beheren"
 	},
@@ -1029,7 +1029,7 @@
 		"simplifiedExplanation": "Je kunt later gedetailleerde modelinstellingen aanpassen."
 	},
 	"footer": {
-		"feedback": "Heb je vragen of feedback? Open gerust een issue op <githubLink>github.com/ChadCode/chadcode</githubLink> of sluit je aan bij <redditLink>reddit.com/r/chadcode</redditLink> of <discordLink>chadcode.ai/discord</discordLink>",
+		"feedback": "Heb je vragen of feedback? Open gerust een issue op <githubLink>github.com/ChadCode/chadcode</githubLink> of sluit je aan bij <redditLink>reddit.com/r/chadcode</redditLink> of <discordLink>chadcode.dev/discord</discordLink>",
 		"support": "Voor financiële vragen kunt u contact opnemen met de klantenservice via <supportLink>https://kilo.ai/support</supportLink>",
 		"telemetry": {
 			"label": "Fout- en gebruiksrapportage toestaan",
